@@ -1,0 +1,4 @@
+
+# TODO :
+    ☐ Make sm: work... currently sm media query is not working 
+    ☐ Add post css on public folder for more efficiency - https://gohugo.io/hugo-pipes/postprocess/#css-purging-with-postcss

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pattern-dots-md {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: calc(10 * 1px) calc(10 * 1px);
+}
+
+.w-1\/6 {
+  width: 16.67%;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky-header + .content {
+    padding-top: 80px;
+}
+
+@media (min-width: 768px) {
+    .md\:w-1\/6 {
+        width: 16.6667%;
+    }
+}

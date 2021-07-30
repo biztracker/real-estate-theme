@@ -1,0 +1,121 @@
+Add this to websites of inspiration :
+https://buffer.com/
+https://refty.co/?ref=producthunt
+https://www.typed.biz/?ref=producthunt
+https://fonibo.com/ (for sites with no banner image)
+https://magicboardtemplate.com/?ref=producthunt (colors)
+https://www.boostcamp.app/?ref=producthunt
+https://devdojo.com/changelog/tails [Good samples inside]
+https://idealyze.it
+https://www.usemacro.com/?ref=producthunt
+https://www.stratiphy.io/?ref=producthunt
+https://www.sahyadrifarms.com/ (Some templates are useful)
+https://www.fast.co/
+https://www.doppler.com/ (font and backgrounds)
+https://ui.supabase.io/ (font is good)
+
+https://www.canva.com/q/pro/ [Like the color combo - font and icons - we need to create an icon set like these with colors
+- font weight selection is clean] "Open Sans", sans-serif - check both mobile view and desktop view
+
+
+
+[add to paper] -> Building whatsapp bots ? -> https://github.com/orkestral/venom
+[add to paper] -> move to this https://caddyserver.com/ ? so it handles https certs for you and may be more things ?
+[add to paper] -> useful for us -> https://pep.dev/?ref=producthunt ? (We can convert our website to PWA)
+
+[add to paper] - progressive image loading from medium - https://jmperezperez.com/medium-image-progressive-loading-placeholder/
+
+[add to paper] -> find a good theming library which can easily change colors and fonts - may be just using primary, secondary might be enough -> https://github.com/innocenzi/tailwindcss-theming
+[add to paper] -> use some cms directly for content management -> netlify cms with preview mode is good -> or (https://www.sanity.io/ - free version is good) https://getcockpit.com/,  https://github.com/strapi/strapi with some complexity
+    or react editor which saves json to our site and hugo gets it in build time -> how to preview ? direct works from gin ?
+    (react json editor -> https://reactjsexample.com/a-visual-editor-for-structured-json-data-available-as-a-simple-drop-in-react-component/)
+[add to paper] -> learn more about his cms platfrom login and check -> https://www.storyblok.com/
+[add to paper] -> may be we need to create template code like this for you project in Nuxt/React -> https://github.com/sanity-io/sanity-template-kitchen-sink/
+[add to paper] -> like this way of deployment steps clean and neat. https://www.sanity.io/create?template=sanity-io/sanity-template-kitchen-sink
+
+Kits :
+Has good nav bars and alerts -> copy from here https://merakiui.com/#
+[best one] https://tailblocks.cc/ - eveyrthing is already here - all you need is to build custom blocks on top of it
+[best one also] https://kitwind.io/products/kometa/components - https://kutty.netlify.app/components/faq/
+[best one too] https://kutty.netlify.app/components/logos/ 
+[best one too] [heros] https://merakiui.com/
+[Best one - very good blocks] https://blocks.wickedtemplates.com/
+[Some free available] https://tailwinduikit.com/components
+
+Free Footer pack - https://www.themes.dev/library/tailwindcss-footer-pack/
+Free landing page - https://www.themes.dev/library/tailwindcss-saas-landing-page/
+
+Copy paste from these websites - https://builtwithtailwind.com/browse?page=2
+
+Tailwind color updates basic - https://www.tailwindtoolbox.com/guides/adding-colours-to-tailwind-css
+Font updates basic - https://www.tailwindtoolbox.com/guides/adding-fonts-to-tailwind-css
+
+[Good one for react] - https://treact.owaiskhan.me/ - use in future projects may be
+
+https://www.tailwind-kit.com/ - some components
+
+https://www.free-website-resources.com/blocks/tailwindcss/portfolio
+
+https://daisyui.netlify.app/docs/default-themes - similar to bootsrap on top of tailwind
+
+
+https://tailwindcomponents.com/component/e-commerce-home-page
+
+Has cta section and useful for list of projects page
+
+
+Full page template - Get useful content from here
+- has all the required styles
+https://tailwindcomponents.com/component/wicked-template-seychelles
+
+
+Header - https://tailwindcomponents.com/component/dark-header-component
+
+Copy paste code from here - https://www.wickedtemplates.com/viewports/wt002
+
+Nice Header - https://tailwindcomponents.com/component/landing-page-with-tailwind-css
+Nice Header dark - https://tailwindcomponents.com/component/landing-page-with-tailwind-css-2
+
+Hero - Very good one - https://tailwindcomponents.com/component/traveler-hero-concept-design
+Test and use it completly
+
+Good modal - https://tailwindcomponents.com/component/awesome-modal
+
+Very good testimonial - https://tailwindcomponents.com/component/testimonial-ui-with-tailwindcss-and-alpinejs
+
+Good dark nav bar - https://tailwindcomponents.com/component/simple-responsive-navigation-bar
+
+Very good header nav bar - https://tailwindcomponents.com/component/responsive-navbar-with-grid-dropdown
+very good header navbar - https://tailwindcomponents.com/component/responsive-navbar-with-dropdown
+https://tailwindcomponents.com/component/airbnb-like-navbar/landing
+
+Contact form with maps - https://tailwindcomponents.com/component/modern-login-register-pages
+
+Good faq - https://tailwindcomponents.com/component/faq
+- https://tailwindcomponents.com/component/faqs
+
+Carosual - https://tailwindcomponents.com/component/css-only-slide/landing#slide-4
+https://www.tailwindtoolbox.com/components/carousel
+
+https://tailwindcomponents.com/component/stripe-carousel-clone/landing
+
+[Good Hero+ Nav] https://tailwindcomponents.com/component/business-page ?
+
+Contact us with image - https://tailwindcomponents.com/component/sb-admin-2-forgot-password-page-1/landing
+
+Tab navigation for floor plans - https://tailwindcomponents.com/component/tab-navigation/landing
+
+
+Important tools :
+Icons picker: https://www.tailwindtoolbox.com/icons
+tailwind grid generator : https://tailwindgrids.com/#/
+Color pallete generator - https://tailwind.simeongriggs.dev/ , https://tailwind.ink/
+All tailwind tools in one - https://www.tailwind-tools.com/flexbox
+
+Google font selector - https://tailwind-typography-playground.vercel.app/
+Tailwind cheatsheat - https://nerdcave.com/tailwind-cheat-sheet
+
+Understand tailwind theme creation and switching - https://github.com/huphtur/tailwind-theme-switcher
+
+Somone already built entire thing - https://tailblocks.cc/ - create all blocks and code from here
+
