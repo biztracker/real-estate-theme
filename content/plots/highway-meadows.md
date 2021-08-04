@@ -7,34 +7,57 @@
   "blocks": [{
       "id": "2",
       "type": "",
-      "partialRelativePath": "header/header_with_email_phone_two_lines.html",
+      "partialRelativePath": "mahati/header.html",
       "blockType": "",
       "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
-        "brandlogoURL": "/images/logo.png",
-        "email": "sales.msinfraprojects@gmail.com",
-        "phoneNumber": "+91 79890 89368",
+        "showLogoAs":"VERTICAL",
+        "brandText" : "Eeshanya Jewel City",
+        "brandlogoURL": "/images/mahati/logo.png",
+        "phoneNumber": "+91 99631 56663",
+        "email":"eeshanyagroup@gmail.com",
+        "showEmailPhoneOnMobile": false,
+        "actionButton": {
+            "text": "Get Quote",
+            "href": "#contact-us",
+            "onlyOnMobile": true
+        },
         "navBarlist": [
           {
-            "text": "Overview",
-            "href": "#overview"
-          },
-          {
-            "text": "Project Layout",
+            "text": "Layout",
             "href": "#project-layout"
           },
           {
-            "text": "Gallery",
-            "href": "#gallery"
+            "text": "Downloads",
+            "target": "_blank",
+            "subNavList": [
+              {
+                "text": "Brochure",
+                "href": "/images/jewel-city-brochure.pdf",
+                "target": "_blank"
+              },
+              {
+                "text": "Approval Letter",
+                "href": "/images/eeshanya-jewel-one/HMDA-approval.pdf",
+                "target": "_blank"
+              }
+            ]
+          },
+          {
+            "text": "Completed Projects",
+            "target": "_blank",
+            "subNavList": [
+              {
+                "text": "Eeshanya Jewel One",
+                "href": "https://www.eeshanyainfra.com/project.html",
+                "target": "_blank"
+              }
+            ]
           },
           {
             "text": "Location",
             "href": "#location"
-          },
-          {
-            "text": "Contact us",
-            "href": "#contact-us"
           }
         ]
       }
@@ -45,16 +68,16 @@
       "partialRelativePath": "hero/single_image_with_text.html",
       "blockType": "",
       "content": {
-        "name": "E-City elite",
-        "caption" :"Lemuru, Near Tukkuguda, Hyderabad",
-        "imageURL": "/images/divi_infra_banner.jpg"
+        "name": "GMR Colony",
+        "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
+        "imageURL": "/images/mahati/gmr-3.jpeg"
       }
     },
     {
       "id": "3",
       "divId": "about-project",
       "type": "",
-      "partialRelativePath": "tailblocks/statistics-with-images.html",
+      "partialRelativePath": "mahati/about-with-images.html",
       "blockType": "",
       "content": {
         "headingText": "About e-city Elite",
@@ -87,7 +110,7 @@
       "type": "",
       "divId": "project-layout",
       "name": "project layout",
-      "partialRelativePath": "tailblocks/content-with-icons.html",
+      "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
         "bgColor": "",
@@ -131,7 +154,7 @@
       "id": "6",
       "type": "",
       "divId": "gallery",
-      "partialRelativePath": "tailblocks/gallery.html",
+      "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
         "imagesList": [
@@ -152,7 +175,7 @@
       "divId": "location",
       "name": "Location Advantages",
       "type": "",
-      "partialRelativePath": "tailblocks/content-image-list.html",
+      "partialRelativePath": "mahati/location.html",
       "blockType": "",
       "content": {
         "imageURL": "/images/divi-infra-location-advantages.png",
@@ -193,21 +216,10 @@
       }
     },
     {
-      "id": "5",
-      "type": "",
-      "partialRelativePath": "section/cta_type1.html",
-      "blockType": "",
-      "content": {
-        "text": "Know more details about our project",
-        "buttonText": "Download Brochure",
-        "buttonURL": "/images/divi-infra/pdf/brochure.pdf"
-      }
-    },
-    {
       "id": "6",
       "type": "",
       "divId": "contact-us",
-      "partialRelativePath": "tailblocks/map-with-contact-us.html",
+      "partialRelativePath": "mahati/map-with-contact-us.html",
       "blockType": "",
       "content": {
         "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=Divi+E+City+Elite&ie=UTF8&t=&z=14&iwloc=B&output=embed",
@@ -230,35 +242,35 @@
       "id": "6",
       "type": "",
       "divId": "our-projects",
-      "partialRelativePath": "tailblocks/projects-horizontal-carousal.html",
+      "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
-        "headingText": "Our Projects",
+        "headingText": "Projects for Sale",
         "mainText": "",
         "buttonType": "BORDER",
         "projectList": [
-          {
-            "category": "Farm Plots",
-            "heading": "MNR Resort Farm lands",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
-            "imageURL":"/images/mnr-resorts/mnr-banner-image-crop.jpg",
-            "href":"/plots/mnr-resorts"          
-          },
           {
             "category": "Residential Plots",
             "heading": "E-City elite",
             "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
             "location" :"Tukkuguda, Hyderabad",
-            "imageURL": "/images/divi-infra/2.jpeg",
+            "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/e-city-elite"
+          },
+          {
+            "category": "Farm Plots",
+            "heading": "MNR Resorts",
+            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
+            "location" :"Maheshwaram, Hyderabad",
+            "imageURL":"/images/mahati/project-main.jpeg",
+            "href":"/plots/mnr-resorts"          
           },
           {
             "category": "Villa Plots",
             "heading": "Sri County",
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
             "location" :"On Vijayawada Highway, Hyderabad",
-            "imageURL":"/images/sri-county/banner-image-new.jpg",
+            "imageURL":"/images/mnr-resorts/mnr-banner-image-crop.jpg",
             "href":"/plots/sri-county"
           }
         ]
@@ -267,11 +279,11 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "tailblocks/footer.html",
+      "partialRelativePath": "mahati/footer.html",
       "blockType": "",
       "content": {
         "logoURL": "",
-        "companyName": "MS Infra Projects",
+        "companyName": "Mahati Infra",
         "address": "",
         "email": "sales.msinfraprojects@gmail.com",
         "phoneNumber": "+91 79890 89368",
@@ -279,16 +291,12 @@
         "column1Name":"Learn More",
         "column1List": [
         {
-            "text": "Project Layout",
+            "text": "About Us",
             "href": "#project-layout"
           },
           {
-            "text": "Gallery",
-            "href": "#gallery"
-          },
-          {
-            "text": "Location",
-            "href": "#location"
+            "text": "Our Projects",
+            "href": "#our-projects"
           }
         ],
         "column2Name":"Quick Links",
