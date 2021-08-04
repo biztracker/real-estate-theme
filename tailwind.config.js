@@ -2,8 +2,8 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 const fontFamily = defaultTheme.fontFamily;
 fontFamily['sans'] = [
-  'Nunito', // <-- Roboto is a default sans font now
-  'system-ui',
+  'Poppins', // <-- Roboto is a default sans font now
+  'sans-serif',
   // <-- you may provide more font fallbacks here
 ];
 
@@ -13,14 +13,16 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    //fontFamily: fontFamily,
+    fontFamily: fontFamily,
     screens: {
       'xs': { 'min': '320px', 'max': '767px'},
       ...defaultTheme.screens,
     },
     extend: {
       colors: {
-        primary: '#b76e00',
+        //primary: '#b76e00',
+        //primary : '#FF5B3B',
+        primary: '#DF940D',
         hover: '#a9711b',
         secondary: '#a9711b',
         // primary: '#0E98B8', 
