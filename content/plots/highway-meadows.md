@@ -106,6 +106,24 @@
       }
     },
     {
+      "id": "7",
+      "type": "",
+      "divId": "faq",
+      "partialRelativePath": "mahati/project-facilities.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
+      "id": "7",
+      "type": "",
+      "divId": "faq",
+      "partialRelativePath": "mahati/project-details.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
       "id": "4",
       "type": "",
       "divId": "project-layout",
@@ -151,7 +169,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "5",
       "type": "",
       "divId": "gallery",
       "partialRelativePath": "mahati/gallery.html",
@@ -170,8 +188,9 @@
         ]
       }
     },
+  
     {
-      "id": "5",
+      "id": "6",
       "divId": "location",
       "name": "Location Advantages",
       "type": "",
@@ -216,7 +235,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "7",
       "type": "",
       "divId": "contact-us",
       "partialRelativePath": "mahati/map-with-contact-us.html",
@@ -230,6 +249,15 @@
     {
       "id": "7",
       "type": "",
+      "divId": "faq",
+      "partialRelativePath": "mahati/faq.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
+      "id": "8",
+      "type": "",
       "divId": "",
       "partialRelativePath": "whatsapp.html",
       "blockType": "",
@@ -239,7 +267,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "9",
       "type": "",
       "divId": "our-projects",
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
