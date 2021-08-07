@@ -7,21 +7,53 @@
   "blocks": [{
       "id": "2",
       "type": "",
-      "partialRelativePath": "header/header_with_email_phone.html",
+      "partialRelativePath": "mahati/header.html",
       "blockType": "",
       "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
-        "brandlogoURL": "/images/logo.png",
-        "email": "sales.msinfraprojects@gmail.com",
-        "phoneNumber": "+91 79890 89368",
-        "navBarlist": [{
-            "text": "About MS Infra",
-            "href": "/#about-us"
+        "showLogoAs":"VERTICAL",
+        "brandText" : "Eeshanya Jewel City",
+        "brandlogoURL": "/images/mahati/logo.png",
+        "phoneNumber": "+91 99631 56663",
+        "email":"eeshanyagroup@gmail.com",
+        "showEmailPhoneOnMobile": false,
+        "actionButton": {
+            "text": "Get Quote",
+            "href": "#contact-us",
+            "onlyOnMobile": true
+        },
+        "navBarlist": [
+          {
+            "text": "Layout",
+            "href": "#project-layout"
           },
           {
-            "text": "Our Projects",
-            "href": "/plots"
+            "text": "Downloads",
+            "target": "_blank",
+            "subNavList": [
+              {
+                "text": "Brochure",
+                "href": "/images/jewel-city-brochure.pdf",
+                "target": "_blank"
+              },
+              {
+                "text": "Approval Letter",
+                "href": "/images/eeshanya-jewel-one/HMDA-approval.pdf",
+                "target": "_blank"
+              }
+            ]
+          },
+          {
+            "text": "Completed Projects",
+            "target": "_blank",
+            "subNavList": [
+              {
+                "text": "Eeshanya Jewel One",
+                "href": "https://www.eeshanyainfra.com/project.html",
+                "target": "_blank"
+              }
+            ]
           }
         ]
       }
@@ -30,7 +62,7 @@
       "id": "6",
       "type": "",
       "divId": "our-projects",
-      "partialRelativePath": "tailblocks/projects-vertical-with-stats.html",
+      "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
         "headingText": "Plots",
@@ -124,11 +156,11 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "tailblocks/footer.html",
+      "partialRelativePath": "mahati/footer.html",
       "blockType": "",
       "content": {
         "logoURL": "",
-        "companyName": "MS Infra Projects",
+        "companyName": "Mahati Infra",
         "address": "",
         "email": "sales.msinfraprojects@gmail.com",
         "phoneNumber": "+91 79890 89368",
