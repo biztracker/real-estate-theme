@@ -68,9 +68,25 @@
       "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
-        "name": "GMR Colony",
-        "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
-        "imageURL": "/images/mahati/gmr-3.jpeg"
+        "title": "GMR Colony",
+        "caption" :"Best plots in Anantapur",
+        "imageURL": "/images/mahati/gmr-3.jpeg",
+        "statsList": [{
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/home.svg"
+          },
+          {
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/people.svg"
+          },
+          {
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/map.svg"
+          }
+        ]
       }
     },
     {
@@ -112,6 +128,21 @@
       "partialRelativePath": "mahati/project-facilities.html",
       "blockType": "",
       "content": {
+        "title": "Making living spaces Beautiful",
+        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
+        "caption" :"Building Facilities",
+        "imageURL": "/images/mahati/gmr-layout.png",
+        "statsList": [{
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/home.svg"
+          },
+          {
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/people.svg"
+          }
+        ]
       }
     },
     {
@@ -150,6 +181,22 @@
       "partialRelativePath": "mahati/faq.html",
       "blockType": "",
       "content": {
+        "caption": "FAQ",
+        "title": "How can we help you ?",
+        "faqs": [
+          {
+            "question": "Popular articles",
+            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+          },
+          {
+            "question": "Browse the web",
+            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+          },
+          {
+            "question": "Search on your phone or tablet",
+            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+          }
+        ]
       }
     },
     {

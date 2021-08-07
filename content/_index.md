@@ -142,7 +142,25 @@
       "id": "6",
       "type": "",
       "partialRelativePath": "mahati/faq.html",
-      "blockType": ""
+      "blockType": "",
+      "content":{
+        "caption": "FAQ",
+        "title": "How can we help you ?",
+        "faqs": [
+          {
+            "question": "Popular articles",
+            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+          },
+          {
+            "question": "Browse the web",
+            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+          },
+          {
+            "question": "Search on your phone or tablet",
+            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+          }
+        ]
+      }
     },
     {
       "id": "6",

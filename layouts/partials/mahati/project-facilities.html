@@ -1,50 +1,45 @@
 <!-- project facilties -->
+{{ $imageURL := .content.imageURL  }}
+{{$imageDataSize:= "600x400"}}
+{{$imageCropStyle:= "object-cover"}}
 
 <div class="flex flex-col lg:flex-row justify-between">
 
     <div class="">
         <div class="my-8 lg:mt-16 mx-12 lg:ml-16 flex flex-col">
-        <h3 class="text-primary  text-sm">Building Facilities</h3>
-        <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">Making living spaces Beautiful</h1>
-        <h4 class=" text-xs font-extralight">Over 1200 acres and 40 individual houses with community facilies including club house</h4>
-        <div class="flex flex-row space-x-4 mt-4 items-center">
-            <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                width="30" height="30"
-                viewBox="0 0 226 226"
-                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#f1c40f"><path d="M113,9.04c-57.32716,0 -103.96,46.63284 -103.96,103.96c0,57.32716 46.63284,103.96 103.96,103.96c57.32716,0 103.96,-46.63284 103.96,-103.96c0,-20.6112 -6.05553,-39.82424 -16.43797,-55.9968l-6.18851,7.30969c8.5654,14.25608 13.58648,30.87831 13.58648,48.68711c0,52.33708 -42.58292,94.92 -94.92,94.92c-52.33708,0 -94.92,-42.58292 -94.92,-94.92c0,-52.33708 42.58292,-94.92 94.92,-94.92c24.60236,0 46.98046,9.49094 63.86266,24.90414l5.91484,-6.98305c-18.4642,-16.7466 -42.9513,-26.96109 -69.7775,-26.96109zM195.4282,35.04766l-87.33664,103.05953l-36.76031,-34.28844l-6.16203,6.61227l43.69039,40.75063l93.47219,-110.28977z"></path></g></g></svg>
-            
-            </div>
-            <div>
-            <div class="text-md font-semibold">The Perfect Residency</div>
-            <div class="text-sm font-extralight">We introduce to best residency and community</div>
-            </div>    
-        </div>
-        <div class="flex flex-row mt-8 space-x-4 items-center">
-            <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                width="30" height="30"
-                viewBox="0 0 226 226"
-                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#f1c40f"><path d="M113,9.04c-57.32716,0 -103.96,46.63284 -103.96,103.96c0,57.32716 46.63284,103.96 103.96,103.96c57.32716,0 103.96,-46.63284 103.96,-103.96c0,-20.6112 -6.05553,-39.82424 -16.43797,-55.9968l-6.18851,7.30969c8.5654,14.25608 13.58648,30.87831 13.58648,48.68711c0,52.33708 -42.58292,94.92 -94.92,94.92c-52.33708,0 -94.92,-42.58292 -94.92,-94.92c0,-52.33708 42.58292,-94.92 94.92,-94.92c24.60236,0 46.98046,9.49094 63.86266,24.90414l5.91484,-6.98305c-18.4642,-16.7466 -42.9513,-26.96109 -69.7775,-26.96109zM195.4282,35.04766l-87.33664,103.05953l-36.76031,-34.28844l-6.16203,6.61227l43.69039,40.75063l93.47219,-110.28977z"></path></g></g></svg>
-            </div>
-            <div>
-            <div class="text-md font-semibold">The Perfect Residency</div>
-            <div class="text-sm font-extralight">We introduce to best residency and community</div>
-            </div>    
-        </div>
-        <div class="flex flex-row mt-8 space-x-4 items-center">
-            <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                width="30" height="30"
-                viewBox="0 0 226 226"
-                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#f1c40f"><path d="M113,9.04c-57.32716,0 -103.96,46.63284 -103.96,103.96c0,57.32716 46.63284,103.96 103.96,103.96c57.32716,0 103.96,-46.63284 103.96,-103.96c0,-20.6112 -6.05553,-39.82424 -16.43797,-55.9968l-6.18851,7.30969c8.5654,14.25608 13.58648,30.87831 13.58648,48.68711c0,52.33708 -42.58292,94.92 -94.92,94.92c-52.33708,0 -94.92,-42.58292 -94.92,-94.92c0,-52.33708 42.58292,-94.92 94.92,-94.92c24.60236,0 46.98046,9.49094 63.86266,24.90414l5.91484,-6.98305c-18.4642,-16.7466 -42.9513,-26.96109 -69.7775,-26.96109zM195.4282,35.04766l-87.33664,103.05953l-36.76031,-34.28844l-6.16203,6.61227l43.69039,40.75063l93.47219,-110.28977z"></path></g></g></svg>
-            </div>
-            <div>
-            <div class="text-md font-semibold">The Perfect Residency</div>
-            <div class="text-sm font-extralight">We introduce to best residency and community</div>
-            </div>    
-        </div>
+        <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
+        <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
+        <h4 class=" text-xs font-extralight">{{.content.subTitle}}</h4>
+         {{ range .content.statsList }}
+            <div class="flex flex-row space-x-4 mt-4 items-center">
+                <div>
+                    <img height="40" width="40" src="{{.imageURL}}" />
+                </div>
+                <div>
+                    <div class="text-md font-semibold">{{.title}}</div>
+                    <div class="text-sm font-extralight">{{.subTitle}}</div>
+                </div>    
+             </div>
+        {{end}}
+        
         </div>
     </div>
 
-    <div class="w-full lg:hidden"><img src= "/images/mahati/gmr-layout.png"/></div>
-    <div class="h-50 hidden lg:block w-4/7"><img src= "/images/mahati/gmr-layout.png"/></div>
+    <div class="w-full lg:hidden my-gallery">
+        <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
+            <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
+                <img class="lazy {{$imageCropStyle}} object-center h-full w-full"
+                    alt="hero" src="/images/preview-load-grey.jpg" data-src="{{$imageURL}}">
+            </a>
+        </figure>
+    </div>
+    <div class="hidden lg:block w-4/7 my-gallery">
+        <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
+            <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
+                <img class="lazy {{$imageCropStyle}} object-center h-full w-full"
+                    alt="hero" src="/images/preview-load-grey.jpg" data-src="{{$imageURL}}">
+            </a>
+        </figure>
+    </div>
    
 </div>
