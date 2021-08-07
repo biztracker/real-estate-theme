@@ -1,7 +1,7 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "MS Infra Projects",
-  "description": "Open plots in Hyderabad | MS Infra Projects",
+  "title": "E-city Elite",
+  "description": "Open plots in Hyderabad | E-City Elite",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
@@ -9,10 +9,14 @@
       "type": "",
       "partialRelativePath": "mahati/header.html",
       "blockType": "",
+      "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
         "showLogoAs":"VERTICAL",
+        "brandText" : "Eeshanya Jewel City",
         "brandlogoURL": "/images/mahati/logo.png",
+        "phoneNumber": "+91 99631 56663",
+        "email":"eeshanyagroup@gmail.com",
         "showEmailPhoneOnMobile": false,
         "actionButton": {
             "text": "Get Quote",
@@ -41,20 +45,13 @@
             ]
           },
           {
-            "text": "Our Projects",
+            "text": "Completed Projects",
             "target": "_blank",
             "subNavList": [
               {
-                "text": "GMR Colony",
-                "href": "/plots/gmr-colony"
-              },
-              {
-                "text": "Highway Meadows",
-                "href": "/plots/highway-meadows"
-              },
-              {
-                "text": "Orchids",
-                "href": "/plots/highway-meadows"
+                "text": "Eeshanya Jewel One",
+                "href": "https://www.eeshanyainfra.com/project.html",
+                "target": "_blank"
               }
             ]
           },
@@ -68,40 +65,106 @@
     {
       "id": "2",
       "type": "",
-      "partialRelativePath": "hero/hero_with_img_carousal.html",
+      "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
-        "itemsList": [
-          {
-            "imageURL":"/images/mahati/gmr-3.jpeg",
-            "name": "GMR Colony",
-            "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
-            "href":"/plots/mnr-resorts"
+        "name": "GMR Colony",
+        "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
+        "imageURL": "/images/mahati/gmr-3.jpeg"
+      }
+    },
+    {
+      "id": "3",
+      "divId": "about-project",
+      "type": "",
+      "partialRelativePath": "mahati/about-with-images.html",
+      "blockType": "",
+      "content": {
+        "headingText": "About GMR Colony",
+        "mainText": "GMR Colony is a prestigous gated community HMDA approved plot venture in Hyderabad, located at Lemuru near Tukkuguda,Kandukuru Mandal.It offers the advantage of being located close to both Airport development corridor and Pharma city corridor. It is located close to the ORR and offers good connectivity to all parts of the city. A well developed community with all amenities, it offers a cozy living to the people who prefer peaceful and serene living.",
+        "statsList": [{
+            "text": "Grand Entrance & Compound Wall",
+            "imageURL": "/images/icons/gate.PNG",
+            "caption" :""
           },
           {
-            "imageURL": "/images/mahati/gmr-3.jpeg",
-            "name": "Highway meadows",
-            "caption" :"Lemuru, Near Tukkuguda, Hyderabad",
-            "href": "/plots/e-city-elite"
+            "text": "Concrete Roads & Led Lighting",
+            "imageURL": "/images/icons/road.PNG",
+            "caption" :""
+          },
+          {
+            "text": "Drinking Water Pipelines",
+            "imageURL": "/images/icons/water.PNG",
+            "caption" :""
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL": "/images/icons/drainage.PNG",
+            "caption" :""
           }
         ]
       }
     },
     {
-      "id": "3",
-      "divId": "about-us",
+      "id": "7",
       "type": "",
-      "partialRelativePath": "mahati/about-us.html",
+      "divId": "faq",
+      "partialRelativePath": "mahati/project-facilities.html",
       "blockType": "",
       "content": {
-        "headingText": "About Mahati",
-        "mainText": "Mahathi Infra Developers is built on the pillars of trust, leadership and innovation by the founder Mr Ganesham Muthaya Reddy in the year 2012. We are taking calculated steps and marching towards becoming a leading developer in the telangana state, irrespective of whether it is commercial, retail and residential space our primary focus is on maintaining the highest level of quality in our work.<br/><br/>Our aim is to develop residential and commercial spaces that easily conquer the hearts of buyers through unique aesthetic appeal. By providing top class features and facilities in properties we develop to be successful in attaining leadership position in the real estate industry and overtime to become the preferred brand when it comes to real-estate development.",
-        "statsList": [
+      }
+    },
+    {
+      "id": "5",
+      "type": "",
+      "divId": "gallery",
+      "partialRelativePath": "mahati/gallery.html",
+      "blockType": "",
+      "content": {
+        "imagesList": [
+          "/images/divi-infra/1.jpeg",
+          "/images/divi-infra/2.jpeg",
+          "/images/divi-infra/3.jpeg",
+          "/images/divi-infra/4.jpeg",
+          "/images/divi-infra/5.jpeg",
+          "/images/divi-infra/6.jpeg"
         ]
       }
     },
     {
-      "id": "6",
+      "id": "7",
+      "type": "",
+      "divId": "contact-us",
+      "partialRelativePath": "mahati/map-with-contact-us.html",
+      "blockType": "",
+      "content": {
+        "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=Divi+E+City+Elite&ie=UTF8&t=&z=14&iwloc=B&output=embed",
+        "biztrackerIntegrationKey": "27f148fd-15f3-4639-aeec-b0919fb1daa7",
+        "formId" : "biztrackerContactForm"
+      }
+    },
+    {
+      "id": "7",
+      "type": "",
+      "divId": "faq",
+      "partialRelativePath": "mahati/faq.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
+      "id": "8",
+      "type": "",
+      "divId": "",
+      "partialRelativePath": "whatsapp.html",
+      "blockType": "",
+      "content": {
+        "phoneNumber":"917989089368",
+        "welcomeMessage":"Hi, I want to know more information about e-city elite"
+      }
+    },
+    {
+      "id": "9",
       "type": "",
       "divId": "our-projects",
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
@@ -137,12 +200,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "6",
-      "type": "",
-      "partialRelativePath": "mahati/faq.html",
-      "blockType": ""
     },
     {
       "id": "6",

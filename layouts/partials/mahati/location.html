@@ -29,11 +29,11 @@
 
 <section id="{{.block.divId}}" class="text-gray-600 body-font mt-10 {{$bgColor}}">
   <div class="container px-2 md:px-12 py-2 mx-auto flex flex-wrap">
-      <div class="text-center mb-20">
+      <div class="text-center mb-16">
         <h3 class="text-primary text-sm mb-2">Project location</h3>
         <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-4 text-gray-900">Location Advantages</h1>
       
-    <div class="flex flex-wrap w-full pt-10">
+    <div class="flex flex-wrap w-full">
 
     <div class="lg:w-1/2 md:w-1/2 md:mt-0 mt-4 my-gallery flex " style="align-items:center">
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -41,7 +41,7 @@
           <img class="lazy object-center {{$imageCropStyle}} " src="/images/preview-load-grey.jpg" data-src="{{$imageURL}}" alt="step">
         </a> -->
         <div class=" w-11/12">
-          <img class="pl-28 pr-24" src = "/images/mahati/divi-infra-location-advantages.png"/>
+          <img class="pl-20 pr-20" src = "/images/mahati/divi-infra-location-advantages.png"/>
         </div>
 
       </figure>
@@ -59,8 +59,8 @@
             </svg>
           </div>
           <div class="flex-grow pl-4">
-            <h2 class="text-gray-900 mb-1 text-xs tracking-wider">{{$element.text}}</h2>
-            <p class="leading-relaxed text-sm font-medium title-font  text-black ">{{$element.caption}}</p>
+            <h2 class="text-gray-900 mb-1 text-md tracking-wider">{{$element.text}}</h2>
+            <p class="leading-relaxed text-md font-medium title-font  text-black ">{{$element.caption}}</p>
           </div>
         </div>
 
@@ -76,8 +76,8 @@
               </svg>
             </div>
             <div class="flex-grow pl-4">
-              <h2 class=" text-gray-900 text-xs mb-1 tracking-wider">{{$element.text}}</h2>
-              <p class="leading-relaxed text-sm font-medium title-font text-black ">{{$element.caption}}</p>
+              <h2 class=" text-gray-900 text-md mb-1 tracking-wider">{{$element.text}}</h2>
+              <p class="leading-relaxed text-md font-medium title-font text-black ">{{$element.caption}}</p>
             </div>
           </div>
         {{end}}
