@@ -76,13 +76,13 @@
             "imageURL":"/images/mahati/gmr-3.jpeg",
             "name": "GMR Colony",
             "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
-            "href":"/plots/mnr-resorts"
+            "href":"/plots/gmr-colony"
           },
           {
-            "imageURL": "/images/mahati/gmr-3.jpeg",
+            "imageURL": "/images/mahati/highway-meadows.jpeg",
             "name": "Highway meadows",
             "caption" :"Lemuru, Near Tukkuguda, Hyderabad",
-            "href": "/plots/e-city-elite"
+            "href": "/plots/h-meadows"
           }
         ]
       }
@@ -113,27 +113,27 @@
         "projectList": [
           {
             "category": "Residential Plots",
-            "heading": "E-City elite",
+            "heading": "GMR Colony",
             "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
             "location" :"Tukkuguda, Hyderabad",
             "imageURL": "/images/mahati/gmr-3.jpeg",
-            "href":"/plots/e-city-elite"
+            "href":"/plots/gmr-colony"
           },
           {
             "category": "Farm Plots",
-            "heading": "MNR Resorts",
+            "heading": "Highway Meadows",
             "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
             "location" :"Maheshwaram, Hyderabad",
-            "imageURL":"/images/mahati/project-main.jpeg",
-            "href":"/plots/mnr-resorts"          
+            "imageURL":"/images/mahati/highway-meadows.jpeg",
+            "href":"/plots/h-meadows"          
           },
           {
             "category": "Villa Plots",
             "heading": "Sri County",
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
             "location" :"On Vijayawada Highway, Hyderabad",
-            "imageURL":"/images/mnr-resorts/mnr-banner-image-crop.jpg",
-            "href":"/plots/sri-county"
+            "imageURL":"/images/mahati/gmr-3.jpeg",
+            "href":"/plots/gmr-colony"
           }
         ]
       }
