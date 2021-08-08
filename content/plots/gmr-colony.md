@@ -1,8 +1,8 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "E-city Elite",
-  "description": "Open plots in Hyderabad | E-City Elite",
-  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
+  "title": "GMR Colony",
+  "description": "Open plots in Hyderabad | GMR Colony",
+  "keywords": "Open plots in Hyderabad, HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
       "id": "2",
