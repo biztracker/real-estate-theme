@@ -1,7 +1,7 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Highway Meadows",
-  "description": "Open plots in Hyderabad | Highway Meadows",
+  "title": "E-city Elite",
+  "description": "Open plots in Hyderabad | E-City Elite",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
@@ -13,6 +13,7 @@
       "content": {
         "showBrandAs": "LOGO",
         "showLogoAs":"VERTICAL",
+        "brandText" : "Eeshanya Jewel City",
         "brandlogoURL": "/images/mahati/logo.png",
         "phoneNumber": "+91 99631 56663",
         "email":"eeshanyagroup@gmail.com",
@@ -64,28 +65,12 @@
     {
       "id": "2",
       "type": "",
-      "partialRelativePath": "mahati/content-with-icons-left.html",
+      "partialRelativePath": "hero/single_image_with_text.html",
       "blockType": "",
       "content": {
-        "title": "HIGHWAY MEADOWS",
-        "caption" :"Open plots at Shadnagar",
-        "imageURL": "/images/mahati/highway-meadows.jpeg",
-        "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/home.svg"
-          },
-          {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/people.svg"
-          },
-          {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/map.svg"
-          }
-        ]
+        "name": "GMR Colony",
+        "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
+        "imageURL": "/images/mahati/gmr-3.jpeg"
       }
     },
     {
@@ -95,7 +80,8 @@
       "partialRelativePath": "mahati/about-with-images.html",
       "blockType": "",
       "content": {
-        "headingText": "Amenities",
+        "headingText": "About e-city Elite",
+        "mainText": "E-city Elite is a prestigous gated community HMDA approved plot venture in Hyderabad, located at Lemuru near Tukkuguda,Kandukuru Mandal.It offers the advantage of being located close to both Airport development corridor and Pharma city corridor. It is located close to the ORR and offers good connectivity to all parts of the city. A well developed community with all amenities, it offers a cozy living to the people who prefer peaceful and serene living.",
         "statsList": [{
             "text": "Grand Entrance & Compound Wall",
             "imageURL": "/images/icons/gate.PNG",
@@ -126,19 +112,58 @@
       "partialRelativePath": "mahati/project-facilities.html",
       "blockType": "",
       "content": {
-        "title": "Making living spaces Beautiful",
-        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
-        "caption" :"Building Facilities",
-        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
+      }
+    },
+    {
+      "id": "7",
+      "type": "",
+      "divId": "faq",
+      "partialRelativePath": "mahati/project-details.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
+      "id": "4",
+      "type": "",
+      "divId": "project-layout",
+      "name": "project layout",
+      "partialRelativePath": "mahati/content-with-icons-left.html",
+      "blockType": "",
+      "content": {
+        "bgColor": "",
+        "textColor": "text-gray-900",
+        "imageURL": "/images/divi-infra-project-layout.jpg",
+        "imageDataSize": "1987x1642",
         "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/home.svg"
+            "text": "54",
+            "imageURL": "/images/icons/plots 2.PNG",
+            "caption" :"Plots"
           },
           {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/people.svg"
+            "text": "18746 Sq Yard",
+            "imageURL": "/images/icons/venture.PNG",
+            "caption" :"Venture"
+          },
+          {
+            "text": "1368 Sq Yard",
+            "imageURL": "/images/icons/park.PNG",
+            "caption" :"Park"
+          },
+          {
+            "text": "456 Sq Yard",
+            "imageURL": "/images/icons/social infra.PNG",
+            "caption" :"Social Infrastrucure"
+          },
+          {
+            "text": "HMDA",
+            "imageURL": "/images/icons/hmda.png",
+            "caption" :"000104/2020"
+          },
+          {
+            "text": "Rera",
+            "imageURL": "/images/icons/rera.png",
+            "caption" :"Approved"
           }
         ]
       }
@@ -150,15 +175,63 @@
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
-        "title": "Construction Updates",
         "imagesList": [
           "/images/divi-infra/1.jpeg",
           "/images/divi-infra/2.jpeg",
           "/images/divi-infra/3.jpeg",
           "/images/divi-infra/4.jpeg",
           "/images/divi-infra/5.jpeg",
-          "/images/divi-infra/6.jpeg"
+          "/images/divi-infra/6.jpeg",
+          "/images/divi-infra/7.jpeg",
+          "/images/divi-infra/8.jpeg",
+          "/images/divi-infra/9.jpeg"
         ]
+      }
+    },
+  
+    {
+      "id": "6",
+      "divId": "location",
+      "name": "Location Advantages",
+      "type": "",
+      "partialRelativePath": "mahati/location.html",
+      "blockType": "",
+      "content": {
+        "imageURL": "/images/divi-infra-location-advantages.png",
+        "textColor": "text-gray-900",
+        "imageDataSize": "792x942",
+        "statsList": [
+           {
+            "imageURL": "",
+            "text": "15 mins away from",
+            "caption" :"TCS Adibatla, Aerospace & Hardware park (TATA, HCL)"
+          },
+          {
+            "imageURL": "",
+            "text": "10 mins away from",
+            "caption" :"Electronic city (e-city 1200 acres)"
+          },
+          {
+            "imageURL": "",
+            "text": "10 mins away from",
+            "caption" :"Outer Ring road, Tukkuguda Junction"
+          },
+                     {
+            "imageURL": "",
+            "text": "15 mins away from",
+            "caption" :"Pharma City (19000 acres)"
+          },
+          {
+            "imageURL": "",
+            "text": "15 mins away from",
+            "caption" :"Rajiv Gandhi International Airport"
+          },
+          {
+            "imageURL": "",
+            "text": "15 mins away from",
+            "caption" :"Ramky Discovery City, Kavuri Hills Villas"
+          }
+         ]
       }
     },
     {
@@ -180,22 +253,6 @@
       "partialRelativePath": "mahati/faq.html",
       "blockType": "",
       "content": {
-        "caption": "FAQ",
-        "title": "How can we help you ?",
-        "faqs": [
-          {
-            "question": "Popular articles",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
-          },
-          {
-            "question": "Browse the web",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
-          },
-          {
-            "question": "Search on your phone or tablet",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
-          }
-        ]
       }
     },
     {
@@ -222,27 +279,27 @@
         "projectList": [
           {
             "category": "Residential Plots",
-            "heading": "GMR Colony",
+            "heading": "E-City elite",
             "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
             "location" :"Tukkuguda, Hyderabad",
             "imageURL": "/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "href":"/plots/e-city-elite"
           },
           {
             "category": "Farm Plots",
-            "heading": "Highway Meadows",
+            "heading": "MNR Resorts",
             "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
             "location" :"Maheshwaram, Hyderabad",
-            "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/h-meadows"          
+            "imageURL":"/images/mahati/project-main.jpeg",
+            "href":"/plots/mnr-resorts"          
           },
           {
             "category": "Villa Plots",
             "heading": "Sri County",
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
             "location" :"On Vijayawada Highway, Hyderabad",
-            "imageURL":"/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "imageURL":"/images/mnr-resorts/mnr-banner-image-crop.jpg",
+            "href":"/plots/sri-county"
           }
         ]
       }

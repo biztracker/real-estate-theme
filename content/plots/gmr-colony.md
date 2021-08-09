@@ -12,52 +12,39 @@
       "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
-        "showLogoAs":"VERTICAL",
-        "brandText" : "Eeshanya Jewel City",
         "brandlogoURL": "/images/mahati/logo.png",
-        "phoneNumber": "+91 99631 56663",
-        "email":"eeshanyagroup@gmail.com",
-        "showEmailPhoneOnMobile": false,
         "actionButton": {
             "text": "Get Quote",
-            "href": "#contact-us",
-            "onlyOnMobile": true
+            "href": "#contact-us"
         },
         "navBarlist": [
           {
-            "text": "Layout",
-            "href": "#project-layout"
+            "text": "Home",
+            "href": "/"
           },
           {
-            "text": "Downloads",
+            "text": "Projects in Hyderabad",
             "target": "_blank",
             "subNavList": [
               {
-                "text": "Brochure",
-                "href": "/images/jewel-city-brochure.pdf",
-                "target": "_blank"
+                "text": "Highway Meadows",
+                "href": "/plots/highway-meadows"
               },
               {
-                "text": "Approval Letter",
-                "href": "/images/eeshanya-jewel-one/HMDA-approval.pdf",
-                "target": "_blank"
+                "text": "Orchids",
+                "href": "/plots/highway-meadows"
               }
             ]
           },
           {
-            "text": "Completed Projects",
+            "text": "Projects in Ananthapur",
             "target": "_blank",
             "subNavList": [
               {
-                "text": "Eeshanya Jewel One",
-                "href": "https://www.eeshanyainfra.com/project.html",
-                "target": "_blank"
+                "text": "GMR Colony",
+                "href": "/plots/gmr-colony"
               }
             ]
-          },
-          {
-            "text": "Location",
-            "href": "#location"
           }
         ]
       }

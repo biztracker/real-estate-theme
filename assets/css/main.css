@@ -12,15 +12,15 @@
   width: 16.67%;
 }
 
-.splide__arrow--prev {
+.arrow-override .splide__arrow--prev {
     left: -15px !important;
 }
 
-.splide__arrow--next {
+.arrow-override .splide__arrow--next {
     right: -15px !important;
 }
 
-.splide__arrow {
+.arrow-override .splide__arrow {
     background: rgba(0,0,0,0) !important;
 }
 

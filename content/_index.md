@@ -16,38 +16,17 @@
         "showEmailPhoneOnMobile": false,
         "actionButton": {
             "text": "Get Quote",
-            "href": "#contact-us",
-            "onlyOnMobile": true
+            "href": "#contact-us"
         },
         "navBarlist": [
           {
-            "text": "Layout",
-            "href": "#project-layout"
+            "text": "Home",
+            "href": "/"
           },
           {
-            "text": "Downloads",
+            "text": "Projects in Hyderabad",
             "target": "_blank",
             "subNavList": [
-              {
-                "text": "Brochure",
-                "href": "/images/jewel-city-brochure.pdf",
-                "target": "_blank"
-              },
-              {
-                "text": "Approval Letter",
-                "href": "/images/eeshanya-jewel-one/HMDA-approval.pdf",
-                "target": "_blank"
-              }
-            ]
-          },
-          {
-            "text": "Our Projects",
-            "target": "_blank",
-            "subNavList": [
-              {
-                "text": "GMR Colony",
-                "href": "/plots/gmr-colony"
-              },
               {
                 "text": "Highway Meadows",
                 "href": "/plots/highway-meadows"
@@ -59,8 +38,14 @@
             ]
           },
           {
-            "text": "Location",
-            "href": "#location"
+            "text": "Projects in Ananthapur",
+            "target": "_blank",
+            "subNavList": [
+              {
+                "text": "GMR Colony",
+                "href": "/plots/gmr-colony"
+              }
+            ]
           }
         ]
       }
@@ -134,30 +119,6 @@
             "location" :"On Vijayawada Highway, Hyderabad",
             "imageURL":"/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6",
-      "type": "",
-      "partialRelativePath": "mahati/faq.html",
-      "blockType": "",
-      "content":{
-        "caption": "FAQ",
-        "title": "How can we help you ?",
-        "faqs": [
-          {
-            "question": "Popular articles",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
-          },
-          {
-            "question": "Browse the web",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
-          },
-          {
-            "question": "Search on your phone or tablet",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
           }
         ]
       }

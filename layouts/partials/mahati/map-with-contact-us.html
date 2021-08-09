@@ -6,33 +6,32 @@
       <iframe id="g-maps-iframe" width="100%" height="100%" style="min-height:500px" class="inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="" data-src="{{.content.mapLocationURL}}" style=""></iframe>
     </div>
     <div class="lg:w-1/3 md:w-1/3 bg-white flex flex-col w-full mt-8 mx-8 md:mt-8">
-      <h3 class="text-primary text-sm mb-2">To Reach us</h3>
-      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-4 text-gray-900">Contact us</h1>
+      <h3 class="text-primary text-sm mb-2">Get Quote</h3>
+      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-0 text-gray-900">Contact us</h1>
    
-      <p class="leading-relaxed mb-0 mt-5 text-gray-600">Our sales team will get back to you as soon as possible</p>
-      <div id="biztrackerContactFormMessage"> <p class="font-medium text-gray-800 h-6"> </p></div>
+       <div id="biztrackerContactFormMessage"> <p class="font-medium text-gray-800 h-4"> </p></div>
       <form name={{.content.formId}} id={{.content.formId}} onsubmit="onBiztrackerFormSubmit()">
         {{ if isset .content "biztrackerIntegrationKey" }}
           <input name="key" id="key" type="hidden" value="{{.content.biztrackerIntegrationKey}}">
         {{ end }}
       
-        <div class="relative mb-4">
+        <div class="relative mb-1">
           <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
           <input type="text" id="name" name="name" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
         </div>
         
-        <div class="relative mb-4">
+        <div class="relative mb-1">
           <label for="phoneNumber" class="leading-7 text-sm text-gray-600">Phone Number</label>
           <input type="text" id="phoneNumber" name="phoneNumber" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
         </div>
 
-        <div class="relative mb-4">
+        <div class="relative mb-1">
           <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
           <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
         </div>
-        <div class="relative mb-4">
+        <div class="relative mb-1">
           <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-          <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-16 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
         </div>
         <button class="text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-hover rounded text-lg">Submit</button>
         <p class="text-xs text-gray-500 mt-3"></p>
