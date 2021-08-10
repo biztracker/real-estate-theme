@@ -1,0 +1,123 @@
+<!-- 
+
+<section id="{{.block.divId}}" class="text-gray-600 body-font relative">
+  <div class="flex sm:flex-nowrap flex-wrap">
+    <div class="lg:w-2/3 md:w-2/3 w-full bg-gray-300 overflow-hidden flex items-end justify-start relative">
+      <iframe id="g-maps-iframe" width="100%" height="100%" style="min-height:500px" class="inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="" data-src="{{.content.mapLocationURL}}" style=""></iframe>
+    </div>
+    <div class="lg:w-1/3 md:w-1/3 bg-white flex flex-col w-full mt-8 mx-8 md:mt-8">
+      <h3 class="text-primary text-sm mb-2">Get Quote</h3>
+      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-0 text-gray-900">Contact us</h1>
+   
+       <div id="biztrackerContactFormMessage"> <p class="font-medium text-gray-800 h-4"> </p></div>
+      <form name={{.content.formId}} id={{.content.formId}} onsubmit="onBiztrackerFormSubmit()">
+        {{ if isset .content "biztrackerIntegrationKey" }}
+          <input name="key" id="key" type="hidden" value="{{.content.biztrackerIntegrationKey}}">
+        {{ end }}
+      
+        <div class="relative mb-1">
+          <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+          <input type="text" id="name" name="name" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        
+        <div class="relative mb-1">
+          <label for="phoneNumber" class="leading-7 text-sm text-gray-600">Phone Number</label>
+          <input type="text" id="phoneNumber" name="phoneNumber" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <div class="relative mb-1">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-1">
+          <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+          <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-16 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        </div>
+        <button class="text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-hover rounded text-lg">Submit</button>
+        <p class="text-xs text-gray-500 mt-3"></p>
+      </form>
+    </div>
+  </div>
+</section> -->
+
+<!-- component -->
+
+<div class="relative flex items-top justify-start min-h-full bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+  
+  <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+
+    <div class="mx-96 mt-14 mb-14">
+      <h3 class="text-primary text-sm mb-2">To get in touch with us</h3>
+      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-4 text-gray-900">Contact Us</h1>
+    </div>
+
+      <div class="mt-10 mb-10 overflow-hidden">
+        
+          <div class="grid grid-cols-1 md:grid-cols-2">
+            
+              <div class="pt-16 pl-20  bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+                  <h1 class="text-2xl sm:text-2xl text-gray-800">
+                      Get in touch
+                  </h1>
+                  <p class=" text-sm sm:text-sm text-gray-600 mt-2">
+                      Fill in the form to start a conversation
+                  </p>
+
+                  <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                      <div class="ml-4 text-md w-40">
+                         Hyderabad,India
+                      </div>
+                  </div>
+
+                  <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                      <div class="ml-4 text-md w-40">
+                          +91 9898989898
+                      </div>
+                  </div>
+
+                  <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                      <div class="ml-4 text-md w-40">
+                          info@acme.org
+                      </div>
+                  </div>
+              </div>
+
+              <form class="p-3 flex flex-col justify-center">
+                  <div class="flex flex-col">
+                      <label for="name" class="hidden">Full Name</label>
+                      <input type="name" name="name" id="name" placeholder="Full Name" class="w-100  py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+                  </div>
+
+                  <div class="flex flex-col mt-2">
+                      <label for="email" class="hidden">Email</label>
+                      <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+                  </div>
+
+                  <div class="flex flex-col mt-2">
+                      <label for="tel" class="hidden">Number</label>
+                      <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+                  </div>
+
+                <div class="flex flex-col mt-4">
+                  <textarea class=" rounded border border-gray-400 leading-normal resize-none w-100 h-20 py-2 px-3  placeholder-gray-700 focus:border-primary focus:bg-white" name="body" placeholder='Type Your Message' required></textarea>
+                </div>
+    
+                  <button type="submit" class="md:w-32 bg-primary resize-none  text-white py-3 px-6 mt-3 hover:bg-primary transition ease-in-out duration-300">
+                      Submit
+                  </button>
+              </form>
+              
+          </div>
+      </div>
+  </div>
+</div>

@@ -187,6 +187,14 @@
         ]
       }
     },
+     {
+      "id": "5",
+      "type": "",
+      "divId": "gallery",
+      "partialRelativePath": "mahati/floor-plan.html",
+      "blockType": "",
+      "content": {}
+      },
     {
       "id": "8",
       "type": "",
