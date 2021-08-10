@@ -64,30 +64,26 @@
     },
     {
       "id": "3",
-      "divId": "about-project",
+      "divId": "",
       "type": "",
       "partialRelativePath": "mahati/about-with-images.html",
       "blockType": "",
       "content": {
-        "headingText": "Amenities",
+        "headingText": "Project Amenities",
         "statsList": [{
-            "text": "Grand Entrance & Compound Wall",
+            "text": "Club House",
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
-            "text": "Concrete Roads & Led Lighting",
+            "text": "Parks and Play Areas",
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
-            "text": "Drinking Water Pipelines",
+            "text": "Jogging Track and Pavement",
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
-            "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Underground Drainage",
+            "text": "Plots abetting 40, 60 & 80 Ft BT Roads",
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
@@ -95,11 +91,15 @@
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
-            "text": "Underground Drainage",
+            "text": "Underground Electric Wiring",
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
-            "text": "Underground Drainage",
+            "text": "Overhead Water Tank",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Rainwater Harvesting",
             "imageURL":"/images/icons/gate-yellow.svg"
           }
         ]
