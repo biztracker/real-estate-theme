@@ -41,7 +41,7 @@
       "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "headingText": "Plots",
+        "headingText": "Projects for Sale in Ananthapur",
         "mainText": "Plots",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
