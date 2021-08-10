@@ -115,27 +115,22 @@
         "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
         "caption" :"Building Facilities",
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
-      "leftList": [
-          {
-            "text": "15 mins away from"
+       "statsList": [{
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/home.svg"
           },
           {
-            "text": "10 mins away from"
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/people.svg"
           },
           {
-            "text": "10 mins away from"
+            "title": "The Perfect residency",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/map.svg"
           }
-         ],
-         "rightList": [
-          {
-            "text": "15 mins away from"
-          },
-          {
-            "text": "10 mins away from"
-          },
-          {
-            "text": "10 mins away from"
-          }
+        
         ]
       }
     },
