@@ -27,15 +27,15 @@
 
 			<li class="splide__slide ">
               <div class="p-2 lg:p-4">
-              <a href="{{.href}}">
+              <a class= "cursor-pointer" href="{{.href}}">
                   <div class="h-full border shadow-md border-gray-300 bg-white border-opacity-60 overflow-hidden">
-                  <img class="lg:h-48 h-40 w-full object-cover object-center" src="{{.imageURL}}" alt="blog">
-                  <div  style="background-color: #77C720;" class=" absolute top-6 right-6 pr-4 pl-4 pt-1 pb-1 font-thin text-sm bg-green-400 text-white uppercase"> for Sale</div>
-                  <div class="p-6">
+                  <img class="lg:h-48 h-40 pl-4 pt-4 pr-4 w-full object-cover object-center" src="{{.imageURL}}" alt="blog">
+                  <div  style="background-color: #77C720;" class=" absolute top-10 right-10 pr-4 pl-4 pt-1 pb-1 font-thin text-sm bg-green-400 text-white uppercase"> for Sale</div>
+                  <div class="p-4">
                       <h2 class="tracking-widest text-md title-font font-medium text-primary mb-1">{{.category}}</h2>
                       <h1 class="title-font text-2xl mt-2 mb-2 font-sans text-gray-900 ">{{.heading}}</h1>
-                      <div class="mb-3 flex flex-row">
-                        <div class="mr-2" style="margin-left:-3px">
+                      <div class="mb-2 flex flex-row">
+                        <div class="mr-2" style="margin-left:-2px">
                           <!-- <img class="pr-1" style="height:22px;padding-top:3px; "  src="/images/icons/location.png"/>                       -->
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
@@ -43,9 +43,32 @@
                         </div>
                         <div class="text-sm">{{.location}}</div>
                       </div>
-                      <p class="leading-relaxed mt-4 mb-3 text-sm font-thin h-24  lg:h-16">{{.description}}</p>
+                      <p class="leading-relaxed mt-4 mb-2 text-sm font-thin h-24  lg:h-14">{{.description}}</p>
 
+                      <ul class="flex mb-3 border-solid">
+                          {{/* {{ range .statsList }} */}}
+                              {{/* <li class="my-2 pt-2 w-1/4 overflow-hidden text-center">
+                                  <img style="height:20px;display: inline;" src="{{.imageURL}}" />
+                                  <h3 class="text-bold text-sm pt-2">{{.text}} </h3> 
+                              </li> */}}
+                              <li class="pl-2 pr-2 w-20 overflow-hidden border-solid " style="border-right-width: 0.5px; border-color:#5C727D">
+                                  <p class="text-sm font-bold">2034</p> 
+                                  <p class="text-sm font-thin pt-2">sft</p> 
+                              </li>
+
+                              <li class="ml-2 pl-4 pr-2 w-20  overflow-hidden border-solid " style="border-right-width: 0.5px; border-color:#5C727D">
+                                  <p class="text-sm font-bold">200</p> 
+                                  <p class="text-sm font-thin pt-2">plots</p> 
+                              </li>
+
+                              <li class="ml-2 pl-4 pr-2 w-20  overflow-hidden border-solid ">
+                                  <p class="text-sm font-bold">50</p> 
+                                  <p class=" text-sm font-thin pt-2">kms</p> 
+                              </li>
+                          {{/* {{end}} */}}
+                      </ul>
                       <div class="flex items-center flex-wrap ">
+
 
                       {{ if eq $buttonType "BORDER" }} 
                         <button class="text-white bg-primary border-0 py-2 px-4 focus:outline-none hover:bg-hover rounded text-sm">KNOW MORE</button>

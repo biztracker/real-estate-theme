@@ -25,27 +25,11 @@
           },
           {
             "text": "Projects in Hyderabad",
-            "target": "_blank",
-            "subNavList": [
-              {
-                "text": "Highway Meadows",
-                "href": "/plots/highway-meadows"
-              },
-              {
-                "text": "Orchids",
-                "href": "/plots/highway-meadows"
-              }
-            ]
+            "href": "/plots/hyderabad"
           },
           {
             "text": "Projects in Ananthapur",
-            "target": "_blank",
-            "subNavList": [
-              {
-                "text": "GMR Colony",
-                "href": "/plots/gmr-colony"
-              }
-            ]
+            "href": "/plots/ananthapur"
           }
         ]
       }

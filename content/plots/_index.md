@@ -66,7 +66,7 @@
             "category": "Residential Plots",
             "heading": "GMR Colony",
             "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
-            "location" :"Tukkuguda, Hyderabad",
+            "location" :"Ananthapur",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
           },
@@ -76,15 +76,15 @@
             "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
             "location" :"Maheshwaram, Hyderabad",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/h-meadows"          
+            "href":"/plots/highway-meadows"          
           },
           {
-            "category": "Villa Plots",
-            "heading": "Sri County",
+            "category": "Apartment",
+            "heading": "Orchids",
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
-            "location" :"On Vijayawada Highway, Hyderabad",
+            "location" :"Ananthapur",
             "imageURL":"/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "href":"/plots/orchids"
           }
         ]
       }

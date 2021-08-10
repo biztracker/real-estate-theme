@@ -46,7 +46,7 @@ make it configuratioble and merge to mainline !-->
                   {{if eq $showBrandAs "TEXT"}}
                     <span class="font-bold text-primary ">{{$brandText}}</span>
                   {{else}}
-                      <img class=" h-20 w-auto" style="overflow:visible" src="{{$brandlogoURL}}">
+                      <img class="h-24 md:h-20 w-auto" style="overflow:visible;object-fit:contain" src="{{$brandlogoURL}}">
                   {{end}}
                 </a>
               </div>

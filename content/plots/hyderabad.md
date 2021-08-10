@@ -9,11 +9,15 @@
       "type": "",
       "partialRelativePath": "mahati/header.html",
       "blockType": "",
+      "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
         "showLogoAs":"VERTICAL",
         "brandlogoURL": "/images/mahati/logo.png",
-        "showEmailPhoneOnMobile": false,
+        "actionButton": {
+            "text": "Contact us",
+            "href": "/contact-us"
+        },
         "navBarlist": [
           {
             "text": "Home",
@@ -31,17 +35,32 @@
       }
     },
     {
-      "id": "2",
+      "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/contactus-page.html",
+      "divId": "our-projects",
+      "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
+        "headingText": "Plots",
+        "mainText": "Plots",
+        "borderColor":"border-primary",
+        "buttonType": "BORDER",
+        "projectList": [
+          {
+            "category": "Farm Plots",
+            "heading": "Highway Meadows",
+            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
+            "location" :"Maheshwaram, Hyderabad",
+            "imageURL":"/images/mahati/highway-meadows.jpeg",
+            "href":"/plots/highway-meadows"          
+          }
+        ]
       }
     },
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/footer-2.html",
+      "partialRelativePath": "mahati/footer.html",
       "blockType": "",
       "content": {
         "logoURL": "",

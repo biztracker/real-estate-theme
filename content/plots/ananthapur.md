@@ -1,19 +1,19 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Mahati Infra",
-  "description": "Open plots in Hyderabad | Mahati Infra",
-  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad ",
+  "title": "MS Infra Projects",
+  "description": "Open plots in Hyderabad | MS Infra Projects",
+  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
       "id": "2",
       "type": "",
       "partialRelativePath": "mahati/header.html",
       "blockType": "",
+      "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
         "showLogoAs":"VERTICAL",
         "brandlogoURL": "/images/mahati/logo.png",
-        "showEmailPhoneOnMobile": false,
         "actionButton": {
             "text": "Contact us",
             "href": "/contact-us"
@@ -35,49 +35,15 @@
       }
     },
     {
-      "id": "2",
-      "type": "",
-      "partialRelativePath": "hero/hero_with_img_carousal.html",
-      "blockType": "",
-      "content": {
-        "itemsList": [
-          {
-            "imageURL":"/images/mahati/gmr-3.jpeg",
-            "name": "GMR Colony",
-            "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
-            "href":"/plots/gmr-colony"
-          },
-          {
-            "imageURL": "/images/mahati/highway-meadows.jpeg",
-            "name": "Highway meadows",
-            "caption" :"Lemuru, Near Tukkuguda, Hyderabad",
-            "href": "/plots/h-meadows"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3",
-      "divId": "about-us",
-      "type": "",
-      "partialRelativePath": "mahati/about-us.html",
-      "blockType": "",
-      "content": {
-        "headingText": "About Mahati",
-        "mainText": "Mahathi Infra Developers is built on the pillars of trust, leadership and innovation by the founder Mr Ganesham Muthaya Reddy in the year 2012. We are taking calculated steps and marching towards becoming a leading developer in the telangana state, irrespective of whether it is commercial, retail and residential space our primary focus is on maintaining the highest level of quality in our work.<br/><br/>Our aim is to develop residential and commercial spaces that easily conquer the hearts of buyers through unique aesthetic appeal. By providing top class features and facilities in properties we develop to be successful in attaining leadership position in the real estate industry and overtime to become the preferred brand when it comes to real-estate development.",
-        "statsList": [
-        ]
-      }
-    },
-    {
       "id": "6",
       "type": "",
       "divId": "our-projects",
-      "partialRelativePath": "mahati/projects-horizontal-carousal.html",
+      "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "headingText": "Projects for Sale",
-        "mainText": "",
+        "headingText": "Plots",
+        "mainText": "Plots",
+        "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
           {
@@ -87,14 +53,6 @@
             "location" :"Ananthapur",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
-          },
-          {
-            "category": "Farm Plots",
-            "heading": "Highway Meadows",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
-            "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/highway-meadows"          
           },
           {
             "category": "Apartment",
