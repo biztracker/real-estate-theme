@@ -54,7 +54,7 @@
           {
             "imageURL": "/images/mahati/highway-meadows.jpeg",
             "name": "Highway Meadows",
-            "caption" :"Chatanpalli Village,Near Shadnagar, Hyderabad",
+            "caption" :"Chatanpalli Village, Shadnagar, Hyderabad",
             "href": "/plots/highway-meadows"
           },
           { 
@@ -94,7 +94,7 @@
             "category": "Villa Plots",
             "heading": "GMR Colony",
             "description": "Gated community luxury villa plots with premium amenities.",
-            "location" :"Alamuru Main Road,Ananthapur",
+            "location" :"Alamuru Main Road, Ananthapur",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
           },
@@ -102,7 +102,7 @@
             "category": "Residential Plots",
             "heading": "Highway Meadows",
             "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
-            "location" :"Chatanpalli, Near Shadnagar, Hyderabad",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows"          
           },
