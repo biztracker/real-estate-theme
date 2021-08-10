@@ -48,19 +48,19 @@
           {
             "imageURL":"/images/mahati/gmr-3.jpeg",
             "name": "GMR Colony",
-            "caption" :"Thummaloor village, Near maheshwaram, Hyderabad",
+            "caption" :"Almur Road,Ananthapur,Andhra Pradesh",
             "href":"/plots/gmr-colony"
           },
           {
             "imageURL": "/images/mahati/highway-meadows.jpeg",
             "name": "Highway meadows",
-            "caption" :"Lemuru, Near Tukkuguda, Hyderabad",
+            "caption" :"Chatanpalli village,Shadnagar, Hyderabad",
             "href": "/plots/highway-meadows"
           },
           {
             "imageURL": "/images/mahati/orchids.jpg",
             "name": "Orchids",
-            "caption" :"Aravind Nagar, Ananthapur",
+            "caption" :"Aravind Nagar, Ananthapur, Andhra Pradesh",
             "href": "/plots/orchids-meadows"
           }
         ]
