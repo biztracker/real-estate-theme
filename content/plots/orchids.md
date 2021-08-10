@@ -42,7 +42,7 @@
       "content": {
         "title": "HIGHWAY MEADOWS",
         "caption" :"Open plots at Shadnagar",
-        "imageURL": "/images/mahati/highway-meadows.jpeg",
+        "imageURL": "/images/mahati/orchids.jpg",
         "statsList": [{
             "title": "The Perfect residency",
             "subTitle" :"We introduce to best residency and community",
@@ -132,6 +132,15 @@
       "id": "5",
       "type": "",
       "divId": "gallery",
+      "partialRelativePath": "mahati/floor-plan.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
+      "id": "5",
+      "type": "",
+      "divId": "gallery",
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
@@ -144,6 +153,44 @@
           "/images/divi-infra/5.jpeg",
           "/images/divi-infra/6.jpeg"
         ]
+      }
+    },
+    {
+      "id": "6",
+      "divId": "location",
+      "name": "Location Advantages",
+      "type": "",
+      "partialRelativePath": "mahati/location-advantages.html",
+      "blockType": "",
+      "content": {
+        "title": "Location advantages",
+        "subTitle": "best location with many positives",
+        "caption": "Location",
+        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
+        "textColor": "text-gray-900",
+        "imageDataSize": "792x942",
+        "leftList": [
+          {
+            "text": "15 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          }
+         ],
+         "rightList": [
+          {
+            "text": "15 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          }
+         ]
       }
     },
     {
@@ -183,14 +230,6 @@
         ]
       }
     },
-     {
-      "id": "5",
-      "type": "",
-      "divId": "gallery",
-      "partialRelativePath": "mahati/floor-plan.html",
-      "blockType": "",
-      "content": {}
-      },
     {
       "id": "8",
       "type": "",
@@ -199,7 +238,7 @@
       "blockType": "",
       "content": {
         "phoneNumber":"917989089368",
-        "welcomeMessage":"Hi, I want to know more information about e-city elite"
+        "welcomeMessage":"Hi, I want to know more information about highway meadows"
       }
     },
     {
