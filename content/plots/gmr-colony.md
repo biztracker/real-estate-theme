@@ -55,7 +55,7 @@
           {
             "title": "AHUDA Approved",
             "subTitle" :"",
-            "imageURL":"/icons/ahuda.png"
+            "imageURL":"/images/mahati/icons/ahuda.png"
           }
         ]
       }
