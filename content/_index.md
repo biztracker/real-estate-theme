@@ -1,9 +1,9 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Mahati Infra",
-  "description": "Open plots in Hyderabad | Mahati Infra",
-  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad ",
-  "tagManagerId": "GTM-T34NMKQ",
+  "title": "Mahathi Infra",
+  "description": "Open plots in Hyderabad | Mahathi Infra",
+  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad,RERA approved plots in Hyderabad,Open plots in Anathapur ",
+  "tagManagerId": "",
   "blocks": [{
       "id": "2",
       "type": "",
@@ -15,7 +15,7 @@
         "brandlogoURL": "/images/mahati/logo.png",
         "showEmailPhoneOnMobile": false,
         "actionButton": {
-            "text": "Contact us",
+            "text": "Get Quote",
             "href": "/contact-us"
         },
         "navBarlist": [
@@ -30,6 +30,10 @@
           {
             "text": "Projects in Ananthapur",
             "href": "/plots/ananthapur"
+             },
+          {
+            "text": "Contact Us",
+            "href": "/contact-us"
           }
         ]
       }
