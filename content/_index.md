@@ -94,15 +94,15 @@
             "category": "Villa Plots",
             "heading": "GMR Colony",
             "description": "Gated community luxury villa plots with premium amenities.",
-            "location" :"Alamuru Main Road,Ananthapur, Andhra Pradesh",
+            "location" :"Alamuru Main Road,Ananthapur",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
           },
           {
             "category": "Residential Plots",
             "heading": "Highway Meadows",
-            "description": "An epitome of balance between serenity and accessibility,the best gated community open plots venture located on one of the fastest growing corridors of Hyderabad.",
-            "location" :"Chatanpalli(V),Near Shadnagar, Hyderabad",
+            "description": "The best gated community open plots venture located on one of the fastest growing corridors of Hyderabad.",
+            "location" :"Chatanpalli, Near Shadnagar, Hyderabad",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows"          
           },
@@ -110,7 +110,7 @@
             "category": "Apartments",
             "heading": "Orchids",
             "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
-            "location" :"Aravind Nagar, Ananthapur, Andhra Pradesh",
+            "location" :"Aravind Nagar, Ananthapur",
             "imageURL": "/images/mahati/orchids.jpg",
             "href":"/plots/orchids"
           }
