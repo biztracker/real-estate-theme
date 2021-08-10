@@ -50,7 +50,7 @@
             "category": "Residential Plots",
             "heading": "Highway Meadows",
             "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
-            "location" :"Chatanpalli, Shadnagar, Hyderabad",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad.",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows"          
           }
