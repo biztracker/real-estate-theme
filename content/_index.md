@@ -48,13 +48,13 @@
           {
             "imageURL":"/images/mahati/gmr-3.jpeg",
             "name": "GMR Colony",
-            "caption" :"Almur Road,Ananthapur,Andhra Pradesh",
+            "caption" :"Almur Road, Ananthapur, Andhra Pradesh",
             "href":"/plots/gmr-colony"
           },
           {
             "imageURL": "/images/mahati/highway-meadows.jpeg",
             "name": "Highway meadows",
-            "caption" :"Chatanpalli village,Shadnagar, Hyderabad",
+            "caption" :"Chatanpalli village, Shadnagar, Hyderabad",
             "href": "/plots/highway-meadows"
           },
           {
