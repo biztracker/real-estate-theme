@@ -57,7 +57,7 @@
           {
             "category": "Apartment",
             "heading": "Orchids",
-            "description": "paciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
             "location" :"Aravind Nagar, Ananthapur",
             "imageURL":"/images/mahati/orchids.jpg",
             "href":"/plots/orchids"
