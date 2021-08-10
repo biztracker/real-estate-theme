@@ -136,7 +136,6 @@
             "subTitle" :"We introduce to best residency and community",
             "imageURL":"/icons/map.svg"
           }
-        
         ]
       }
     },
