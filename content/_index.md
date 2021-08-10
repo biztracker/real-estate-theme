@@ -48,16 +48,16 @@
           {
             "imageURL":"/images/mahati/gmr-3.jpeg",
             "name": "GMR Colony",
-            "caption" :"Almur Road, Ananthapur, Andhra Pradesh",
+            "caption" :"Almuru Road, Ananthapur, Andhra Pradesh",
             "href":"/plots/gmr-colony"
           },
           {
             "imageURL": "/images/mahati/highway-meadows.jpeg",
-            "name": "Highway meadows",
-            "caption" :"Chatanpalli village, Shadnagar, Hyderabad",
+            "name": "Highway Meadows",
+            "caption" :"Chatanpalli Village,Near Shadnagar, Hyderabad",
             "href": "/plots/highway-meadows"
           },
-          {
+          { 
             "imageURL": "/images/mahati/orchids.jpg",
             "name": "Orchids",
             "caption" :"Aravind Nagar, Ananthapur, Andhra Pradesh",
@@ -73,7 +73,7 @@
       "partialRelativePath": "mahati/about-us.html",
       "blockType": "",
       "content": {
-        "headingText": "About Mahati",
+        "headingText": "Mahathi Group",
         "mainText": "Mahathi Infra Developers is built on the pillars of trust, leadership and innovation by the founder Mr Ganesham Muthaya Reddy in the year 2012. We are taking calculated steps and marching towards becoming a leading developer in the telangana state, irrespective of whether it is commercial, retail and residential space our primary focus is on maintaining the highest level of quality in our work.<br/><br/>Our aim is to develop residential and commercial spaces that easily conquer the hearts of buyers through unique aesthetic appeal. By providing top class features and facilities in properties we develop to be successful in attaining leadership position in the real estate industry and overtime to become the preferred brand when it comes to real-estate development.",
         "statsList": [
         ]
@@ -82,7 +82,7 @@
     {
       "id": "6",
       "type": "",
-      "divId": "our-projects",
+      "divId": "featured-projects",
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
@@ -91,26 +91,26 @@
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Residential Plots",
+            "category": "Villa Plots",
             "heading": "GMR Colony",
-            "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
-            "location" :"Ananthapur",
+            "description": "Gated community luxury villa plots with premium amenities.",
+            "location" :"Alamuru Main Road,Ananthapur, Andhra Pradesh",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
           },
           {
-            "category": "Farm Plots",
+            "category": "Residential Plots",
             "heading": "Highway Meadows",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
+            "description": "An epitome of balance between serenity and accessibility,the best gated community open plots venture located on one of the fastest growing corridors of Hyderabad.",
+            "location" :"Chatanpalli(V),Near Shadnagar, Hyderabad",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows"          
           },
           {
-            "category": "Apartment",
+            "category": "Apartments",
             "heading": "Orchids",
-            "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
-            "location" :"Ananthapur",
+            "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "location" :"Aravind Nagar, Ananthapur, Andhra Pradesh",
             "imageURL": "/images/mahati/orchids.jpg",
             "href":"/plots/orchids"
           }
