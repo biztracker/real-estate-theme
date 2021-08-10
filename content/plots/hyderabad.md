@@ -41,16 +41,16 @@
       "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "headingText": "Plots",
-        "mainText": "Plots",
+        "headingText": "Hyderabad",
+        "mainText": "Plots for Sale in Hyderabad",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Farm Plots",
+            "category": "Residential Plots",
             "heading": "Highway Meadows",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
+            "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows"          
           }
