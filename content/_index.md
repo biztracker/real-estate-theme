@@ -51,7 +51,13 @@
             "imageURL": "/images/mahati/highway-meadows.jpeg",
             "name": "Highway meadows",
             "caption" :"Lemuru, Near Tukkuguda, Hyderabad",
-            "href": "/plots/h-meadows"
+            "href": "/plots/highway-meadows"
+          },
+          {
+            "imageURL": "/images/mahati/orchids.jpg",
+            "name": "Orchids",
+            "caption" :"Aravind Nagar, Ananthapur",
+            "href": "/plots/orchids-meadows"
           }
         ]
       }
@@ -101,7 +107,7 @@
             "heading": "Orchids",
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
             "location" :"Ananthapur",
-            "imageURL":"/images/mahati/gmr-3.jpeg",
+            "imageURL": "/images/mahati/orchids.jpg",
             "href":"/plots/orchids"
           }
         ]

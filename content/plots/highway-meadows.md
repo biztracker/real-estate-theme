@@ -71,23 +71,35 @@
         "headingText": "Amenities",
         "statsList": [{
             "text": "Grand Entrance & Compound Wall",
-            "imageURL": "/images/icons/gate.PNG",
-            "caption" :""
+            "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
             "text": "Concrete Roads & Led Lighting",
-            "imageURL": "/images/icons/road.PNG",
-            "caption" :""
+            "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
             "text": "Drinking Water Pipelines",
-            "imageURL": "/images/icons/water.PNG",
-            "caption" :""
+            "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
             "text": "Underground Drainage",
-            "imageURL": "/images/icons/drainage.PNG",
-            "caption" :""
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
           }
         ]
       }
@@ -135,6 +147,44 @@
       }
     },
     {
+      "id": "6",
+      "divId": "location",
+      "name": "Location Advantages",
+      "type": "",
+      "partialRelativePath": "mahati/location-advantages.html",
+      "blockType": "",
+      "content": {
+        "title": "Location advantages",
+        "subTitle": "best location with many positives",
+        "caption": "Location",
+        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
+        "textColor": "text-gray-900",
+        "imageDataSize": "792x942",
+        "leftList": [
+          {
+            "text": "15 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          }
+         ],
+         "rightList": [
+          {
+            "text": "15 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          }
+         ]
+      }
+    },
+    {
       "id": "7",
       "type": "",
       "divId": "contact-us",
@@ -171,14 +221,6 @@
         ]
       }
     },
-     {
-      "id": "5",
-      "type": "",
-      "divId": "gallery",
-      "partialRelativePath": "mahati/floor-plan.html",
-      "blockType": "",
-      "content": {}
-      },
     {
       "id": "8",
       "type": "",
@@ -187,7 +229,7 @@
       "blockType": "",
       "content": {
         "phoneNumber":"917989089368",
-        "welcomeMessage":"Hi, I want to know more information about e-city elite"
+        "welcomeMessage":"Hi, I want to know more information about highway meadows"
       }
     },
     {

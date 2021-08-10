@@ -1,8 +1,8 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "GMR Colony",
-  "description": "Open plots in Hyderabad | GMR Colony",
-  "keywords": "Open plots in Hyderabad, HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
+  "title": "Highway Meadows",
+  "description": "Open plots in Hyderabad | Highway Meadows",
+  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
       "id": "2",
@@ -12,6 +12,7 @@
       "divId": "nav-bar",
       "content": {
         "showBrandAs": "LOGO",
+        "showLogoAs":"VERTICAL",
         "brandlogoURL": "/images/mahati/logo.png",
         "actionButton": {
             "text": "Get Quote",
@@ -39,9 +40,9 @@
       "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
-        "title": "GMR Colony",
-        "caption" :"Best plots in Anantapur",
-        "imageURL": "/images/mahati/gmr-3.jpeg",
+        "title": "HIGHWAY MEADOWS",
+        "caption" :"Open plots at Shadnagar",
+        "imageURL": "/images/mahati/highway-meadows.jpeg",
         "statsList": [{
             "title": "The Perfect residency",
             "subTitle" :"We introduce to best residency and community",
@@ -61,16 +62,59 @@
       }
     },
     {
+      "id": "3",
+      "divId": "about-project",
+      "type": "",
+      "partialRelativePath": "mahati/about-with-images.html",
+      "blockType": "",
+      "content": {
+        "headingText": "Amenities",
+        "statsList": [{
+            "text": "Grand Entrance & Compound Wall",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Concrete Roads & Led Lighting",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Drinking Water Pipelines",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          },
+          {
+            "text": "Underground Drainage",
+            "imageURL":"/images/icons/gate-yellow.svg"
+          }
+        ]
+      }
+    },
+    {
       "id": "7",
       "type": "",
       "divId": "faq",
-      "partialRelativePath": "mahati/project-details.html",
+      "partialRelativePath": "mahati/project-facilities.html",
       "blockType": "",
       "content": {
         "title": "Making living spaces Beautiful",
         "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
         "caption" :"Building Facilities",
-        "imageURL": "/images/mahati/gmr-layout.png",
+        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
         "statsList": [{
             "title": "The Perfect residency",
             "subTitle" :"We introduce to best residency and community",
@@ -85,58 +129,13 @@
       }
     },
     {
-      "id": "6",
-      "divId": "location",
-      "name": "Location Advantages",
-      "type": "",
-      "partialRelativePath": "mahati/location.html",
-      "blockType": "",
-      "content": {
-        "imageURL": "/images/divi-infra-location-advantages.png",
-        "textColor": "text-gray-900",
-        "imageDataSize": "792x942",
-        "statsList": [
-           {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"TCS Adibatla, Aerospace & Hardware park (TATA, HCL)"
-          },
-          {
-            "imageURL": "",
-            "text": "10 mins away from",
-            "caption" :"Electronic city (e-city 1200 acres)"
-          },
-          {
-            "imageURL": "",
-            "text": "10 mins away from",
-            "caption" :"Outer Ring road, Tukkuguda Junction"
-          },
-                     {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"Pharma City (19000 acres)"
-          },
-          {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"Rajiv Gandhi International Airport"
-          },
-          {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"Ramky Discovery City, Kavuri Hills Villas"
-          }
-         ]
-      }
-    },
-    {
       "id": "5",
       "type": "",
       "divId": "gallery",
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
-        "title": "Construction updates",
+        "title": "Construction Updates",
         "imagesList": [
           "/images/divi-infra/1.jpeg",
           "/images/divi-infra/2.jpeg",
@@ -184,6 +183,14 @@
         ]
       }
     },
+     {
+      "id": "5",
+      "type": "",
+      "divId": "gallery",
+      "partialRelativePath": "mahati/floor-plan.html",
+      "blockType": "",
+      "content": {}
+      },
     {
       "id": "8",
       "type": "",

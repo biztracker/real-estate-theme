@@ -1,7 +1,7 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "MS Infra Projects",
-  "description": "Open plots in Hyderabad | MS Infra Projects",
+  "title": "Mahati Infra",
+  "description": "Open plots in Ananthapur | Mahati Infra",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
@@ -59,7 +59,7 @@
             "heading": "Orchids",
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
             "location" :"Ananthapur",
-            "imageURL":"/images/mahati/gmr-3.jpeg",
+            "imageURL":"/images/mahati/orchids.jpg",
             "href":"/plots/orchids"
           }
         ]

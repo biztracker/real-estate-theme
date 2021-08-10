@@ -3,29 +3,32 @@
 {{$imageDataSize:= "600x400"}}
 {{$imageCropStyle:= "object-cover"}}
 
-<div class="flex flex-col lg:flex-row justify-between">
+<div class="flex flex-col lg:flex-row justify-between " style="background-color:#F2F6F7">
 
     <div class="">
         <div class="my-8 lg:mt-16 mx-12 lg:ml-16 flex flex-col">
-        <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
-        <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
-        <h4 class=" text-xs font-extralight">{{.content.subTitle}}</h4>
-         {{ range .content.statsList }}
-            <div class="flex flex-row space-x-4 mt-4 items-center">
-                <div>
-                    <img height="40" width="40" src="{{.imageURL}}" />
+            <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
+            <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
+            <h4 class=" text-xs font-extralight">{{.content.subTitle}}</h4>
+            {{ range .content.statsList }}
+                <div class="flex flex-row space-x-4 mt-4 items-center">
+                    <div>
+                        <img height="40" width="40" src="{{.imageURL}}" />
+                    </div>
+                    <div>
+                        <div class="text-md font-semibold">{{.title}}</div>
+                        <div class="text-sm font-extralight">{{.subTitle}}</div>
+                    </div>    
                 </div>
-                <div>
-                    <div class="text-md font-semibold">{{.title}}</div>
-                    <div class="text-sm font-extralight">{{.subTitle}}</div>
-                </div>    
-             </div>
-        {{end}}
+            {{end}}
         
+            <a href="" target="_blank" 
+                class="mt-4 w-48 shadow-sm rounded-sm bg-primary text-white text-center pl-3 pr-3 pt-2 pb-2">Download Brochure</a>  
+
         </div>
     </div>
 
-    <div class="w-full lg:hidden my-gallery">
+    <div class="w-full lg:hidden my-gallery p-4">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
             <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
                 <img class="lazy {{$imageCropStyle}} object-center h-full w-full"
@@ -33,7 +36,7 @@
             </a>
         </figure>
     </div>
-    <div class="hidden lg:block w-4/7 my-gallery">
+    <div class="hidden lg:block w-4/7 my-gallery p-8">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
             <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
                 <img class="lazy {{$imageCropStyle}} object-center h-full w-full"

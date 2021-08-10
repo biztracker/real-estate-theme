@@ -85,51 +85,6 @@
       }
     },
     {
-      "id": "6",
-      "divId": "location",
-      "name": "Location Advantages",
-      "type": "",
-      "partialRelativePath": "mahati/location.html",
-      "blockType": "",
-      "content": {
-        "imageURL": "/images/divi-infra-location-advantages.png",
-        "textColor": "text-gray-900",
-        "imageDataSize": "792x942",
-        "statsList": [
-           {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"TCS Adibatla, Aerospace & Hardware park (TATA, HCL)"
-          },
-          {
-            "imageURL": "",
-            "text": "10 mins away from",
-            "caption" :"Electronic city (e-city 1200 acres)"
-          },
-          {
-            "imageURL": "",
-            "text": "10 mins away from",
-            "caption" :"Outer Ring road, Tukkuguda Junction"
-          },
-                     {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"Pharma City (19000 acres)"
-          },
-          {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"Rajiv Gandhi International Airport"
-          },
-          {
-            "imageURL": "",
-            "text": "15 mins away from",
-            "caption" :"Ramky Discovery City, Kavuri Hills Villas"
-          }
-         ]
-      }
-    },
-    {
       "id": "5",
       "type": "",
       "divId": "gallery",
@@ -145,6 +100,44 @@
           "/images/divi-infra/5.jpeg",
           "/images/divi-infra/6.jpeg"
         ]
+      }
+    },
+    {
+      "id": "6",
+      "divId": "location",
+      "name": "Location Advantages",
+      "type": "",
+      "partialRelativePath": "mahati/location-advantages.html",
+      "blockType": "",
+      "content": {
+        "title": "Location advantages",
+        "subTitle": "best location with many positives",
+        "caption": "Location",
+        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
+        "textColor": "text-gray-900",
+        "imageDataSize": "792x942",
+        "leftList": [
+          {
+            "text": "15 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          }
+         ],
+         "rightList": [
+          {
+            "text": "15 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          },
+          {
+            "text": "10 mins away from"
+          }
+         ]
       }
     },
     {
