@@ -216,19 +216,39 @@
       "blockType": "",
       "content": {
         "caption": "FAQ",
-        "title": "How can we help you ?",
+        "title": "Find answers to the most frequently asked questions about our project",
         "faqs": [
           {
-            "question": "Popular articles",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+            "question": "What is Highway Meadows ?",
+            "answer": "Highway Meadows is a gated community plot venture located at Shadnagar, Hyderabad by Mahathi Infra Developers. It is one of the best plots in Shadnagar, the epitome of balance between serenity and accessibility. Loaded with premium amenities, it is the best option for investment in Shadnagar."
+          },
+             {
+            "question": "What is Highway Meadows ?",
+            "answer": "Highway Meadows is a gated community plot venture located at Shadnagar, Hyderabad by Mahathi Infra Developers. It is one of the best plots in Shadnagar, the epitome of balance between serenity and accessibility. Loaded with premium amenities, it is the best option for investment in Shadnagar."
+          },   
+          {
+            "question": "Where is Highway Meadows Located ?",
+            "answer": "Highway Meadows is located at Chatanpalli Village, Shadnagar, Hyderabad. It is 5 kms before Shadnagar Village, when travelling from Hyderabad, falling under HMDA limits."
+          },   
+          {
+            "question": "What are the location advantages of Highway Meadows ?",
+            "answer": "Our venture is strategically located on Bangalore Highway and offers excellent road connectivity. It is on the fastest growing open plots corridors of Hyderabad and is the hub to major institutions like P&G, Jhonson & Jhonson, NATCO Pharma, NRSC. It is close to Hyderabad RGI Airport and in in close proximity to Kothur, another hub for best open plots in Hyderabad. Tata Science University, Symbiosis International University and LV Prasad Eye Institute are also located in Shadnagar, which makes it a best location to invest in Hyderabad."
+          },   
+          {
+            "question": "What are the features of Highway Meadows ?",
+            "answer": "Highway Meadows offers best open plots in Shadnagar. The vast community is spread in 50 acers and has 625 plots for sale, with all premium amenities. It hosts a grand entrance arch, luxurious clubhouse with indoor games arena, well designed parks, children’s play areas, pavements, jogging tracks, black top roads, an overhead water tank, rainwater harvesting facility, underground electric wiring and sewage system."
+          },  
+          {
+            "question": "Why should you buy plot or land in Shadnagar ?",
+            "answer": "Shadnagar is well connected with all parts of Hyderabad city through the Outer Ring Road (ORR). Close proximity to Hyderabad International airport and presence of Shadnagar Railway Station is an added advantage to the locality."
           },
           {
-            "question": "Browse the web",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+            "question": "Is Highways Meadows HDMA approved plot venture ?",
+            "answer": "Yes. Highway Meadows is an open plots venture within the city limits of Hyderabad and our project is approved by HMDA. Our HMDA approval LP number is 000255/2019."
           },
           {
-            "question": "Search on your phone or tablet",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+            "question": "Is Highway Meadows a RERA approved plot venture ?",
+            "answer": "Yes. Highway Meadows is a RERA approved plot venture in Shadnagar. Our RERA registration number is P2400002011."
           }
         ]
       }
