@@ -47,22 +47,22 @@
         "statsList": [{
             "title": "50 Acers Project",
             "subTitle" :"",
-            "imageURL":"/icons/home.svg"
+            "imageURL":"/icons/acers.svg"
           },
           {
             "title": "625 Plots",
             "subTitle" :"",
-            "imageURL":"/icons/people.svg"
+            "imageURL":"/icons/plots.svg"
           },
             {
             "title": "RERA No - P02400002011",
             "subTitle" :"",
-            "imageURL":"/icons/people.svg"
+            "imageURL":"/icons/RERA.png"
           },
           {
             "title": "LP No - 000255/2019",
             "subTitle" :"",
-            "imageURL":"/icons/map.svg"
+            "imageURL":"/icons/HMDA.png"
           }
         ]
       }
