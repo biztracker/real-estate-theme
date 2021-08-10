@@ -46,22 +46,22 @@
         "imageURL": "/images/mahati/highway-meadows.jpeg",
         "statsList": [{
             "title": "50 Acers Project",
-            "subTitle" :"We introduce to best residency and community",
+            "subTitle" :"",
             "imageURL":"/icons/home.svg"
           },
           {
             "title": "625 Plots",
-            "subTitle" :"We introduce to best residency and community",
+            "subTitle" :"",
             "imageURL":"/icons/people.svg"
           },
             {
             "title": "RERA No - P02400002011",
-            "subTitle" :"We introduce to best residency and community",
+            "subTitle" :"",
             "imageURL":"/icons/people.svg"
           },
           {
             "title": "LP No - 000255/2019",
-            "subTitle" :"We introduce to best residency and community",
+            "subTitle" :"",
             "imageURL":"/icons/map.svg"
           }
         ]
