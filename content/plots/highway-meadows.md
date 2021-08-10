@@ -42,6 +42,7 @@
       "content": {
         "title": "HIGHWAY MEADOWS",
         "caption" :"Open plots at Shadnagar",
+        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
         "imageURL": "/images/mahati/highway-meadows.jpeg",
         "statsList": [{
             "title": "The Perfect residency",
