@@ -149,7 +149,7 @@
       "content": {
         "title": "Construction Updates",
         "imagesList": [
-          "/images/divi-infra/1.jpeg",
+          "/images/mahati/construction updates-hm/1.jpg",
           "/images/divi-infra/2.jpeg",
           "/images/divi-infra/3.jpeg",
           "/images/divi-infra/4.jpeg",
