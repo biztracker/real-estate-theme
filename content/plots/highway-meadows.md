@@ -45,17 +45,22 @@
         "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
         "imageURL": "/images/mahati/highway-meadows.jpeg",
         "statsList": [{
-            "title": "The Perfect residency",
+            "title": "50 Acers Project",
             "subTitle" :"We introduce to best residency and community",
             "imageURL":"/icons/home.svg"
           },
           {
-            "title": "The Perfect residency",
+            "title": "625 Plots",
+            "subTitle" :"We introduce to best residency and community",
+            "imageURL":"/icons/people.svg"
+          },
+            {
+            "title": "RERA No - P02400002011",
             "subTitle" :"We introduce to best residency and community",
             "imageURL":"/icons/people.svg"
           },
           {
-            "title": "The Perfect residency",
+            "title": "LP No - 000255/2019",
             "subTitle" :"We introduce to best residency and community",
             "imageURL":"/icons/map.svg"
           }
