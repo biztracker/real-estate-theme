@@ -41,8 +41,8 @@
       "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "headingText": "Hyderabad",
-        "mainText": "Plots for Sale in Hyderabad",
+        "headingText": "Plots for Sale in Hyderabad",
+        "mainText": "",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
