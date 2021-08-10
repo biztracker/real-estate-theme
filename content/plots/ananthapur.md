@@ -47,18 +47,18 @@
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Residential Plots",
+            "category": "Villa Plots",
             "heading": "GMR Colony",
-            "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
-            "location" :"Ananthapur",
+            "description": "Gated community luxury villa plots with premium amenities.",
+            "location" :"Alamuru Main Road, nanthapur",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony"
           },
           {
             "category": "Apartment",
             "heading": "Orchids",
-            "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
-            "location" :"Ananthapur",
+            "description": "paciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "location" :"Aravind Nagar, Ananthapur",
             "imageURL":"/images/mahati/orchids.jpg",
             "href":"/plots/orchids"
           }
