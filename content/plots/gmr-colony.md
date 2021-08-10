@@ -53,9 +53,9 @@
             "imageURL":"/icons/people.svg"
           },
           {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/map.svg"
+            "title": "AHUDA Approved",
+            "subTitle" :"",
+            "imageURL":"/icons/ahuda.png"
           }
         ]
       }
