@@ -94,12 +94,11 @@
       "content": {
         "title": "Construction updates",
         "imagesList": [
-          "/images/divi-infra/1.jpeg",
-          "/images/divi-infra/2.jpeg",
-          "/images/divi-infra/3.jpeg",
-          "/images/divi-infra/4.jpeg",
-          "/images/divi-infra/5.jpeg",
-          "/images/divi-infra/6.jpeg"
+          "/images/mahati/gmr_colony-1.jpg",
+          "/images/mahati/gmr_colony-2.jpg",
+          "/images/mahati/gmr_colony-3.jpg",
+          "/images/mahati/gmr_colony-4.jpg",
+          
         ]
       }
     },
