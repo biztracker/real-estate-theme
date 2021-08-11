@@ -114,7 +114,7 @@
         "title": "Location advantages",
         "subTitle": "best location with many positives",
         "caption": "Location",
-        "imageURL": "/images/mahati/location-map.png",
+        "imageURL": "/images/mahati/gmr-location-map.png",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
         "leftList": [
