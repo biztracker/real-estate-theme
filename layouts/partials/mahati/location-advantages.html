@@ -4,21 +4,22 @@
 {{$imageCropStyle:= "object-cover"}}
 
 <div class="flex flex-col md:flex-row justify-between" style="background-color:#F2F6F7">
-    <div class="mx-8 md:pl-4">
+    <div class="mx-8 md:pl-4 w-full md:w-3/7">
         <div class="mt-14 flex flex-col my-2">
         <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
         <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
         <h4 class=" text-xs font-extralight">{{.content.subTitle}}</h4>
-    </div>
+        </div>
 
-    <div class="flex flex-row">
+    <div class="flex flex-row pb-8">
         <div class="flex flex-col pr-4">
             {{range .content.leftList}}
                 <div class="flex flex-row space-x-2 mt-4 items-center">
-                    <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="30" height="30"
-                        viewBox="0 0 172 172"
-                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M85.87906,6.88c-0.72811,0.02595 -1.42917,0.28238 -2.00219,0.73234l-79.12,61.92c-0.96771,0.7584 -1.45721,1.97553 -1.28407,3.19276c0.17315,1.21723 0.98263,2.24958 2.12344,2.70805c1.14081,0.45847 2.43956,0.27339 3.40688,-0.4855l4.75687,-3.72219v90.45453c0.00019,1.89978 1.54022,3.43981 3.44,3.44h137.6c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-90.45453l4.75687,3.72219c0.96733,0.75884 2.26605,0.94389 3.40682,0.48541c1.14077,-0.45847 1.95024,-1.4908 2.1234,-2.708c0.17316,-1.2172 -0.3163,-2.43431 -1.28396,-3.19273l-79.12,-61.92c-0.63824,-0.50113 -1.43308,-0.76052 -2.24406,-0.73234zM86,14.68719l65.36,51.14984v92.40297h-130.72v-92.40297zM86,68.8c-18.60696,0 -35.48677,7.45781 -47.88453,19.49781l4.86438,4.85765c11.15248,-10.79472 26.31207,-17.47547 43.02015,-17.47547c16.70808,0 31.86767,6.68075 43.02015,17.47547l4.86438,-4.85765c-12.39776,-12.04 -29.27757,-19.49781 -47.88453,-19.49781zM86,86c-13.86664,0 -26.44248,5.52523 -35.7236,14.45203l4.86438,4.86437c8.0324,-7.68496 18.89146,-12.4364 30.85922,-12.4364c11.96776,0 22.82682,4.75144 30.85922,12.4364l4.86438,-4.86437c-9.28112,-8.9268 -21.85696,-14.45203 -35.7236,-14.45203zM86,103.2c-9.12288,0 -17.4049,3.59265 -23.56937,9.40625l4.86437,4.86438c4.9192,-4.56832 11.481,-7.39063 18.705,-7.39063c7.224,0 13.78924,2.81886 18.705,7.39063l4.85765,-4.85766c-6.16104,-5.81704 -14.43977,-9.41297 -23.56265,-9.41297zM86,120.4c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88z"></path></g></g></svg>
+                    <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#EDB21F" class="bi bi-check-circle" x="0px" y="0px" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+  <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+</svg>
                     </div>
                     <div>
                     <div class="text-xs ">{{.text}}</div>
@@ -31,11 +32,10 @@
         <div class="flex flex-col">
             {{range .content.rightList}}
                 <div class="flex flex-row space-x-2 mt-4 items-center">
-                    <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="30" height="30"
-                        viewBox="0 0 172 172"
-                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M85.87906,6.88c-0.72811,0.02595 -1.42917,0.28238 -2.00219,0.73234l-79.12,61.92c-0.96771,0.7584 -1.45721,1.97553 -1.28407,3.19276c0.17315,1.21723 0.98263,2.24958 2.12344,2.70805c1.14081,0.45847 2.43956,0.27339 3.40688,-0.4855l4.75687,-3.72219v90.45453c0.00019,1.89978 1.54022,3.43981 3.44,3.44h137.6c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-90.45453l4.75687,3.72219c0.96733,0.75884 2.26605,0.94389 3.40682,0.48541c1.14077,-0.45847 1.95024,-1.4908 2.1234,-2.708c0.17316,-1.2172 -0.3163,-2.43431 -1.28396,-3.19273l-79.12,-61.92c-0.63824,-0.50113 -1.43308,-0.76052 -2.24406,-0.73234zM86,14.68719l65.36,51.14984v92.40297h-130.72v-92.40297zM86,68.8c-18.60696,0 -35.48677,7.45781 -47.88453,19.49781l4.86438,4.85765c11.15248,-10.79472 26.31207,-17.47547 43.02015,-17.47547c16.70808,0 31.86767,6.68075 43.02015,17.47547l4.86438,-4.85765c-12.39776,-12.04 -29.27757,-19.49781 -47.88453,-19.49781zM86,86c-13.86664,0 -26.44248,5.52523 -35.7236,14.45203l4.86438,4.86437c8.0324,-7.68496 18.89146,-12.4364 30.85922,-12.4364c11.96776,0 22.82682,4.75144 30.85922,12.4364l4.86438,-4.86437c-9.28112,-8.9268 -21.85696,-14.45203 -35.7236,-14.45203zM86,103.2c-9.12288,0 -17.4049,3.59265 -23.56937,9.40625l4.86437,4.86438c4.9192,-4.56832 11.481,-7.39063 18.705,-7.39063c7.224,0 13.78924,2.81886 18.705,7.39063l4.85765,-4.85766c-6.16104,-5.81704 -14.43977,-9.41297 -23.56265,-9.41297zM86,120.4c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88z"></path></g></g></svg>
-                    </div>
+                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#EDB21F" class="bi bi-check-circle" x="0px" y="0px" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+  <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+</svg></div>
                     <div>
                     <div class="text-xs ">{{.text}}</div>
                 
@@ -43,21 +43,26 @@
                 </div>
             {{end}}
         </div>
+        
       </div>
+      {{if gt .content.actionButton.text 0 }}
+      <a href="{{.content.actionButton.href}}" target="_blank" 
+                class="mt-4 w-48 shadow-sm rounded-sm bg-primary text-white text-center pl-3 pr-3 pt-2 pb-2">{{.content.actionButton.text}}</a>  
+     {{end}}
 
     </div>
-   
-       <div class="w-full lg:hidden my-gallery">
+   {{ $img := imageConfig (add "/static" ($imageURL | safeURL)) }}
+       <div class="w-full md:hidden my-gallery mb-4">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
-            <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
+            <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$img.Width}}x{{$img.Height}}">
                 <img class="lazy {{$imageCropStyle}} object-center h-full w-full"
                     alt="hero" src="/images/preview-load-grey.jpg" data-src="{{$imageURL}}">
             </a>
         </figure>
     </div>
-    <div class="hidden lg:block w-4/7 p-8 my-gallery">
+    <div class="hidden md:block w-4/7 p-8 my-gallery">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
-            <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
+            <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$img.Width}}x{{$img.Height}}">
                 <img class="lazy {{$imageCropStyle}} object-center h-full w-full"
                     alt="hero" src="/images/preview-load-grey.jpg" data-src="{{$imageURL}}">
             </a>

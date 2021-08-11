@@ -52,7 +52,22 @@
             "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
             "location" :"Chatanpalli, Shadnagar, Hyderabad.",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/highway-meadows"          
+            "href":"/plots/highway-meadows",
+            "label":"Fast Selling",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]          
           }
         ]
       }

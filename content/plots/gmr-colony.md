@@ -40,6 +40,7 @@
       "blockType": "",
       "content": {
         "title": "GMR Colony",
+        "subTitle": "GMR colony is a unique luxury villa plot venture located at Alamuru Mani Road, Anathapur, A.P. It is developed to give the essence of nature and comfortable habitat. Equipped with all the luxury amenities, it is bound to be a bench mark for quality real estate in the area and a landmark for residential living.",
         "caption" :"Best plots in Anantapur",
         "imageURL": "/images/mahati/gmr-3.jpeg",
         "statsList": [{
@@ -189,9 +190,9 @@
       }
     },
     {
-      "id": "9",
+      "id": "6",
       "type": "",
-      "divId": "our-projects",
+      "divId": "featured-projects",
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
@@ -200,28 +201,73 @@
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Residential Plots",
-            "heading": "GMR Colony",
-            "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
-            "location" :"Tukkuguda, Hyderabad",
-            "imageURL": "/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
-          },
-          {
-            "category": "Farm Plots",
-            "heading": "Highway Meadows",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
-            "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/h-meadows"          
-          },
-          {
             "category": "Villa Plots",
-            "heading": "Sri County",
-            "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
-            "location" :"On Vijayawada Highway, Hyderabad",
-            "imageURL":"/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "heading": "GMR Colony",
+            "label": "Just Launched",
+            "description": "Gated community luxury villa plots with premium amenities",
+            "location" :"Alamuru Main Road, Ananthapur",
+            "imageURL": "/images/mahati/gmr-3.jpeg",
+            "href":"/plots/gmr-colony",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]
+          },
+          {
+            "category": "Residential Plots",
+            "heading": "Highway Meadows",
+            "label": "Fast Selling",
+            "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad",
+            "imageURL":"/images/mahati/highway-meadows.jpeg",
+            "href":"/plots/highway-meadows",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]        
+          },
+          {
+            "category": "Apartments",
+            "heading": "Orchids",
+            "label": "Nearing Completion",
+            "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "location" :"Aravind Nagar, Ananthapur",
+            "imageURL": "/images/mahati/orchids.jpg",
+            "href":"/plots/orchids",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]
           }
         ]
       }

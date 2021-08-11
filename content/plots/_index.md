@@ -25,27 +25,11 @@
           },
           {
             "text": "Projects in Hyderabad",
-            "target": "_blank",
-            "subNavList": [
-              {
-                "text": "Highway Meadows",
-                "href": "/plots/highway-meadows"
-              },
-              {
-                "text": "Orchids",
-                "href": "/plots/highway-meadows"
-              }
-            ]
+            "href": "/plots/hyderabad"
           },
           {
             "text": "Projects in Ananthapur",
-            "target": "_blank",
-            "subNavList": [
-              {
-                "text": "GMR Colony",
-                "href": "/plots/gmr-colony"
-              }
-            ]
+            "href": "/plots/ananthapur"
           }
         ]
       }
@@ -68,7 +52,22 @@
             "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
             "location" :"Ananthapur",
             "imageURL": "/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "href":"/plots/gmr-colony",
+            "label":"Just Launched",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ] 
           },
           {
             "category": "Farm Plots",
@@ -76,7 +75,22 @@
             "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
             "location" :"Maheshwaram, Hyderabad",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/highway-meadows"          
+            "href":"/plots/highway-meadows",
+            "label":"Fast Selling",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]        
           },
           {
             "category": "Apartment",
@@ -84,7 +98,22 @@
             "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
             "location" :"Ananthapur",
             "imageURL":"/images/mahati/gmr-3.jpeg",
-            "href":"/plots/orchids"
+            "href":"/plots/orchids",
+            "label":"Nearing Completion",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]
           }
         ]
       }

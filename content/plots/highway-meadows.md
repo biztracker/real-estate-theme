@@ -42,7 +42,7 @@
       "content": {
         "title": "HIGHWAY MEADOWS",
         "caption" :"Open plots at Shadnagar",
-        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
+        "subTitle":"Highway Meadows - a gated community open plot venture located at Shadnagar, Hyderabad - is the flagship project of Mahathi Infra Developers.Situated amid open green areas along ORR and near to the IT Hub and Airport, the venture is designed with global best standards. It is thoughtfully provided with everything you could possibly need - making it a living, dynamic eco-system.",
         "imageURL": "/images/mahati/highway-meadows.jpeg",
         "statsList": [{
             "title": "50 Acers Project",
@@ -57,12 +57,12 @@
             {
             "title": "RERA No - P02400002011",
             "subTitle" :"",
-            "imageURL":"/images/mahati/icons/rera.png"
+            "imageURL":"/images/mahati/icons/RERA.png"
           },
           {
             "title": "LP No - 000255/2019",
             "subTitle" :"",
-            "imageURL":"/images/mahati/icons/hmda.png"
+            "imageURL":"/images/mahati/icons/HMDA.png"
           }
         ]
       }
@@ -111,53 +111,6 @@
       }
     },
     {
-      "id": "7",
-      "type": "",
-      "divId": "faq",
-      "partialRelativePath": "mahati/project-facilities.html",
-      "blockType": "",
-      "content": {
-        "title": "Making living spaces Beautiful",
-        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
-        "caption" :"Building Facilities",
-        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
-       "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/home.svg"
-          },
-          {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/people.svg"
-          },
-          {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/map.svg"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5",
-      "type": "",
-      "divId": "gallery",
-      "partialRelativePath": "mahati/gallery.html",
-      "blockType": "",
-      "content": {
-        "title": "Construction Updates",
-        "imagesList": [
-          "/images/mahati/construction updates-hm/1.jpg",
-          "/images/divi-infra/2.jpeg",
-          "/images/divi-infra/3.jpeg",
-          "/images/divi-infra/4.jpeg",
-          "/images/divi-infra/5.jpeg",
-          "/images/divi-infra/6.jpeg"
-        ]
-      }
-    },
-    {
       "id": "6",
       "divId": "location",
       "name": "Location Advantages",
@@ -171,6 +124,10 @@
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
+        "actionButton": {
+          "href": "/",
+          "text": "Download Brochure"
+        },
         "leftList": [
           {
             "text": "15 mins away from"
@@ -193,6 +150,23 @@
             "text": "10 mins away from"
           }
          ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "",
+      "divId": "gallery",
+      "partialRelativePath": "mahati/gallery.html",
+      "blockType": "",
+      "content": {
+        "title": "Construction Updates",
+        "imagesList": [
+          "/images/mahati/construction-updates-hm/1.jpg",
+          "/images/mahati/construction-updates-hm/2.jpg",
+          "/images/mahati/construction-updates-hm/3.jpg",
+          "/images/mahati/construction-updates-hm/4.jpg",
+          "/images/mahati/construction-updates-hm/5.jpg"
+        ]
       }
     },
     {
@@ -220,11 +194,7 @@
           {
             "question": "What is Highway Meadows ?",
             "answer": "Highway Meadows is a gated community plot venture located at Shadnagar, Hyderabad by Mahathi Infra Developers. It is one of the best plots in Shadnagar, the epitome of balance between serenity and accessibility. Loaded with premium amenities, it is the best option for investment in Shadnagar."
-          },
-             {
-            "question": "What is Highway Meadows ?",
-            "answer": "Highway Meadows is a gated community plot venture located at Shadnagar, Hyderabad by Mahathi Infra Developers. It is one of the best plots in Shadnagar, the epitome of balance between serenity and accessibility. Loaded with premium amenities, it is the best option for investment in Shadnagar."
-          },   
+          }, 
           {
             "question": "Where is Highway Meadows Located ?",
             "answer": "Highway Meadows is located at Chatanpalli Village, Shadnagar, Hyderabad. It is 5 kms before Shadnagar Village, when travelling from Hyderabad, falling under HMDA limits."
@@ -264,9 +234,9 @@
       }
     },
     {
-      "id": "9",
+      "id": "6",
       "type": "",
-      "divId": "our-projects",
+      "divId": "featured-projects",
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
@@ -275,28 +245,73 @@
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Residential Plots",
-            "heading": "GMR Colony",
-            "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
-            "location" :"Tukkuguda, Hyderabad",
-            "imageURL": "/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
-          },
-          {
-            "category": "Farm Plots",
-            "heading": "Highway Meadows",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
-            "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/h-meadows"          
-          },
-          {
             "category": "Villa Plots",
-            "heading": "Sri County",
-            "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
-            "location" :"On Vijayawada Highway, Hyderabad",
-            "imageURL":"/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "heading": "GMR Colony",
+            "label": "Just Launched",
+            "description": "Gated community luxury villa plots with premium amenities",
+            "location" :"Alamuru Main Road, Ananthapur",
+            "imageURL": "/images/mahati/gmr-3.jpeg",
+            "href":"/plots/gmr-colony",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]
+          },
+          {
+            "category": "Residential Plots",
+            "heading": "Highway Meadows",
+            "label": "Fast Selling",
+            "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad",
+            "imageURL":"/images/mahati/highway-meadows.jpeg",
+            "href":"/plots/highway-meadows",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]        
+          },
+          {
+            "category": "Apartments",
+            "heading": "Orchids",
+            "label": "Nearing Completion",
+            "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "location" :"Aravind Nagar, Ananthapur",
+            "imageURL": "/images/mahati/orchids.jpg",
+            "href":"/plots/orchids",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]
           }
         ]
       }

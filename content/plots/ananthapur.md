@@ -52,7 +52,22 @@
             "description": "Gated community luxury villa plots with premium amenities.",
             "location" :"Alamuru Main Road, Ananthapur.",
             "imageURL": "/images/mahati/gmr-3.jpeg",
-            "href":"/plots/gmr-colony"
+            "href":"/plots/gmr-colony",
+            "label":"Just Launched",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]  
           },
           {
             "category": "Apartments",
@@ -60,7 +75,22 @@
             "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
             "location" :"Aravind Nagar, Ananthapur.",
             "imageURL":"/images/mahati/orchids.jpg",
-            "href":"/plots/orchids"
+            "href":"/plots/orchids",
+            "label":"Nearing Completion",
+            "statsList": [
+              {
+                "topLine" : "2034",
+                "bottomLine": "sft"
+              },
+              {
+                "topLine" : "200",
+                "bottomLine": "plots"
+              },
+              {
+                "topLine" : "50",
+                "bottomLine": "kms"
+              }
+            ]  
           }
         ]
       }
