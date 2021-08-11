@@ -56,16 +56,20 @@
             "label":"Fast Selling",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
-              },
-              {
-                "topLine" : "200",
-                "bottomLine": "plots"
-              },
-              {
                 "topLine" : "50",
-                "bottomLine": "kms"
+                "bottomLine": "Acers"
+              },
+              {
+                "topLine" : "625",
+                "bottomLine": "Plots"
+              },
+                {
+                "topLine" : "HMDA",
+                "bottomLine": "Approved"
+              },
+              {
+                "topLine" : "RERA",
+                "bottomLine": "Approved"
               }
             ]          
           }
