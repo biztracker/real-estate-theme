@@ -3,7 +3,7 @@
   "title": "Highway Meadows",
   "description": "Open plots in Hyderabad | Highway Meadows",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
-  "tagManagerId": "GTM-T34NMKQ",
+  "tagManagerId": "",
   "blocks": [{
       "id": "2",
       "type": "",
