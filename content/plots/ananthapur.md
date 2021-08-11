@@ -56,7 +56,7 @@
             "label":"Just Launched",
             "statsList": [
               {
-                "topLine" : "10.71 ",
+                "topLine" : "10.71",
                 "bottomLine": "Acers"
               },
               {
@@ -87,8 +87,8 @@
                 "bottomLine": "Floors"
               },
               {
-                "topLine" : "No Common",
-                "bottomLine": "Walls"
+                "topLine" : "2 & 3",
+                "bottomLine": "BHK"
               }
             ]  
           }
