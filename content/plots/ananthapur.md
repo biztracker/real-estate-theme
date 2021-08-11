@@ -3,7 +3,7 @@
   "title": "Mahati Infra",
   "description": "Open plots in Ananthapur | Mahati Infra",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
-  "tagManagerId": "GTM-T34NMKQ",
+  "tagManagerId": "",
   "blocks": [{
       "id": "2",
       "type": "",
@@ -42,7 +42,7 @@
       "blockType": "",
       "content": {
         "headingText": "Projects for Sale in Ananthapur",
-        "mainText": "Plots",
+        "mainText": "",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
@@ -56,16 +56,16 @@
             "label":"Just Launched",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
+                "topLine" : "10.71 ",
+                "bottomLine": "Acers"
               },
               {
-                "topLine" : "200",
-                "bottomLine": "plots"
+                "topLine" : "131",
+                "bottomLine": "Plots"
               },
               {
-                "topLine" : "50",
-                "bottomLine": "kms"
+                "topLine" : "AHUDA",
+                "bottomLine": "Approved"
               }
             ]  
           },
@@ -79,16 +79,16 @@
             "label":"Nearing Completion",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
+                "topLine" : "15",
+                "bottomLine": "Flats"
               },
               {
-                "topLine" : "200",
-                "bottomLine": "plots"
+                "topLine" : "5",
+                "bottomLine": "Floors"
               },
               {
-                "topLine" : "50",
-                "bottomLine": "kms"
+                "topLine" : "No Common",
+                "bottomLine": "Walls"
               }
             ]  
           }
