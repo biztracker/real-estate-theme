@@ -118,9 +118,9 @@
       "partialRelativePath": "mahati/location-advantages.html",
       "blockType": "",
       "content": {
-        "title": "Location advantages",
-        "subTitle": "best location with many positives",
-        "caption": "Location",
+        "title": "Our Unique Proposition",
+        "subTitle": "Highway Meadows , with its plethora of features and advantages, has proved to be one of the best open plots venture to invest.While we have planned for all conveniences in the development, the enclave is screened off from the rest of the world in a private oasis of green luxury and it gives you an opportunity to create a legacy for generations to come.",
+        "caption": "Features and Advantages",
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
@@ -130,24 +130,24 @@
         },
         "leftList": [
           {
-            "text": "15 mins away from"
+            "text": "Best Road Connectivity through ORR"
           },
           {
-            "text": "10 mins away from"
+            "text": "Rail Connectivity through Shadnagar Railway Station "
           },
           {
-            "text": "10 mins away from"
+            "text": "In close proximity to Hyderabad International Airport"
           }
          ],
          "rightList": [
           {
-            "text": "15 mins away from"
+            "text": "Close to Natco Pharma, Jhonson&Jhonson, P&G, MSN Labs & NRSC"
           },
           {
-            "text": "10 mins away from"
+            "text": "Close to Symbyosis and Tata Science Universities"
           },
           {
-            "text": "10 mins away from"
+            "text": "Near LV Prasad Eye Institue & DLF Garden City"
           }
          ]
       }
