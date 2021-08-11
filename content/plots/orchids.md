@@ -62,97 +62,12 @@
       }
     },
     {
-      "id": "3",
-      "divId": "about-project",
-      "type": "",
-      "partialRelativePath": "mahati/about-with-images.html",
-      "blockType": "",
-      "content": {
-        "headingText": "Project Features",
-        "statsList": [{
-            "text": "No Common Walls",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Concrete Roads & Led Lighting",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Drinking Water Pipelines",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          },
-          {
-            "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7",
-      "type": "",
-      "divId": "faq",
-      "partialRelativePath": "mahati/project-facilities.html",
-      "blockType": "",
-      "content": {
-        "title": "Making living spaces Beautiful",
-        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
-        "caption" :"Building Facilities",
-        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
-        "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/home.svg"
-          },
-          {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/people.svg"
-          }
-        ]
-      }
-    },
-    {
       "id": "5",
       "type": "",
       "divId": "gallery",
       "partialRelativePath": "mahati/floor-plan.html",
       "blockType": "",
       "content": {
-      }
-    },
-    {
-      "id": "5",
-      "type": "",
-      "divId": "gallery",
-      "partialRelativePath": "mahati/gallery.html",
-      "blockType": "",
-      "content": {
-        "title": "Construction Updates",
-        "imagesList": [
-          "/images/divi-infra/1.jpeg",
-          "/images/divi-infra/2.jpeg",
-          "/images/divi-infra/3.jpeg",
-          "/images/divi-infra/4.jpeg",
-          "/images/divi-infra/5.jpeg",
-          "/images/divi-infra/6.jpeg"
-        ]
       }
     },
     {
