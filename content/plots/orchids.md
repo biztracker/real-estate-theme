@@ -1,9 +1,9 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Highway Meadows",
-  "description": "Open plots in Hyderabad | Highway Meadows",
-  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
-  "tagManagerId": "GTM-T34NMKQ",
+  "title": "Orchids - 2BHK & 3BHK flats in Ananthapur",
+  "description": "2 Bhk and 3 Bhk apartments in Ananthapur",
+  "keywords": "Apartments for sale in Ananthapur,2BHK & 3BHK flats in Ananthapur, 2BHK & 3BHK apartments in Ananthapur, flats for sale in ananthapur ",
+  "tagManagerId": "",
   "blocks": [{
       "id": "2",
       "type": "",
@@ -40,22 +40,22 @@
       "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
-        "title": "HIGHWAY MEADOWS",
-        "caption" :"Open plots at Shadnagar",
+        "title": "Orchids",
+        "caption" :"Apartments in Ananthapur",
         "imageURL": "/images/mahati/orchids.jpg",
         "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
+            "title": "15 Premium Flats in 5 Floor",
+            "subTitle" :"",
             "imageURL":"/icons/home.svg"
           },
           {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
+            "title": "2BHK & 3BHK Configurations",
+            "subTitle" :"",
             "imageURL":"/icons/people.svg"
           },
           {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
+            "title": "Municipal Approval No - 1001/0308/B/ATP/AAIN/2018 ",
+            "subTitle" :"",
             "imageURL":"/icons/map.svg"
           }
         ]
@@ -68,9 +68,9 @@
       "partialRelativePath": "mahati/about-with-images.html",
       "blockType": "",
       "content": {
-        "headingText": "Amenities",
+        "headingText": "Project Features",
         "statsList": [{
-            "text": "Grand Entrance & Compound Wall",
+            "text": "No Common Walls",
             "imageURL":"/images/icons/gate-yellow.svg"
           },
           {
