@@ -3,7 +3,7 @@
   "title": "GMR Colony",
   "description": "Open plots in Hyderabad | GMR Colony",
   "keywords": "Open plots in Hyderabad, HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
-  "tagManagerId": "GTM-T34NMKQ",
+  "tagManagerId": "",
   "blocks": [{
       "id": "2",
       "type": "",
@@ -44,14 +44,14 @@
         "caption" :"Best plots in Anantapur",
         "imageURL": "/images/mahati/gmr-3.jpeg",
         "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/home.svg"
+             "title": "10.71 Acers Project",
+            "subTitle" :"",
+            "imageURL":"/images/mahati/icons/acers.svg"
           },
           {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/people.svg"
+            "title": "131 Plots",
+            "subTitle" :"",
+            "imageURL":"/images/mahati/icons/plots.svg"
           },
           {
             "title": "AHUDA Approved",
