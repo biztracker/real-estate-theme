@@ -39,7 +39,7 @@
       "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
-        "title": "GMR Colony",
+        "title": "GMR COLONY",
         "subTitle": "GMR colony is a unique luxury villa plot venture located at Alamuru Mani Road, Anathapur, A.P. It is developed to give the essence of nature and comfortable habitat. Equipped with all the luxury amenities, it is bound to be a bench mark for quality real estate in the area and a landmark for residential living.",
         "caption" :"Best plots in Anantapur",
         "imageURL": "/images/mahati/gmr-3.jpeg",
@@ -68,9 +68,9 @@
       "partialRelativePath": "mahati/project-details.html",
       "blockType": "",
       "content": {
-        "title": "Features and Amenities",
+        "title": "AMENITIES",
         "subTitle":"GMR colony is a beatifully designed gated community plot venture, provided with all premium amenities.",
-        "caption" :"What we give",
+        "caption" :"What features we give",
         "imageURL": "/images/mahati/gmr-layout.png",
         "actionButton": {
           "href": "/",
@@ -96,7 +96,7 @@
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
-        "title": "Gallery",
+        "title": "GALLERY",
         "imagesList": [
           "/images/mahati/gmr_colony-1.jpg",
           "/images/mahati/gmr_colony-2.jpg",
@@ -108,7 +108,7 @@
     {
       "id": "6",
       "divId": "location",
-      "name": "Location Advantages",
+      "name": "LOCATION ADVANTAGES",
       "type": "",
       "partialRelativePath": "mahati/location-advantages.html",
       "blockType": "",
@@ -168,8 +168,8 @@
       "partialRelativePath": "mahati/faq.html",
       "blockType": "",
       "content": {
-        "caption": "FAQ",
-        "title": "How can we help you ?",
+        "caption": "FAQS",
+        "title": "Answers to the most frequently asked questions",
         "faqs": [
           {
             "question": "Popular articles",
@@ -204,7 +204,7 @@
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
-        "headingText": "Projects for Sale",
+        "headingText": "FEATURED PROJECTS",
         "mainText": "",
         "buttonType": "BORDER",
         "projectList": [
