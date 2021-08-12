@@ -80,7 +80,7 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/footer.html",
+      "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
         "logoURL": "",

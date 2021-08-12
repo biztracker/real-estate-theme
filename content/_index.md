@@ -82,7 +82,11 @@
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
+<<<<<<< HEAD
         "headingText": "PROJECTS FOR SALE",
+=======
+        "headingText": "FEATURED PROJECTS",
+>>>>>>> list pages
         "mainText": "",
         "buttonType": "BORDER",
         "projectList": [
