@@ -41,7 +41,7 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/footer-2.html",
+      "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
         "logoURL": "",

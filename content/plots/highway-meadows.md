@@ -74,7 +74,8 @@
       "partialRelativePath": "mahati/about-with-images.html",
       "blockType": "",
       "content": {
-        "headingText": "Project Amenities",
+        "headingText": "AMENITIES AND FEATURES",
+        "caption" : "Project",
         "statsList": [{
             "text": "Club House",
             "imageURL":"/images/icons/gate-yellow.svg"
@@ -118,9 +119,9 @@
       "partialRelativePath": "mahati/location-advantages.html",
       "blockType": "",
       "content": {
-        "title": "Our Unique Proposition",
+        "title": "LOCATION ADVANTAGES",
         "subTitle": "Highway Meadows , with its plethora of features and advantages, has proved to be one of the best open plots venture to invest.While we have planned for all conveniences in the development, the enclave is screened off from the rest of the world in a private oasis of green luxury and it gives you an opportunity to create a legacy for generations to come.",
-        "caption": "Features and Advantages",
+        "caption": "Our Unique Proposition",
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
@@ -159,7 +160,8 @@
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
-        "title": "Construction Updates",
+        "title": "CONSTRUCTION UPDATES",
+        "caption": "Gallery",
         "imagesList": [
           "/images/mahati/construction-updates-hm/1.jpg",
           "/images/mahati/construction-updates-hm/2.jpg",
@@ -319,7 +321,7 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/footer.html",
+      "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
         "logoURL": "",
