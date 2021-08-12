@@ -12,7 +12,7 @@
   <div class="container py-8 mx-auto">
     <div class="flex flex-col text-center w-full mb-2">
       <h3 class="text-primary text-sm mb-2">Our Projects</h3>
-      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-1 text-gray-900">{{$headingText}}</h1>
+      <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font mb-1">{{$headingText}}</h1>
       <div class="flex justify-center">
         <!-- <div class="w-16 h-1 rounded-full bg-primary inline-flex"> </div> -->
         </div>
@@ -32,7 +32,7 @@
                   <div  style="background-color: #77C720;" class=" absolute top-10 right-10 pr-4 pl-4 pt-1 pb-1 font-thin text-sm bg-green-400 text-white uppercase"> {{.label}}</div>
                   <div class="p-4">
                       <h2 class="tracking-widest text-md title-font font-medium text-primary mb-1">{{.category}}</h2>
-                      <h1 class="title-font text-2xl mt-2 mb-2 font-sans text-gray-900 ">{{.heading}}</h1>
+                      <h1 style="color: #093b52;" class="title-font text-2xl mt-2 mb-2 font-sans ">{{.heading}}</h1>
                       <div class="mb-2 flex flex-row">
                         <div class="mr-2" style="margin-left:-2px">
                           <!-- <img class="pr-1" style="height:22px;padding-top:3px; "  src="/images/icons/location.png"/>                       -->
@@ -48,14 +48,14 @@
                           {{ range $index, $element := .statsList }}
                             {{ if eq $index 0 }}
                               <li class="pl-2 pr-4 overflow-hidden border-solid " >
-                                  <p class="text-sm font-bold">{{.topLine}}</p> 
-                                  <p class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
+                                  <p style="color: #093b52;" class="text-sm font-bold">{{.topLine}}</p> 
+                                  <p style="color: #093b52;" class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                               </li>
                             
                             {{else}}
                              <li class="pl-4 pr-4 overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
-                                  <p class="text-sm font-bold">{{.topLine}}</p> 
-                                  <p class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
+                                  <p style="color: #093b52;" class="text-sm font-bold">{{.topLine}}</p> 
+                                  <p style="color: #093b52;" class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                               </li>
                             {{end}}
                           {{end}}

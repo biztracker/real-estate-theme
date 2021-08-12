@@ -127,11 +127,7 @@
                 "bottomLine": "Plots"
               },
                 {
-                "topLine" : "HMDA",
-                "bottomLine": "Approved"
-              },
-              {
-                "topLine" : "RERA",
+                "topLine" : "HMDA & RERA",
                 "bottomLine": "Approved"
               }
             ]          
