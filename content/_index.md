@@ -69,7 +69,7 @@
       "partialRelativePath": "mahati/about-us.html",
       "blockType": "",
       "content": {
-        "headingText": "Mahathi Group",
+        "headingText": "MAHATHI GROUP",
         "mainText": "Mahathi Infra Developers is built on the pillars of trust, leadership and innovation by the founder Mr Ganesham Muthaya Reddy in the year 2012. We are taking calculated steps and marching towards becoming a leading developer in the telangana state, irrespective of whether it is commercial, retail and residential space our primary focus is on maintaining the highest level of quality in our work.<br/><br/>Our aim is to develop residential and commercial spaces that easily conquer the hearts of buyers through unique aesthetic appeal. By providing top class features and facilities in properties we develop to be successful in attaining leadership position in the real estate industry and overtime to become the preferred brand when it comes to real-estate development.",
         "statsList": [
         ]
@@ -82,7 +82,7 @@
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
-        "headingText": "Projects for Sale",
+        "headingText": "PROJECTS FOR SALE",
         "mainText": "",
         "buttonType": "BORDER",
         "projectList": [
