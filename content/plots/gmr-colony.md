@@ -68,9 +68,9 @@
       "partialRelativePath": "mahati/project-details.html",
       "blockType": "",
       "content": {
-        "title": "Making living spaces Beautiful",
-        "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
-        "caption" :"Building Facilities",
+        "title": "Features and Amenities",
+        "subTitle":"GMR colony is a beatifully designed gated community plot venture, provided with all premium amenities.",
+        "caption" :"What we give",
         "imageURL": "/images/mahati/gmr-layout.png",
         "actionButton": {
           "href": "/",
@@ -113,32 +113,38 @@
       "partialRelativePath": "mahati/location-advantages.html",
       "blockType": "",
       "content": {
-        "title": "Location advantages",
-        "subTitle": "best location with many positives",
-        "caption": "Location",
+        "title": "Location Advantages",
+        "subTitle": "GMR Colony is located at the most sought after location in Ananthapur.",
+        "caption": "Where we are ",
         "imageURL": "/images/mahati/gmr-location-map.png",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
         "leftList": [
           {
-            "text": "15 mins away from"
+            "text": "5 Minutes drive to the city center"
           },
           {
-            "text": "10 mins away from"
+            "text": "4 Kms to Ananthapur Flyover"
+          },
+           {
+            "text": "Near to AP State Township"
           },
           {
-            "text": "10 mins away from"
+            "text": "7 Minutes drive to Saveera Hospital"
           }
          ],
          "rightList": [
           {
-            "text": "15 mins away from"
+            "text": "2 Mins to Satya Sai and Amaravathi Junior College"
           },
           {
-            "text": "10 mins away from"
+            "text": "2 Mins to PVKK College"
           },
           {
-            "text": "10 mins away from"
+            "text": "Near Good Children School"
+          },
+          {
+            "text": "Property right next to Indian Oil Petrol Pump"
           }
          ]
       }
