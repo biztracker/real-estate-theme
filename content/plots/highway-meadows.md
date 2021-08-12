@@ -190,7 +190,7 @@
       "partialRelativePath": "mahati/faq.html",
       "blockType": "",
       "content": {
-        "caption": "FAQ",
+        "caption": "FAQs",
         "title": "Find answers to the most frequently asked questions about our project",
         "faqs": [
           {
