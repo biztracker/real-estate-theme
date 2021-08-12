@@ -96,7 +96,7 @@
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
-        "title": "Construction updates",
+        "title": "Gallery",
         "imagesList": [
           "/images/mahati/gmr_colony-1.jpg",
           "/images/mahati/gmr_colony-2.jpg",
@@ -121,7 +121,7 @@
         "imageDataSize": "792x942",
         "leftList": [
           {
-            "text": "5 Minutes drive to the city center"
+            "text": "5 Mins drive to the city center"
           },
           {
             "text": "4 Kms to Ananthapur Flyover"
@@ -130,7 +130,7 @@
             "text": "Near to AP State Township"
           },
           {
-            "text": "7 Minutes drive to Saveera Hospital"
+            "text": "7 Mins drive to Saveera Hospital"
           }
          ],
          "rightList": [
