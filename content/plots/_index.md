@@ -47,73 +47,77 @@
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Residential Plots",
+            "category": "Villa Plots",
             "heading": "GMR Colony",
-            "description": "Best plots near srisailam highway, hmda and Rera approved layouts.",
-            "location" :"Ananthapur",
+            "description": "Gated community luxury villa plots with premium amenities.",
+            "location" :"Alamuru Main Road, Ananthapur.",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony",
             "label":"Just Launched",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
+                "topLine" : "10.71",
+                "bottomLine": "Acers"
               },
               {
-                "topLine" : "200",
-                "bottomLine": "plots"
+                "topLine" : "131",
+                "bottomLine": "Plots"
               },
               {
-                "topLine" : "50",
-                "bottomLine": "kms"
+                "topLine" : "AHUDA",
+                "bottomLine": "Approved"
               }
-            ] 
+            ]  
           },
           {
-            "category": "Farm Plots",
+            "category": "Residential Plots",
             "heading": "Highway Meadows",
-            "description": "Snuggled between lush greenery and vast open land gives you a chance to stay close to nature.",
-            "location" :"Maheshwaram, Hyderabad",
+            "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad.",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows",
             "label":"Fast Selling",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
-              },
-              {
-                "topLine" : "200",
-                "bottomLine": "plots"
-              },
-              {
                 "topLine" : "50",
-                "bottomLine": "kms"
+                "bottomLine": "Acers"
+              },
+              {
+                "topLine" : "625",
+                "bottomLine": "Plots"
+              },
+                {
+                "topLine" : "HMDA",
+                "bottomLine": "Approved"
+              },
+              {
+                "topLine" : "RERA",
+                "bottomLine": "Approved"
               }
-            ]        
+            ]          
           },
           {
-            "category": "Apartment",
+            "category": "Apartments",
             "heading": "Orchids",
-            "description": "Premium gated community plot venture located at Taramathipet, Abdullapurmet Mandal",
-            "location" :"Ananthapur",
-            "imageURL":"/images/mahati/gmr-3.jpeg",
+            "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "location" :"Aravind Nagar, Ananthapur.",
+            "imageURL":"/images/mahati/orchids.jpg",
             "href":"/plots/orchids",
             "label":"Nearing Completion",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
+                "topLine" : "15",
+                "bottomLine": "Flats"
               },
               {
-                "topLine" : "200",
-                "bottomLine": "plots"
+                "topLine" : "5",
+                "bottomLine": "Floors"
               },
               {
-                "topLine" : "50",
-                "bottomLine": "kms"
+                "topLine" : "2 & 3",
+                "bottomLine": "BHK"
               }
-            ]
+            ]  
           }
         ]
       }

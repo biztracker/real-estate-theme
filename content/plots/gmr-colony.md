@@ -72,6 +72,10 @@
         "subTitle":"Over 1200 acres and 40 individual houses with community facilies including club house",
         "caption" :"Building Facilities",
         "imageURL": "/images/mahati/gmr-layout.png",
+        "actionButton": {
+          "href": "/",
+          "text": "Download Brochure"
+        },
         "statsList": [{
             "title": "The Perfect residency",
             "subTitle" :"We introduce to best residency and community",
@@ -97,8 +101,7 @@
           "/images/mahati/gmr_colony-1.jpg",
           "/images/mahati/gmr_colony-2.jpg",
           "/images/mahati/gmr_colony-3.jpg",
-          "/images/mahati/gmr_colony-4.jpg",
-          
+          "/images/mahati/gmr_colony-4.jpg"
         ]
       }
     },
@@ -147,7 +150,7 @@
       "partialRelativePath": "mahati/map-with-contact-us.html",
       "blockType": "",
       "content": {
-        "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=Divi+E+City+Elite&ie=UTF8&t=&z=14&iwloc=B&output=embed",
+        "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=14.644833,77.552778&ie=UTF8&t=&z=14&iwloc=B&output=embed",
         "biztrackerIntegrationKey": "27f148fd-15f3-4639-aeec-b0919fb1daa7",
         "formId" : "biztrackerContactForm"
       }
@@ -184,8 +187,8 @@
       "partialRelativePath": "whatsapp.html",
       "blockType": "",
       "content": {
-        "phoneNumber":"917989089368",
-        "welcomeMessage":"Hi, I want to know more information about e-city elite"
+        "phoneNumber":"919392183377",
+        "welcomeMessage":"Hi, I want to know more information about GMR Colony"
       }
     },
     {

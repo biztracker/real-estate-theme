@@ -47,13 +47,13 @@
                       <ul class="flex mb-3 border-solid">
                           {{ range $index, $element := .statsList }}
                             {{ if eq $index 0 }}
-                              <li class="pl-2 w-20 overflow-hidden border-solid " >
+                              <li class="pl-2 pr-4 overflow-hidden border-solid " >
                                   <p class="text-sm font-bold">{{.topLine}}</p> 
                                   <p class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                               </li>
                             
                             {{else}}
-                             <li class="pl-6 pr-2 w-20  overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
+                             <li class="pl-4 pr-4 overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
                                   <p class="text-sm font-bold">{{.topLine}}</p> 
                                   <p class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                               </li>

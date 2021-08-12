@@ -1,22 +1,13 @@
-{{$mainText := "Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."}}
-{{$headingText := "About Our Project"}}
 {{$buttonType := .content.buttonType}}
 {{$borderColor := "border-gray-200"}}
-{{ if isset .content "mainText" }}
-  {{ $mainText = .content.mainText  }}
-{{ end }}
-{{ if isset .content "headingText" }}
-  {{ $headingText = .content.headingText  }}
-{{ end }}
-{{ if isset .content "borderColor" }}
-  {{ $borderColor = .content.borderColor  }}
-{{ end }}
+
 
 <section id="{{.block.divId}}" class="text-gray-600 body-font">
   <div class="container py-8 mx-auto">
     <div class="flex flex-col text-center w-full mb-10">
-      <h1 class="text-primary text-sm mb-2">{{$headingText}}</h1>
-      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-1 text-gray-900">{{$mainText}}</h1>
+      <h1 class="text-primary text-sm mb-2">{{.content.caption}}</h1>
+      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-1 text-gray-900">{{.content.title}}</h1>
+      <h3 class="sm:text-md text-md title-font mb-1 text-gray-900">{{.content.subTitle}}</h3>
     </div>
 
     {{ range .content.projectList  }}
@@ -49,13 +40,13 @@
                          <ul class="flex mb-3 mt-4 border-solid">
                             {{ range $index, $element := .statsList }}
                               {{ if eq $index 0 }}
-                                <li class="pl-2 w-18 overflow-hidden border-solid " >
+                                <li class="pl-2 pr-4 overflow-hidden border-solid " >
                                     <p class="text-sm font-bold">{{.topLine}}</p> 
                                     <p class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                                 </li>
                               
                               {{else}}
-                              <li class="pl-6 pr-2 w-20  overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
+                              <li class="pl-6 pr-4  overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
                                     <p class="text-sm font-bold">{{.topLine}}</p> 
                                     <p class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                                 </li>

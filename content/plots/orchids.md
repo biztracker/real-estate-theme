@@ -127,8 +127,8 @@
       "partialRelativePath": "whatsapp.html",
       "blockType": "",
       "content": {
-        "phoneNumber":"917989089368",
-        "welcomeMessage":"Hi, I want to know more information about highway meadows"
+        "phoneNumber":"919391756322",
+        "welcomeMessage":"Hi, I want to know more information about orchids apartments"
       }
     },
     {
