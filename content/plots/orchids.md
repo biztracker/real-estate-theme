@@ -40,7 +40,7 @@
       "partialRelativePath": "mahati/content-with-icons-left.html",
       "blockType": "",
       "content": {
-        "title": "Orchids",
+        "title": "ORCHIDS",
         "caption" :"Apartments in Ananthapur",
         "imageURL": "/images/mahati/orchids.jpg",
         "statsList": [{
@@ -78,7 +78,7 @@
       "partialRelativePath": "mahati/location-advantages.html",
       "blockType": "",
       "content": {
-        "title": "Location advantages",
+        "title": "LOCATION ADVANTAGES",
         "subTitle": "best location with many positives",
         "caption": "Location",
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
@@ -138,7 +138,7 @@
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
-        "headingText": "Projects for Sale",
+        "headingText": "FEATURED PROJECTS",
         "mainText": "",
         "buttonType": "BORDER",
         "projectList": [
