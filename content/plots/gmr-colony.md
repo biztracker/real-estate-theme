@@ -78,17 +78,26 @@
           "href": "/",
           "text": "Download Brochure"
         },
-        "statsList": [{
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/home.svg"
+        "leftList": [
+          {
+            "imageURL": "/icons/map.svg",
+            "text": "Smart Home"
           },
           {
-            "title": "The Perfect residency",
-            "subTitle" :"We introduce to best residency and community",
-            "imageURL":"/icons/people.svg"
+            "imageURL": "/icons/map.svg",
+            "text": "Good Lifestyle"
           }
-        ]
+         ],
+         "rightList": [
+            {
+              "imageURL": "/icons/map.svg",
+              "text": "Good Ventilation"
+            },
+            {
+              "imageURL": "/icons/map.svg",
+              "text": "24 x 7 security"
+            }
+         ]
       }
     },
     {
