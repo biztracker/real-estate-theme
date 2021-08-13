@@ -126,7 +126,7 @@
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
         "actionButton": {
-          "href": "/",
+          "href": "/images/mahati/hm-brochure.pdf",
           "text": "Download Brochure"
         },
         "leftList": [
