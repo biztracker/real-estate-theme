@@ -3,7 +3,7 @@
 {{$imageDataSize:= "600x400"}}
 {{$imageCropStyle:= "object-cover"}}
 
-<div class="flex flex-col md:flex-row justify-between" style="background-color:#F2F6F7" >
+<div class="flex flex-col md:flex-row justify-between py-4" style="background-color:#F2F6F7" >
     <div class="w-full lg:hidden my-gallery">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
             <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
@@ -21,10 +21,10 @@
         </figure>
     </div>
     <div class="mx-8 md:mx-0 md:mr-8">
-        <div class="mt-14 flex flex-col my-2">
+        <div class="mt-10 flex flex-col">
         <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
-        <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
-        <h4 class=" text-xs font-extralight">{{.content.subTitle}}</h4>
+        <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4">{{.content.title}}</h1>
+        <h4 class=" text-md text-gray-600">{{.content.subTitle}}</h4>
     </div>
     <div class="flex flex-row space-x-8">
         <div class="flex flex-row space-x-2 mt-4 items-center">
@@ -73,10 +73,10 @@
     
     </div>
 
-        <div class="bg-orange-100 my-8 h-10 border-l-2 items-center pt-3 pl-2 justify-center text-xs text-gray-600 border-primary">Our mission is to deliver expection service </div>
+    <div class="bg-orange-100 my-8 h-10 border-l-2 items-center pt-3 pl-2 justify-center text-xs text-gray-600 border-primary">Our mission is to deliver expection service </div>
     
     <a href="" target="_blank" 
-                class="mt-4 w-48 shadow-sm rounded-sm bg-primary text-white text-center pl-3 pr-3 pt-2 pb-2">Download Brochure</a>  
+                class="mt-4 w-48 shadow-sm rounded-sm bg-primary text-white text-center pl-3 pr-3 pt-2 pb-2 mb-4">Download Brochure</a>  
 
     </div>
    

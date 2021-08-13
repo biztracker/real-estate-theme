@@ -43,6 +43,8 @@
         "subTitle": "GMR colony is a unique luxury villa plot venture located at Alamuru Mani Road, Anathapur, A.P. It is developed to give the essence of nature and comfortable habitat. Equipped with all the luxury amenities, it is bound to be a bench mark for quality real estate in the area and a landmark for residential living.",
         "caption" :"Best plots in Anantapur",
         "imageURL": "/images/mahati/gmr-3.jpeg",
+        "logoURL": "/images/mahati/gmr-project-logo-crop.jpg",
+        "logoHeight": "110px",
         "statsList": [{
              "title": "10.71 Acers Project",
             "subTitle" :"",
@@ -283,7 +285,7 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/footer.html",
+      "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
         "logoURL": "",

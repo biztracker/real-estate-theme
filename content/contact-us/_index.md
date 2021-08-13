@@ -14,6 +14,10 @@
         "showLogoAs":"VERTICAL",
         "brandlogoURL": "/images/mahati/logo.png",
         "showEmailPhoneOnMobile": false,
+        "actionButton": {
+            "text": "Contact us",
+            "href": "#contact-us"
+        },
         "navBarlist": [
           {
             "text": "Home",
