@@ -1,56 +1,57 @@
 
-<div class="flex flex-row bg-white justify-between">
-   
-       
-    <div class="">
-        
+<div class="flex flex-row bg-white justify-between">    
+    <div x-data="{ tab: '2-Bed'}" class=""> 
         <div class="text-center items-center justify-center mt-8 mb-4">
-            <h3 class="text-primary  text-sm">Appartment sketch</h3>
-            <h1 class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">Appartment Plan</h1>
+            <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
+            <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4 ">{{.content.title}}</h1>
             <div class=" justify-evenly text-xl space-x-14 mt-12 mb-12">
-                <button>Floor</button>
-                <button class="border-b-2 border-primary text-primary">2-Bed</button>
-                <button>3-Bed</button>
-                <button>Plot</button>
-                <button>Building</button>
-            </div>
-          </div>
-         
-
-        <div class="flex flex-row justify-evenly items-center">
-        <div class=" w-5/12 flex flex-col items-center">
-           <!-- mt-8  ml-60  my-2 , pt-14 pb-14 pl-6 pr-6 -->
-        <div style="background-color: #F2F6F7;" class=" p-8 items-center">
-        <div class="text-black font-semibold mb-4 items-center text-3xl">Delux Portion</div>
-        <div style="font: #687C87;" class="text-sm items-center font-thin text-gray-500">Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna aliqua. sed ayd minim veniam.</div>
-        
-        <div class="flex flex-row justify-between">
-            <div class="flex flex-col space-y-6 mt-4 items-start">
-                <div>Total Area  </div>
-                <div>Bedroom Area</div>
-                <div>Bathroom Area   </div>
-                <div>Balcony Area  </div>
-                <div>Kitchen Area </div>
-                <div>Total Area </div>
-            </div>
-            
-            <div class="flex flex-col space-y-6 mt-4 items-start">
-                <div>2300 sqft </div>
-                <div>900 sqft</div>
-                <div>400sqft</div>
-                <div>1200sqft</div>
-                <div>300 sqft</div>
-                <div>700sqft</div>
+                {{range .content.floorPlans}}
+                <button 
+                    class="focus:outline-none"
+                    @click.prevent="tab = '{{.name}}'"
+                    :class="{ 'border-b-2 border-primary text-primary': tab === '{{.name}}' }" 
+                    >{{.name}}</button>
+                {{end}}
             </div>
         </div>
         
-       
-    </div>
-       
-        </div>
-        <div class="h-50 mr-40 w-2/6"><img src = "/images/mahati/sketch.png"/></div>
-    </div>
-    </div>
+        {{range .content.floorPlans}}
+        <div x-show="tab === '{{.name}}'" class="flex flex-col md:flex-row justify-evenly items-center">
+            <div style="background-color: #F2F6F7;" class="w-full md:w-1/2 flex flex-col mx-10">
+                <!-- mt-8  ml-60  my-2 , pt-14 pb-14 pl-6 pr-6 -->
+                <div  class=" p-8 items-center">
+                <div class="text-black font-semibold mb-4 items-center text-3xl">{{.title}}</div>
+                <div style="font: #687C87;" class="text-sm items-center font-thin text-gray-500">{{.subTitle}}</div>
+                
+                <div class="flex flex-row justify-between">
+                    <div class="flex flex-col space-y-6 mt-4 items-start">
+                        {{range .leftList}}
+                            <div>{{.text}}</div>
+                        {{end}}
+                    </div>
+                    
+                    <div class="flex flex-col space-y-6 mt-4 items-start">
+                        {{range .rightList}}
+                            <div>{{.text}}</div>
+                        {{end}}
+                    </div>
+                </div>
 
+                </div>
+        
+            </div>
+
+   {{ $img := imageConfig (add "/static" (.imageURL | safeURL)) }}
+            <div class="w-full mx-10 md:w-1/2 my-gallery">
+                <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
+            <a href="{{.imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$img.Width}}x{{$img.Height}}">
+                <img class="lazy object-center h-full w-full"
+                    alt="hero" src="/images/preview-load-grey.jpg" data-src="{{.imageURL}}">
+            </a>
+        </figure>
+            </div>
+        </div>
+        {{end}}
+  </div>
 </div>
 

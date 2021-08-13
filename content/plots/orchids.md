@@ -68,6 +68,66 @@
       "partialRelativePath": "mahati/floor-plan.html",
       "blockType": "",
       "content": {
+        "title" :"Floor Plans",
+        "caption" : "Floor Plan",
+        "floorPlans" :[
+          {
+            "name": "2-Bed",
+            "title": "Two bedroom",
+            "subTitle": "Subtitle goes here ",
+            "imageURL": "/images/mahati/sketch.png",
+            "leftList": [
+              {
+                "text": "Bedroom Area"
+              },
+              {
+                "text": "Bedroom Area"
+              },
+              {
+                "text": "Bedroom Area"
+              }
+            ],
+            "rightList": [
+              {
+                "text": "900 sqft"
+              },
+              {
+                "text": "700 sqft"
+              },
+              {
+                "text": "2500 sqft"
+              }
+            ]
+          },
+          {
+            "name": "3-Bed",
+            "title": "Three bedroom",
+            "subTitle": "Subtitle goes here ",
+            "imageURL": "/images/mahati/sketch.png",
+            "leftList": [
+              {
+                "text": "Bedroom Area"
+              },
+              {
+                "text": "Bedroom Area"
+              },
+              {
+                "text": "Bedroom Area"
+              }
+            ],
+            "rightList": [
+              {
+                "text": "900 sqft"
+              },
+              {
+                "text": "700 sqft"
+              },
+              {
+                "text": "2500 sqft"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -145,71 +205,71 @@
           {
             "category": "Villa Plots",
             "heading": "GMR Colony",
-            "label": "Just Launched",
-            "description": "Gated community luxury villa plots with premium amenities",
-            "location" :"Alamuru Main Road, Ananthapur",
+            "description": "Gated community luxury villa plots with premium amenities.",
+            "location" :"Alamuru Main Road, Ananthapur.",
             "imageURL": "/images/mahati/gmr-3.jpeg",
             "href":"/plots/gmr-colony",
+            "label":"Just Launched",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
+                "topLine" : "10.71",
+                "bottomLine": "Acers"
               },
               {
-                "topLine" : "200",
-                "bottomLine": "plots"
+                "topLine" : "131",
+                "bottomLine": "Plots"
               },
               {
-                "topLine" : "50",
-                "bottomLine": "kms"
+                "topLine" : "AHUDA",
+                "bottomLine": "Approved"
               }
-            ]
+            ]  
           },
           {
             "category": "Residential Plots",
             "heading": "Highway Meadows",
-            "label": "Fast Selling",
             "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
-            "location" :"Chatanpalli, Shadnagar, Hyderabad",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad.",
             "imageURL":"/images/mahati/highway-meadows.jpeg",
             "href":"/plots/highway-meadows",
+            "label":"Fast Selling",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
-              },
-              {
-                "topLine" : "200",
-                "bottomLine": "plots"
-              },
-              {
                 "topLine" : "50",
-                "bottomLine": "kms"
+                "bottomLine": "Acers"
+              },
+              {
+                "topLine" : "625",
+                "bottomLine": "Plots"
+              },
+                {
+                "topLine" : "HMDA & RERA",
+                "bottomLine": "Approved"
               }
-            ]        
+            ]          
           },
           {
             "category": "Apartments",
             "heading": "Orchids",
-            "label": "Nearing Completion",
             "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
-            "location" :"Aravind Nagar, Ananthapur",
-            "imageURL": "/images/mahati/orchids.jpg",
+            "location" :"Aravind Nagar, Ananthapur.",
+            "imageURL":"/images/mahati/orchids.jpg",
             "href":"/plots/orchids",
+            "label":"Nearing Completion",
             "statsList": [
               {
-                "topLine" : "2034",
-                "bottomLine": "sft"
+                "topLine" : "15",
+                "bottomLine": "Flats"
               },
               {
-                "topLine" : "200",
-                "bottomLine": "plots"
+                "topLine" : "5",
+                "bottomLine": "Floors"
               },
               {
-                "topLine" : "50",
-                "bottomLine": "kms"
+                "topLine" : "2 & 3",
+                "bottomLine": "BHK"
               }
-            ]
+            ]  
           }
         ]
       }
@@ -217,7 +277,7 @@
     {
       "id": "6",
       "type": "",
-      "partialRelativePath": "mahati/footer.html",
+      "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
         "logoURL": "",
