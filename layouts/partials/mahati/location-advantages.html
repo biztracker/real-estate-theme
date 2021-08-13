@@ -12,15 +12,15 @@
 
 
 <div class="flex flex-col md:flex-row justify-between" style="background-color:#F2F6F7">
-    <div class="px-8 mb-6 md:pl-6 w-full md:w-2/5">
+    <div class="px-8 mb-6 md:pl-6 w-full md:w-3/6">
         <div class="mt-14 flex flex-col my-2">
-        <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
-        <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
-        <h4 class="font-nunito text-md text-gray-600 ">{{.content.subTitle}}</h4>
+            <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
+            <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4 text-gray-900">{{.content.title}}</h1>
+            <h4 class="font-nunito text-md text-gray-600 ">{{.content.subTitle}}</h4>
         </div>
 
     <div class="flex flex-row pb-8">
-        <div class="flex flex-col pr-4">
+        <div class="flex flex-col ">
             {{range .content.leftList}}
                 <div class="flex flex-row space-x-2 mt-4 items-center">
                     <div>
@@ -37,7 +37,7 @@
             {{end}}
         </div>
 
-        <div class="flex flex-col">
+        <div class="flex flex-col pl-4">
             {{range .content.rightList}}
                 <div class="flex flex-row space-x-2 mt-4 items-center">
                     <div> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#EDB21F" class="bi bi-check-circle" x="0px" y="0px" viewBox="0 0 16 16">
@@ -68,7 +68,7 @@
             </a>
         </figure>
     </div>
-    <div class="hidden md:block w-3/5 p-8 my-gallery">
+    <div class="hidden md:block w-3/6 p-8 my-gallery">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
             <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$img.Width}}x{{$img.Height}}">
                 <img class="lazy {{$imageCropStyle}} object-center h-full w-full"

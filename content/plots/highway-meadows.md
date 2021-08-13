@@ -44,7 +44,7 @@
         "caption" :"Open plots at Shadnagar",
         "subTitle":"Highway Meadows - a gated community open plot venture located at Shadnagar, Hyderabad - is the flagship project of Mahathi Infra Developers.Situated amid open green areas along ORR and near to the IT Hub and Airport, the venture is designed with global best standards. It is thoughtfully provided with everything you could possibly need - making it a living, dynamic eco-system.",
         "logoURL": "/images/mahati/hm-logo.jpg",
-        "logoHeight": "110px",
+        "logoHeight": "100px",
         "imageURL": "/images/mahati/highway-meadows.jpeg",
         "statsList": [{
             "title": "50 Acers Project",
