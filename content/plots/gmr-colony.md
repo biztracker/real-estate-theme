@@ -115,7 +115,7 @@
       "partialRelativePath": "mahati/location-advantages.html",
       "blockType": "",
       "content": {
-        "title": "Location Advantages",
+        "title": "LOCATION ADVANTAGES",
         "subTitle": "GMR Colony is located at the most sought after location in Ananthapur.",
         "caption": "Where we are ",
         "imageURL": "/images/mahati/gmr-location-map.png",
