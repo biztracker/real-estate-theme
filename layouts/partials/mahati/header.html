@@ -15,7 +15,7 @@
 
 <!-- TODO: some changes have been made for vertical logos. 
 make it configuratioble and merge to mainline !-->
-<div id="{{.block.divId}}" class="bg-white z-10">
+<div id="{{.block.divId}}" class="bg-white z-10 shadow-sm sticky-header">
     <div class="max-w-7xl mx-auto">
       <div class="z-10 pb-4 bg-white sm:pb-4 md:pb-4 lg:w-full lg:pb-4 xl:pb-4">
       {{if eq .content.showEmailPhoneOnMobile true}}
@@ -46,7 +46,7 @@ make it configuratioble and merge to mainline !-->
                   {{if eq $showBrandAs "TEXT"}}
                     <span class="font-bold text-primary ">{{$brandText}}</span>
                   {{else}}
-                      <img class="h-24 md:h-20 w-auto" style="overflow:visible;object-fit:contain" src="{{$brandlogoURL}}">
+                      <img style="height:110px; margin-top:20px" class="w-auto p-1 bg-white" style="overflow:visible;object-fit:contain" src="{{$brandlogoURL}}">
                   {{end}}
                 </a>
               </div>
@@ -174,7 +174,7 @@ make it configuratioble and merge to mainline !-->
                 <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Company</a>
               
               {{end}}
-              <a  onClick="toggleMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Contact us</a>
+              <a  href="{{.content.actionButton.href}}" onClick="toggleMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Contact us</a>
                     
               </div>
             </div>
@@ -184,3 +184,5 @@ make it configuratioble and merge to mainline !-->
       </div>
     </div>
   </div>  
+
+<div style="padding-top:80px"> </div>
