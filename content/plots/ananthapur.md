@@ -1,7 +1,7 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Mahati Infra",
-  "description": "Open plots in Ananthapur | Mahati Infra",
+  "title": "Open Plots and Apartments in Ananthapur",
+  "description": "Open plots, Flats/ Apartments in Ananthapur | Mahathi Group",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "",
   "blocks": [{
@@ -41,9 +41,9 @@
       "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "caption": "Projects for Sale in Ananthapur",
-        "title": "Projects for Sale in Ananthapur",
-        "subTitle" :"Projects for Sale in Ananthapur",
+        "caption": "Apartments/Open plots for Sale in Ananthapur",
+        "title": "Ongoing Projects in Ananthapur",
+        "subTitle" :"Ananthapur has emerged the hotspot of the real esate investment in recent times. Being located on Hyderabad- Bangalore highway, establishment of Kia Motors, good road and rail connectivity and property availablity within budgets have drawn home buyers and business people to invest in properties in Ananthapur.Mahathi Group brings to you the best gated coomunity open plots in Ananthapur and luxury apartments/flats in Ananthapur, loaded with all amenities. ",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
