@@ -43,7 +43,7 @@
       "content": {
         "caption": "Plots for Sale in Hyderabad",
         "title": "ONGOING PROJECTS IN HYDERABAD",
-        "subTitle" :"The exponential growth of hyderabad city has propelled boom in real estate segment offering multiple options to varied property seekers in terms of apartments,villas, commerical properties and open plots in Hyderabad. If you are looking for any of the options - best open plots in Hyderabad, gated community open plots in Hyderabad, open plots with amenities in Hyderabad, HMDA approved plots in Hyderabad, RERA approved plots in Hyderabad, open plots in Hyderabad growth corridors, open plots in best localities of Hyderabad,best investments options in Hyderabad - you have landed at the right place!  "
+        "subTitle" :"The exponential growth of hyderabad city has propelled boom in real estate segment offering multiple options to varied property seekers in terms of apartments,villas, commerical properties and open plots in Hyderabad. If you are looking for any of the options - best open plots in Hyderabad, gated community open plots in Hyderabad, open plots with amenities in Hyderabad, HMDA approved plots in Hyderabad, RERA approved plots in Hyderabad, open plots in Hyderabad growth corridors, open plots in best localities of Hyderabad,best investments options in Hyderabad - you have landed at the right place! ",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
