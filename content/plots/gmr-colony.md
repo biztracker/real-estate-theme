@@ -75,27 +75,35 @@
         "caption" :"What features we give",
         "imageURL": "/images/mahati/gmr-layout.png",
         "actionButton": {
-          "href": "/",
+          "href": "/images/mahati/GMR-Colony-Brochure.pdf",
           "text": "Download Brochure"
         },
         "leftList": [
           {
             "imageURL": "/icons/map.svg",
-            "text": "Smart Home"
+            "text": "24*7 security with complete compound wall"
+          },
+           {
+            "imageURL": "/icons/map.svg",
+            "text": "Overhead watertank"
           },
           {
             "imageURL": "/icons/map.svg",
-            "text": "Good Lifestyle"
+            "text": "Undergroud electric wiring and drainage facility"
           }
          ],
          "rightList": [
             {
               "imageURL": "/icons/map.svg",
-              "text": "Good Ventilation"
+              "text": "Parks and children's play area "
             },
+             {
+            "imageURL": "/icons/map.svg",
+            "text": "Avenue Plantaion"
+          },
             {
               "imageURL": "/icons/map.svg",
-              "text": "24 x 7 security"
+              "text": "40 Ft blacktop roads with pavements and designer street lamps"
             }
          ]
       }
@@ -132,7 +140,7 @@
         "imageDataSize": "792x942",
         "leftList": [
           {
-            "text": "5 Mins drive to the city center"
+            "text": "5 Mins drive to the City Center"
           },
           {
             "text": "4 Kms to Ananthapur Flyover"
@@ -183,16 +191,24 @@
         "title": "Answers to the most frequently asked questions",
         "faqs": [
           {
-            "question": "Popular articles",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+            "question": "What is GMR Colony?",
+            "answer": "GMR Colony is a gated community open plots in Ananthapur developed by Mahathi Realtors and promoted of Mahathi Infra Developers Pvt Limited, both part of Mahathi Group,Hyderabad."
           },
           {
-            "question": "Browse the web",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+            "question": "Where is GMR colony Located?",
+            "answer": "GMR Colony is an open plot gated communuty venture in Anathapur on Alamuru Main Road. It is stategically located in one of the emerging locations of Anathapur making it a best investment option in Ananthapur.It is in close proximity to good educational instituions and to major centers in Ananthapur. "
+          },
+            {
+            "question": "What are the features and amenities provided in GMR Colony?",
+            "answer": "GMR Colony is a gated coomunity open plots in Ananthapur developed with all premium amenities. It is equipped with 24*7 security, full compound wall, underground drainage facility, underground electric wiring, 40 feet black top roads, pavements, avenue plantation,designer street lamps and overhead water tank."
+          },
+            {
+            "question": "Is GMR colony approved by AHUDA?",
+            "answer": "Yes.GMR Colony is a open plot venture approved by AHUDA."
           },
           {
-            "question": "Search on your phone or tablet",
-            "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!"
+            "question": "Why should one invest in open plots in Ananthapur?",
+            "answer": "For people looking to invest in open plots in cities of Andhra Pradesh,open plots with best return on investment,open plots in fast growing localities, investing on open plots in Ananthapur is a best option.Being located on Hyderabad-Bangalore Highway, havingb good rail and road connectivity and presence of Kia Motors are fuelling the real estate growth in Ananthapur."
           }
         ]
       }
