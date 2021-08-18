@@ -2,7 +2,7 @@
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
   "title": "Orchids - 2BHK & 3BHK flats in Ananthapur",
   "description": "2 Bhk and 3 Bhk apartments in Ananthapur",
-  "keywords": "Apartments for sale in Ananthapur,2BHK & 3BHK flats in Ananthapur, 2BHK & 3BHK apartments in Ananthapur, flats for sale in ananthapur ",
+  "keywords": "Apartments for sale in Ananthapur,2BHK & 3BHK flats in Ananthapur, 2BHK & 3BHK apartments in Ananthapur, flats for sale in Ananthapur ",
   "tagManagerId": "",
   "blocks": [{
       "id": "2",
@@ -41,6 +41,7 @@
       "blockType": "",
       "content": {
         "title": "ORCHIDS",
+        "subTitle": "Orchids is an apartment project by Koumudhi Developers, promoted by Mahathi Group.It hosts 3 spaciously designed flats per floor with no common walls among the apartments and with super deluxe amenities.",
         "caption" :"Apartments in Ananthapur",
         "imageURL": "/images/mahati/orchids.jpg",
         "statsList": [{
@@ -69,61 +70,89 @@
       "blockType": "",
       "content": {
         "title" :"Floor Plans",
-        "caption" : "Floor Plan",
+        "caption" : "",
         "floorPlans" :[
           {
-            "name": "2-Bed",
-            "title": "Two bedroom",
-            "subTitle": "Subtitle goes here ",
+            "name": "Flat No 1 ",
+            "title": "3 BHK Apartment",
+            "subTitle": " North Facing ",
             "imageURL": "/images/mahati/sketch.png",
             "leftList": [
               {
-                "text": "Bedroom Area"
+                "text": "Facing"
               },
               {
-                "text": "Bedroom Area"
+                "text": "Total Area"
               },
               {
-                "text": "Bedroom Area"
+                "text": "No of Units"
               }
             ],
             "rightList": [
               {
-                "text": "900 sqft"
+                "text": "North"
               },
               {
-                "text": "700 sqft"
+                "text": "1615 Sqft"
               },
               {
-                "text": "2500 sqft"
+                "text": "5"
               }
             ]
           },
           {
-            "name": "3-Bed",
-            "title": "Three bedroom",
-            "subTitle": "Subtitle goes here ",
+            "name": "Flat No 2 ",
+            "title": "2 BHK Apartment",
+            "subTitle": " ",
             "imageURL": "/images/mahati/sketch.png",
             "leftList": [
               {
-                "text": "Bedroom Area"
+                "text": "Facing"
               },
               {
-                "text": "Bedroom Area"
+                "text": "Total Area"
               },
               {
-                "text": "Bedroom Area"
+                "text": "No of Units"
               }
             ],
             "rightList": [
               {
-                "text": "900 sqft"
+                "text": "West"
               },
               {
-                "text": "700 sqft"
+                "text": "1175 Sqft"
               },
               {
-                "text": "2500 sqft"
+                "text": "5"
+              }
+            ]
+          },
+          {
+            "name": "Flat No 3",
+            "title": "2 BHK Apartment",
+            "subTitle": "",
+            "imageURL": "/images/mahati/sketch.png",
+            "leftList": [
+              {
+               "text": "Facing"
+              },
+              {
+                "text": "Total Area"
+              },
+              {
+                "text": "No of Units"
+              }
+            ],
+            "rightList": [
+              {
+                "text": "East"
+              },
+              {
+                "text": "1095 Sqft"
+              },
+              {
+                "text": "5"
               }
             ]
           }
@@ -140,30 +169,36 @@
       "content": {
         "title": "LOCATION ADVANTAGES",
         "subTitle": "best location with many positives",
-        "caption": "Location",
+        "caption": "",
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
         "leftList": [
           {
-            "text": "15 mins away from"
+            "text": "Behind Government Hospital"
           },
           {
-            "text": "10 mins away from"
+            "text": "Near Razia Multispecility Hospital"
+          },
+            {
+            "text": "Near District Fire Office"
           },
           {
-            "text": "10 mins away from"
+            "text": "Near SV Degree College"
           }
          ],
          "rightList": [
           {
-            "text": "15 mins away from"
+            "text": "Near to Government Medical College"
           },
           {
-            "text": "10 mins away from"
+            "text": "Near to Sai Baba Temple"
+          },
+           {
+            "text": "Near to D- Mart"
           },
           {
-            "text": "10 mins away from"
+            "text": "Near to Pavitra Super Market"
           }
          ]
       }
@@ -175,7 +210,7 @@
       "partialRelativePath": "mahati/map-with-contact-us.html",
       "blockType": "",
       "content": {
-        "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=Divi+E+City+Elite&ie=UTF8&t=&z=14&iwloc=B&output=embed",
+        "mapLocationURL": "",
         "biztrackerIntegrationKey": "27f148fd-15f3-4639-aeec-b0919fb1daa7",
         "formId" : "biztrackerContactForm"
       }
