@@ -164,6 +164,14 @@
     {
       "id": "6",
       "type": "",
+      "partialRelativePath": "mahati/disclaimer.html",
+      "blockType": "",
+      "content": {
+      }
+    },
+    {
+      "id": "6",
+      "type": "",
       "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
