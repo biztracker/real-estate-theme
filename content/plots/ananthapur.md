@@ -42,7 +42,7 @@
       "blockType": "",
       "content": {
         "caption": "Apartments/Open plots for Sale in Ananthapur",
-        "title": "Ongoing Projects in Ananthapur",
+        "title": "ONGOING PROJECTS IN ANANTHAPUR",
         "subTitle" :"Ananthapur has emerged the hotspot of the real esate investment in recent times. Being located on Hyderabad- Bangalore highway, establishment of Kia Motors, good road and rail connectivity and property availablity within budgets have drawn home buyers and business people to invest in properties in Ananthapur.Mahathi Group brings to you the best gated coomunity open plots in Ananthapur and luxury apartments/flats in Ananthapur, loaded with all amenities. ",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
