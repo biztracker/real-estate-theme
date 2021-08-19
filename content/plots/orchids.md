@@ -69,13 +69,13 @@
       "partialRelativePath": "mahati/floor-plan.html",
       "blockType": "",
       "content": {
-        "title" :"Floor Plans",
+        "title" :"FLOOR PLANS",
         "caption" : "",
         "floorPlans" :[
           {
             "name": "Flat No 1",
             "title": "3 BHK Apartment",
-            "subTitle": " North Facing ",
+            "subTitle": "  ",
             "imageURL": "/images/mahati/orchids-floor-plan-1.jpg",
             "leftList": [
               {
@@ -174,7 +174,7 @@
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
         "actionButton" : {
-          "text" : "Download brochure",
+          "text" : "Download Brochure",
           "href" : "/images/mahati/orchids-brochure.pdf"
         },
         "leftList": [
