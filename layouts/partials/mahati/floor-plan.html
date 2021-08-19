@@ -1,6 +1,6 @@
 
 <div class="flex flex-row bg-white justify-between">    
-    <div x-data="{ tab: '2-Bed'}" class=""> 
+    <div x-data="{ tab: 'Flat No 1'}" class=""> 
         <div class="text-center items-center justify-center mt-8 mb-4">
             <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
             <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4 ">{{.content.title}}</h1>
@@ -45,8 +45,8 @@
             <div class="w-full mx-10 md:w-1/2 my-gallery">
                 <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
             <a href="{{.imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$img.Width}}x{{$img.Height}}">
-                <img class="lazy object-center h-full w-full"
-                    alt="hero" src="/images/preview-load-grey.jpg" data-src="{{.imageURL}}">
+                <img class="object-center h-full w-full"
+                    alt="hero" src="{{.imageURL}}">
             </a>
         </figure>
             </div>

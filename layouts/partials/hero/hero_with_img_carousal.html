@@ -11,7 +11,17 @@
 
        {{ range .content.itemsList  }}
 			<li class="splide__slide">
-                <div class="w-full bg-cover bg-center xs:h-100 h-120" style="background-position-x: right; background-image: url({{.imageURL}});">
+                <div class="w-full bg-cover bg-center hidden md:block xs:h-100 h-120" style="background-position-x: right; background-image: url({{.imageURL}});">
+                    <div class="flex h-full w-full">
+                        <div class="m-8 p-4 rounded-sm bg-gray-900 bg-opacity-60" style="align-self:flex-end">
+                            <h1 class="text-white text-2xl font-semibold pb-1 md:text-3xl">{{.name}}</h1>
+                            <h3 class="text-white text-lg pb-4 md:text-lg">{{.caption}}</h3>
+                            <a href="{{.href}}" class="mt-4 px-4 py-2 bg-primary text-white text-sm uppercase font-medium rounded hover:bg-hover focus:outline-none focus:bg-hover">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full bg-cover bg-center block md:hidden " style="height:30rem; background-image: url({{.mobileImageURL}});">
                     <div class="flex h-full w-full">
                         <div class="m-8 p-4 rounded-sm bg-gray-900 bg-opacity-60" style="align-self:flex-end">
                             <h1 class="text-white text-2xl font-semibold pb-1 md:text-3xl">{{.name}}</h1>

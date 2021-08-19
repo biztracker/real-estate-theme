@@ -73,10 +73,10 @@
         "caption" : "",
         "floorPlans" :[
           {
-            "name": "Flat No 1 ",
+            "name": "Flat No 1",
             "title": "3 BHK Apartment",
             "subTitle": " North Facing ",
-            "imageURL": "/images/mahati/sketch.png",
+            "imageURL": "/images/mahati/orchids-floor-plan-1.jpg",
             "leftList": [
               {
                 "text": "Facing"
@@ -101,10 +101,10 @@
             ]
           },
           {
-            "name": "Flat No 2 ",
+            "name": "Flat No 2",
             "title": "2 BHK Apartment",
             "subTitle": " ",
-            "imageURL": "/images/mahati/sketch.png",
+            "imageURL": "/images/mahati/orchids-floor-plan-2.jpg",
             "leftList": [
               {
                 "text": "Facing"
@@ -130,9 +130,9 @@
           },
           {
             "name": "Flat No 3",
-            "title": "2 BHK Apartment",
+            "title": "3 BHK Apartment",
             "subTitle": "",
-            "imageURL": "/images/mahati/sketch.png",
+            "imageURL": "/images/mahati/orchids-floor-plan-3.jpg",
             "leftList": [
               {
                "text": "Facing"
@@ -170,9 +170,13 @@
         "title": "LOCATION ADVANTAGES",
         "subTitle": "best location with many positives",
         "caption": "",
-        "imageURL": "/images/mahati/h-meadows-layout.jpeg",
+        "imageURL": "/images/mahati/orchids-layout.jpg",
         "textColor": "text-gray-900",
         "imageDataSize": "792x942",
+        "actionButton" : {
+          "text" : "Download brochure",
+          "href" : "/images/mahati/orchids-brochure.pdf"
+        },
         "leftList": [
           {
             "text": "Behind Government Hospital"
@@ -210,7 +214,7 @@
       "partialRelativePath": "mahati/map-with-contact-us.html",
       "blockType": "",
       "content": {
-        "mapLocationURL": "",
+        "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=Koumudhi's+Orchids+Apartment&ie=UTF8&t=&z=14&iwloc=B&output=embed",
         "biztrackerIntegrationKey": "27f148fd-15f3-4639-aeec-b0919fb1daa7",
         "formId" : "biztrackerContactForm"
       }

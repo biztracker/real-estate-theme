@@ -74,6 +74,7 @@
         "subTitle":"GMR colony is a beatifully designed gated community plot venture, provided with all premium amenities.",
         "caption" :"What features we give",
         "imageURL": "/images/mahati/gmr-layout.png",
+        "bannerText": "Our mission is to deliver expection service.",
         "actionButton": {
           "href": "/images/mahati/GMR-Colony-Brochure.pdf",
           "text": "Download Brochure"

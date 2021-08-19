@@ -43,21 +43,24 @@
         "itemsList": [
           {
             "imageURL":"/images/mahati/gmr-3.jpeg",
+            "mobileImageURL":"/images/mahati/gmr-square.jpg",
             "name": "GMR Colony",
             "caption" :"Almuru Road, Ananthapur, Andhra Pradesh",
             "href":"/plots/gmr-colony"
           },
           {
             "imageURL": "/images/mahati/highway-meadows.jpeg",
+            "mobileImageURL":"/images/mahati/hm-square.jpg",
             "name": "Highway Meadows",
             "caption" :"Chatanpalli Village, Shadnagar, Hyderabad",
             "href": "/plots/highway-meadows"
           },
           { 
             "imageURL": "/images/mahati/orchids.jpg",
+            "mobileImageURL":"/images/mahati/orchids-square.jpg",
             "name": "Orchids",
             "caption" :"Aravind Nagar, Ananthapur, Andhra Pradesh",
-            "href": "/plots/orchids-meadows"
+            "href": "/plots/orchids"
           }
         ]
       }
