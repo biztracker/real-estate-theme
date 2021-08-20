@@ -49,12 +49,12 @@
         "statsList": [{
             "title": "50 Acers Project",
             "subTitle" :"",
-            "imageURL":"/images/mahati/icons/acers.svg"
+            "imageURL":"/images/mahati/icons/acers.png"
           },
           {
             "title": "625 Plots",
             "subTitle" :"",
-            "imageURL":"/images/mahati/icons/plots.svg"
+            "imageURL":"/images/mahati/icons/plots.png"
           },
             {
             "title": "RERA No - P02400002011",
@@ -80,35 +80,35 @@
         "caption" : "Project",
         "statsList": [{
             "text": "Club House",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/clubhouse.png"
           },
           {
             "text": "Parks and Play Areas",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/park.png"
           },
           {
             "text": "Jogging Track and Pavement",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/pavement.png"
           },
           {
             "text": "Plots abetting 40, 60 & 80 Ft BT Roads",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/road.png"
           },
           {
             "text": "Underground Drainage",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/drainage.png"
           },
           {
             "text": "Underground Electric Wiring",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/electricity.png"
           },
           {
             "text": "Overhead Water Tank",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/watertank.png"
           },
           {
             "text": "Rainwater Harvesting",
-            "imageURL":"/images/icons/gate-yellow.svg"
+            "imageURL":"/images/mahati/icons/rainwater.png"
           }
         ]
       }
@@ -169,7 +169,10 @@
           "/images/mahati/construction-updates-hm/2.jpg",
           "/images/mahati/construction-updates-hm/3.jpg",
           "/images/mahati/construction-updates-hm/4.jpg",
-          "/images/mahati/construction-updates-hm/5.jpg"
+          "/images/mahati/construction-updates-hm/5.jpg",
+          "/images/mahati/construction-updates-hm/6.jpg",
+          "/images/mahati/construction-updates-hm/7.jpg",
+          "/images/mahati/construction-updates-hm/8.jpg"
         ]
       }
     },
