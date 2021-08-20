@@ -48,12 +48,12 @@
         "statsList": [{
              "title": "10.71 Acers Project",
             "subTitle" :"",
-            "imageURL":"/images/mahati/icons/acers.svg"
+            "imageURL":"/images/mahati/icons/acers.png"
           },
           {
             "title": "131 Plots",
             "subTitle" :"",
-            "imageURL":"/images/mahati/icons/plots.svg"
+            "imageURL":"/images/mahati/icons/plots.png"
           },
           {
             "title": "AHUDA Approved",
@@ -74,7 +74,7 @@
         "subTitle":"GMR colony is a beatifully designed gated community plot venture, provided with all premium amenities.",
         "caption" :"What features we give",
         "imageURL": "/images/mahati/gmr-layout.png",
-        "bannerText": "Our mission is to deliver expection service.",
+        "bannerText": "",
         "actionButton": {
           "href": "/images/mahati/GMR-Colony-Brochure.pdf",
           "text": "Download Brochure"
