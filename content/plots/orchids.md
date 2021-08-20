@@ -47,17 +47,17 @@
         "statsList": [{
             "title": "15 Premium Flats in 5 Floor",
             "subTitle" :"",
-            "imageURL":"images/icons/flats.png"
+            "imageURL":"/images/mahati/icons/flats.png"
           },
           {
             "title": "2BHK & 3BHK Configurations",
             "subTitle" :"",
-           "imageURL":"images/icons/bhk.png"
+           "imageURL":"/images/mahati/icons/bhk.png"
           },
           {
             "title": "Municipal Approval No - 1001/0308/B/ATP/AAIN/2018 ",
             "subTitle" :"",
-            "imageURL":"images/icons/approval.png"
+            "imageURL":"/images/mahati/icons/approval.png"
           }
         ]
       }
