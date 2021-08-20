@@ -47,17 +47,17 @@
         "statsList": [{
             "title": "15 Premium Flats in 5 Floor",
             "subTitle" :"",
-            "imageURL":"/icons/home.svg"
+            "imageURL":"images/icons/flats.png"
           },
           {
             "title": "2BHK & 3BHK Configurations",
             "subTitle" :"",
-            "imageURL":"/icons/people.svg"
+           "imageURL":"images/icons/bhk.png"
           },
           {
             "title": "Municipal Approval No - 1001/0308/B/ATP/AAIN/2018 ",
             "subTitle" :"",
-            "imageURL":"/icons/map.svg"
+            "imageURL":"images/icons/approval.png"
           }
         ]
       }
