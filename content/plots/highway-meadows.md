@@ -191,6 +191,17 @@
     {
       "id": "7",
       "type": "",
+      "divId": "contact-us",
+      "partialRelativePath": "mahati/fixed-contact-us.html",
+      "blockType": "",
+      "content": {
+        "text": "Get Quote",
+        "href": "#contact-us"
+      }
+    },
+    {
+      "id": "7",
+      "type": "",
       "divId": "faq",
       "partialRelativePath": "mahati/faq.html",
       "blockType": "",

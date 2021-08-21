@@ -4,14 +4,14 @@
 
 <section id="{{.block.divId}}" class="text-gray-600 body-font">
   <div class="container py-8 mx-auto">
-    <div class="flex flex-col text-center w-full mb-10">
+    <div class="flex flex-col text-center mb-0 mx-2 md:mx-20 md:mb-5">
       <h1 class="text-primary text-sm mb-2">{{.content.caption}}</h1>
-      <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font mb-1 ">{{.content.title}}</h1>
-      <h3 class="sm:text-md text-md title-font mb-1 mt-4 px-4 text-gray-600">{{.content.subTitle}}</h3>
+      <h1 style="color: #093b52;" class="sm:text-lg text-3xl font-semibold title-font mb-1 ">{{.content.title}}</h1>
+      <h3 class="sm:text-sm text-sm title-font text-left mb-1 mt-4 px-2  text-gray-600">{{.content.subTitle}}</h3>
     </div>
 
     {{ range .content.projectList  }}
-              <div class="p-2 mx-0 md:mx-14 lg:mx-18 lg:p-4">
+              <div class="p-2 mx-0 md:mx-14 lg:mx-14 lg:p-4">
               <a class= "cursor-pointer" href="{{.href}}">
                 <div  class="relative top-14 left-4 ">                  
                   <div class="pr-4 pl-4 pt-1 pb-1 w-48 font-thin text-sm text-white uppercase" style="background-color: #77C720;">
@@ -46,7 +46,7 @@
                                 </li>
                               
                               {{else}}
-                              <li class="pl-6 pr-4  overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
+                              <li class="pl-4 pr-2 md:pl-6 md:pr-4  overflow-hidden border-solid" style="border-left-width: 0.5px; border-color:#5C727D" >
                                     <p style="color: #093b52;" class="text-sm font-bold">{{.topLine}}</p> 
                                     <p style="color: #093b52;" class="text-sm font-thin pt-2">{{.bottomLine}}</p> 
                                 </li>

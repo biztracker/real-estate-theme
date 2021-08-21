@@ -1,45 +1,48 @@
 <!-- modal div -->
+
+<script>
+  
+  function closeModal() {
+    localStorage.setItem("disclaimerAccepted", true);
+  }
+
+  function getData() {
+    var disclaimerAccepted = localStorage.getItem("disclaimerAccepted") ? 
+    localStorage.getItem("disclaimerAccepted"): false;
+
+    console.log("disclaimerAccepted is get data", disclaimerAccepted);
+    return { "showModal": !disclaimerAccepted};
+  }
+</script>
 <div
-  x-data="{ 'showModal': true }"
+  id="disclaimerDialog"
+  x-data="getData()"
 >
 
     <!-- Modal -->
     <div
         class="fixed inset-0 z-30 flex items-center justify-center overflow-auto bg-black bg-opacity-50"
         x-show="showModal"
+        style="display:none"
     >
-        <div class="h-auto p-4 mx-4 text-left bg-white rounded shadow-xl md:p-6 lg:p-8 md:mx-20" @click.away="open = false">
+        <div class="h-auto p-4 mx-4 text-left bg-white rounded shadow-xl md:p-6 lg:p-8 md:mx-24" @click.away="open = false">
           <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-            <h3 class="text-lg font-medium leading-6 text-gray-900">
+            <h3 class="text-xl font-medium leading-6 text-gray-900">
               Disclaimer
             </h3>
 
-            <div class="mt-2">
+            <div class="mt-4 h-100 md:h-auto text-left overflow-scroll">
               <p class="text-sm leading-5 text-gray-500">
-                (PLEASE READ IN FULL BEFORE PROCEEDING)
+                The content of this website is for general information purposes only. While enough care is taken by us to ensure that information on the website is up to date, accurate and correct, readers are requested to contact the authorized sales representative before relying upon the same. The information on the website shall be construed as an advertisement and/or invitation or offer for sale. In no event we will offers any warranty on the information made available, or be liable for any loss or damage including without limitation, indirect or consequential loss or damage in connection with, the use of information in this website. 
+
               </p>
                 <br/>
               <p class="text-sm leading-5 text-gray-500">
-                Welcome to https://mahathiinfradevelopers.com/ Thank you for visiting us. Please read the following carefully and note that this Disclaimer applies to the entire website.
-              </p>
+               By using or accessing the website, you agree with the disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures and interactive plans etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist’s impression and are an indicative of the actual designs. Please note that by sharing any of your contact details on the website, you are authorizing our sales team and our associates (even if you are registered on the DND Registry) to provide information on our projects over Calls, SMS & Emails.
+        </p>
 <br/>
               <p class="text-sm leading-5 text-gray-500">
-               Therefore, by accessing the website any further from this page onwards, you confirm that the information including images, details, brochures and marketing materials, etc. on this website are solely for informational purpose only. All information is subject to change and you are advised not to rely on this information for making any booking/purchase in any of our projects. Nothing on this website constitutes advertising, marketing, booking, selling or an offer for sale, or invitation to purchase a unit in in any project of the Company. The Company is not liable for any consequence of any action taken by your relying on such material/ information on this website.
-            </p>
-<br/>
-            <p class="text-sm leading-5 text-gray-500">
-               Please note that under no circumstances will the Company be liable for any claims made by anyone claiming to be users including seeking any cancellation for any of the inaccuracies in the information provided in this website (if any), though all efforts have to be made to ensure accuracy. The Company will under no circumstance will be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this website.
-            </p>
-<br/>
-            <p class="text-sm leading-5 text-gray-500">
-               Our website is currently under development and reconstruction. We are in the process of updating the website as per the applicable laws i.e. the Real Estate (Regulation and Development) Act, 2016 and the Rules made thereunder ("RERA")
-            </p>
-<br/>
-            <p class="text-sm leading-5 text-gray-500">
-               Please contact our sales team at +91 8413484454 for latest updated sales and marketing information.
-    
-            </p>
-
+            To enhance your experience, we use cookies that can help us display customized content as per your browser settings and understand how you interact with our website. By choosing I Agree, you are indicating that you agree to our policies. You can change your preferences anytime by clicking on "Cookie Settings".
           </p>
           </div>
         </div>
@@ -47,7 +50,7 @@
           <!-- One big close button.  --->
           <div class="mt-5 sm:mt-6">
             <span class="flex w-full rounded-md shadow-sm">
-              <button @click="showModal = false" class="inline-flex justify-center w-full px-4 py-2 text-white bg-primary rounded ">
+              <button @click="showModal = false" onClick="closeModal()" class="inline-flex justify-center w-full px-4 py-2 text-white bg-primary rounded ">
                 I agree
               </button>
             </span>

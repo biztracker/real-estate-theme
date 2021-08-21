@@ -44,6 +44,8 @@
         "subTitle": "Orchids is an apartment project by Koumudhi Developers, promoted by Mahathi Group.It hosts 3 spaciously designed flats per floor with no common walls among the apartments and with super deluxe amenities.",
         "caption" :"Apartments in Ananthapur",
         "imageURL": "/images/mahati/orchids.jpg",
+        "logoURL": "/images/mahati/orchids-logo.png",
+        "logoHeight": "85px",
         "statsList": [{
             "title": "15 Premium Flats in 5 Floor",
             "subTitle" :"",
@@ -311,6 +313,17 @@
             ]  
           }
         ]
+      }
+    },
+    {
+      "id": "7",
+      "type": "",
+      "divId": "contact-us",
+      "partialRelativePath": "mahati/fixed-contact-us.html",
+      "blockType": "",
+      "content": {
+        "text": "Get Quote",
+        "href": "#contact-us"
       }
     },
     {
