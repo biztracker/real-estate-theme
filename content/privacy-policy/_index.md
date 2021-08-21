@@ -44,7 +44,8 @@
       "partialRelativePath": "mahati/privacy-policy.html",
       "blockType": "",
       "content": {
-        "title" : "Privacy policy"
+        "title" : "Privacy policy",
+        "contentHtml" : ""
       }
     },
     {

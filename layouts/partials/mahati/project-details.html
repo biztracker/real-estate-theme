@@ -26,24 +26,21 @@
         <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4">{{.content.title}}</h1>
         <h4 class=" text-md text-gray-600">{{.content.subTitle}}</h4>
     </div>
-    <div class="flex flex-row">
+    <div class="flex flex-col md:flex-row mb-10">
         <div class="flex flex-col">
             {{range .content.leftList}}
                 <div class="flex flex-row space-x-2 mt-4 items-center">
-                    <div>
-                        <img height="24px" class="object-contain" src={{.imageURL}} />
-                    </div>
+                    <img height="28px" width="28px"  src={{.imageURL}} />
                     <div class="text-xs ">{{.text}}</div>
                 </div>
             {{end}}
         </div>
 
-        <div class="flex flex-col pl-4">
+        <div class="flex flex-col md:pl-4">
             {{range .content.rightList}}
                 <div class="flex flex-row space-x-2 mt-4 items-center">
-                    <div>
-                        <img height="24px" class="object-contain" src={{.imageURL}} />
-                    </div>
+                    <img height="28px" width="28px"  src={{.imageURL}} />
+                    
                     <div class="text-xs ">{{.text}}</div>
                 </div>
             {{end}}
@@ -51,10 +48,12 @@
     </div>
       
 
+    {{if isset .content.bannerText ""}}
     <div class="bg-orange-100 my-8 h-10 border-l-2 items-center pt-3 pl-2 justify-center text-xs text-gray-600 border-primary">{{.content.bannerText}}</div>
-    
+    {{end}}
+
     <a href="" target="_blank" 
-                class="mt-4 w-48 shadow-sm rounded-sm bg-primary text-white text-center pl-3 pr-3 pt-2 pb-2 mb-4">Download Brochure</a>  
+                class=" w-48 shadow-sm rounded-sm bg-primary text-white text-center pl-3 pr-3 pt-2 pb-2 mb-4">Download Brochure</a>  
 
     </div>
    

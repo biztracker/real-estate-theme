@@ -81,29 +81,29 @@
         },
         "leftList": [
           {
-            "imageURL": "/icons/map.svg",
+            "imageURL": "/icons/tick.svg",
             "text": "24*7 security with complete compound wall"
           },
            {
-            "imageURL": "/icons/map.svg",
+            "imageURL": "/icons/tick.svg",
             "text": "Overhead watertank"
           },
           {
-            "imageURL": "/icons/map.svg",
+            "imageURL": "/icons/tick.svg",
             "text": "Undergroud electric wiring and drainage facility"
           }
          ],
          "rightList": [
             {
-              "imageURL": "/icons/map.svg",
+              "imageURL": "/icons/tick.svg",
               "text": "Parks and children's play area "
             },
              {
-            "imageURL": "/icons/map.svg",
+            "imageURL": "/icons/tick.svg",
             "text": "Avenue Plantaion"
           },
             {
-              "imageURL": "/icons/map.svg",
+              "imageURL": "/icons/tick.svg",
               "text": "40 Ft blacktop roads with pavements and designer street lamps"
             }
          ]
@@ -177,7 +177,7 @@
       "blockType": "",
       "content": {
         "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=14.644833,77.552778&ie=UTF8&t=&z=14&iwloc=B&output=embed",
-        "biztrackerIntegrationKey": "27f148fd-15f3-4639-aeec-b0919fb1daa7",
+        "biztrackerIntegrationKey": "2",
         "formId" : "biztrackerContactForm"
       }
     },

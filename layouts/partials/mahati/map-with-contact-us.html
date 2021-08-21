@@ -32,10 +32,23 @@
 
         <div class="relative mb-1">
           <label for="email" class="leading-7 text-sm text-gray-600">Project Name</label>
-          <select required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-              <option value="volvo">Highway Meadows</option>
-              <option value="volvo">GMR Colony</option>
-              <option value="volvo">Orchids</option>
+          <select id="key" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              {{if eq .content.biztrackerIntegrationKey "1"}}
+                <option selected="selected" value="1">Highway Meadows</option>
+              {{else}} 
+                <option value="1">Highway Meadows</option>
+              {{end}}
+              {{if eq .content.biztrackerIntegrationKey "2"}}
+                <option selected="selected" value="2">GMR Colony</option>
+              {{else}} 
+                <option value="1">GMR Colony</option>
+              {{end}}
+
+              {{if eq .content.biztrackerIntegrationKey "3"}}
+                <option selected="selected" value="3">Orchids</option>
+              {{else}} 
+                <option value="1">Orchids</option>
+              {{end}}
           </select>
         </div>
         <div class="relative mb-1">
