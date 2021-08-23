@@ -76,7 +76,7 @@
       "partialRelativePath": "mahati/about-with-images.html",
       "blockType": "",
       "content": {
-        "headingText": "AMENITIES AND FEATURES",
+        "headingText": "Amenities And Features",
         "caption" : "Project",
         "statsList": [{
             "text": "Club House",
@@ -118,11 +118,11 @@
       "divId": "location",
       "name": "Location Advantages",
       "type": "",
-      "partialRelativePath": "mahati/location-advantages.html",
+      "partialRelativePath": "mahati/location-advantages-temp.html",
       "blockType": "",
       "content": {
-        "title": "LOCATION ADVANTAGES",
-        "subTitle": "Highway Meadows , with its plethora of features and advantages, has proved to be one of the best open plots venture to invest.While we have planned for all conveniences in the development, the enclave is screened off from the rest of the world in a private oasis of green luxury and it gives you an opportunity to create a legacy for generations to come.",
+        "title": "Location Advantages",
+        "subTitle": "Highway Meadows , with its plethora of features and advantages, has proved to be one of the best open plots venture to invest.",
         "caption": "Our Unique Proposition",
         "imageURL": "/images/mahati/h-meadows-layout.jpeg",
         "textColor": "text-gray-900",
@@ -144,7 +144,7 @@
          ],
          "rightList": [
           {
-            "text": "Close to Natco Pharma, Jhonson&Jhonson, P&G, MSN Labs & NRSC"
+            "text": "Close to Natco Pharma, Jhonson&Jhonson"
           },
           {
             "text": "Close to Symbyosis and Tata Science Universities"
@@ -162,7 +162,7 @@
       "partialRelativePath": "mahati/gallery.html",
       "blockType": "",
       "content": {
-        "title": "CONSTRUCTION UPDATES",
+        "title": "Construction Updates",
         "caption": "Gallery",
         "imagesList": [
           "/images/mahati/construction-updates-hm/1.jpg",
@@ -184,7 +184,7 @@
       "blockType": "",
       "content": {
         "mapLocationURL": "https://maps.google.com/maps?width=100%&height=600&hl=en&q=Mahathi+Highway+Meadows+Sy.+No+337,+N.H.44,+Lingareddyguda+Village,+Chattanpalli+Shadnagar,+Telangana+509228+India&ie=UTF8&t=&z=14&iwloc=B&output=embed",
-        "biztrackerIntegrationKey": "97097bcf-d764-4282-a1c7-2788ecb62db8",
+        "biztrackerIntegrationKey": "1",
         "formId" : "biztrackerContactForm"
       }
     },
@@ -258,7 +258,7 @@
       "partialRelativePath": "mahati/projects-horizontal-carousal.html",
       "blockType": "",
       "content": {
-        "headingText": "FEATURED PROJECTS",
+        "headingText": "Featured Projects",
         "mainText": "",
         "buttonType": "BORDER",
         "projectList": [

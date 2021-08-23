@@ -3,7 +3,7 @@
 {{$imageDataSize:= "600x400"}}
 {{$imageCropStyle:= "object-cover"}}
 
-<div class="flex flex-col md:flex-row justify-between py-4" style="background-color:#F2F6F7" >
+<div class="flex flex-col md:flex-row justify-between py-4 px-5 pb-10" style="background-color:#F2F6F7" >
     <div class="w-full lg:hidden my-gallery">
         <figure itemprop="associatedMedia" class=" h-full "  itemscope itemtype="http://schema.org/ImageObject">
             <a href="{{$imageURL}}" itemprop="contentUrl" class=" h-full " data-size="{{$imageDataSize}}">
@@ -23,25 +23,25 @@
     <div class="mx-8 md:mx-0 md:mr-8">
         <div class="mt-10 flex flex-col">
         <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
-        <h1 style="color: #093b52;" class="sm:text-3xl text-3xl font-semibold title-font my-4">{{.content.title}}</h1>
-        <h4 class=" text-md text-gray-600">{{.content.subTitle}}</h4>
+        <h1 style="color: #093b52; font-size:40px" class="font-semibold title-font my-4">{{.content.title}}</h1>
+        <h4 style="color:rgb(92, 114, 125)"class="font-nunito text-md">{{.content.subTitle}}</h4>
     </div>
     <div class="flex flex-col md:flex-row mb-10">
         <div class="flex flex-col">
             {{range .content.leftList}}
-                <div class="flex flex-row space-x-2 mt-4 items-center">
+                <div class="flex flex-row space-x-2 mt-5 md:mt-10 items-center pr-2">
                     <img height="28px" width="28px"  src={{.imageURL}} />
-                    <div class="text-xs ">{{.text}}</div>
+                    <div style="color:rgb(92, 114, 125)" class="text-md font-nunito pl-2">{{.text}}</div>
                 </div>
             {{end}}
         </div>
 
         <div class="flex flex-col md:pl-4">
             {{range .content.rightList}}
-                <div class="flex flex-row space-x-2 mt-4 items-center">
+                <div class="flex flex-row space-x-2 mt-5 md:mt-10 items-center pr-2">
                     <img height="28px" width="28px"  src={{.imageURL}} />
                     
-                    <div class="text-xs ">{{.text}}</div>
+                    <div style="color:rgb(92, 114, 125)" class="text-md font-nunito pl-2">{{.text}}</div>
                 </div>
             {{end}}
         </div>

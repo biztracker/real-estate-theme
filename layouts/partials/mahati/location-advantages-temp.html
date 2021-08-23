@@ -12,7 +12,7 @@
 
 
 <div class="flex flex-col md:flex-row justify-between" style="background-color:#F2F6F7">
-    <div class="mx-16 mb-6 md:w-3/6">
+    <div class="mx-16 mb-6 w-full md:w-3/6">
         <div class="mt-14 flex flex-col my-2">
             <h3 class="text-primary  text-sm">{{.content.caption}}</h3>
             <h1 style="color: #093b52; font-size:40px" class="font-semibold my-4 ">{{.content.title}}</h1>
@@ -22,7 +22,7 @@
     <div class="flex flex-col md:flex-row pb-8">
         <div class="flex flex-col w-full md:w-1/2">
             {{range .content.leftList}}
-                <div class="flex flex-row space-x-2 mt-5 md:mt-10 items-center pr-2">
+                <div class="flex flex-row space-x-4 mt-10 items-center pr-2">
                     <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#EDB21F" class="bi bi-check-circle" x="0px" y="0px" viewBox="0 0 16 16">
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -39,7 +39,7 @@
 
         <div class="flex flex-col w-full md:w-1/2">
             {{range .content.rightList}}
-                <div class="flex flex-row mt-5 md:mt-10 space-x-2 items-center">
+                <div class="flex flex-row mt-10 space-x-2 items-center">
                     <div> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#EDB21F" class="bi bi-check-circle" x="0px" y="0px" viewBox="0 0 16 16">
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
   <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>

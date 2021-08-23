@@ -33,21 +33,24 @@
         <div class="relative mb-1">
           <label for="email" class="leading-7 text-sm text-gray-600">Project Name</label>
           <select id="key" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-              {{if eq .content.biztrackerIntegrationKey "1"}}
-                <option selected="selected" value="1">Highway Meadows</option>
+              {{if eq .content.biztrackerIntegrationKey "97097bcf-d764-4282-a1c7-2788ecb62db8"}}
+                <option selected="selected" value="97097bcf-d764-4282-a1c7-2788ecb62db8">Highway Meadows</option>
               {{else}} 
-                <option value="1">Highway Meadows</option>
+                <option value="97097bcf-d764-4282-a1c7-2788ecb62db8">Highway Meadows</option>
+                        <option value="149e9dbd-b0ae-478e-bb09-8342a49bd0ea">Orchids</option>
               {{end}}
-              {{if eq .content.biztrackerIntegrationKey "2"}}
-                <option selected="selected" value="2">GMR Colony</option>
+              {{if eq .content.biztrackerIntegrationKey "107fc864-3c00-4039-86e9-9c5a0c74cf15"}}
+                <option selected="selected" value="107fc864-3c00-4039-86e9-9c5a0c74cf15">GMR Colony</option>
               {{else}} 
-                <option value="1">GMR Colony</option>
+                <option value="107fc864-3c00-4039-86e9-9c5a0c74cf15">GMR Colony</option>
+                      
               {{end}}
 
-              {{if eq .content.biztrackerIntegrationKey "3"}}
-                <option selected="selected" value="3">Orchids</option>
+              {{if eq .content.biztrackerIntegrationKey "107fc864-3c00-4039-86e9-9c5a0c74cf15"}}
+                <option selected="selected" value="107fc864-3c00-4039-86e9-9c5a0c74cf15">Orchids</option>
               {{else}} 
-                <option value="1">Orchids</option>
+                <option value="107fc864-3c00-4039-86e9-9c5a0c74cf15">GMR Colony</option>
+                  
               {{end}}
           </select>
         </div>
