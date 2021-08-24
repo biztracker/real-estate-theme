@@ -25,11 +25,11 @@
           },
           {
             "text": "Projects in Hyderabad",
-            "href": "/plots/hyderabad"
+            "href": "/projects-in-hyderabad"
           },
           {
             "text": "Projects in Ananthapur",
-            "href": "/plots/ananthapur"
+            "href": "/projects-in-ananthapur"
           }
         ]
       }

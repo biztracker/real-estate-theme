@@ -128,9 +128,6 @@
       "blockType": "",
       "content": {
         "imagesList": [
-          "/images/pr-associates/floor-plan-1.png",
-          "/images/pr-associates/floor-plan-2.png",
-          "/images/pr-associates/floor-plan-3.png"
         ]
       }
     },

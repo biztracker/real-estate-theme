@@ -1,9 +1,9 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Open Plots and Apartments in Ananthapur",
-  "description": "Open plots, Flats/ Apartments in Ananthapur | Mahathi Group",
+  "title": "MS Infra Projects",
+  "description": "Open plots in Hyderabad | MS Infra Projects",
   "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
-  "tagManagerId": "",
+  "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
       "id": "2",
       "type": "",
@@ -15,8 +15,8 @@
         "showLogoAs":"VERTICAL",
         "brandlogoURL": "/images/mahati/logo.png",
         "actionButton": {
-            "text": "Contact us",
-            "href": "/contact-us"
+            "text": "Get Quote",
+            "href": "#contact-us"
         },
         "navBarlist": [
           {
@@ -25,11 +25,11 @@
           },
           {
             "text": "Projects in Hyderabad",
-            "href": "/plots/hyderabad"
+            "href": "/projects-in-hyderabad"
           },
           {
             "text": "Projects in Ananthapur",
-            "href": "/plots/ananthapur"
+            "href": "/projects-in-ananthapur"
           }
         ]
       }
@@ -41,9 +41,8 @@
       "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "caption": "Apartments/Open plots for Sale in Ananthapur",
-        "title": "ONGOING PROJECTS IN ANANTHAPUR",
-        "subTitle" :"Ananthapur has emerged the hotspot of the real esate investment in recent times. Being located on Hyderabad- Bangalore highway, establishment of Kia Motors, good road and rail connectivity and property availablity within budgets have drawn home buyers and business people to invest in properties in Ananthapur.Mahathi Group brings to you the best gated coomunity open plots in Ananthapur and luxury apartments/flats in Ananthapur, loaded with all amenities. ",
+        "headingText": "Plots",
+        "mainText": "Plots",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
@@ -69,6 +68,33 @@
                 "bottomLine": "Approved"
               }
             ]  
+          },
+          {
+            "category": "Residential Plots",
+            "heading": "Highway Meadows",
+            "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
+            "location" :"Chatanpalli, Shadnagar, Hyderabad.",
+            "imageURL":"/images/mahati/highway-meadows.jpeg",
+            "href":"/plots/highway-meadows",
+            "label":"Fast Selling",
+            "statsList": [
+              {
+                "topLine" : "50",
+                "bottomLine": "Acers"
+              },
+              {
+                "topLine" : "625",
+                "bottomLine": "Plots"
+              },
+                {
+                "topLine" : "HMDA",
+                "bottomLine": "Approved"
+              },
+              {
+                "topLine" : "RERA",
+                "bottomLine": "Approved"
+              }
+            ]          
           },
           {
             "category": "Apartments",

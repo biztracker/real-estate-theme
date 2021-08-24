@@ -1,8 +1,8 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "Open Plots in Hyderabad",
-  "description": "Open plots in Hyderabad | Mahathi Group",
-  "keywords": "best open plots in Hyderabad, gated community open plots in Hyderabad, open plots with amenities in Hyderabad, HMDA approved plots in Hyderabad, RERA approved plots in Hyderabad, open plots in Hyderabad growth corridors, open plots in best localities of Hyderabad,best investments options in Hyderabad",
+  "title": "Open Plots and Apartments in Ananthapur",
+  "description": "Open plots, Flats/ Apartments in Ananthapur | Mahathi Group",
+  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
   "tagManagerId": "",
   "blocks": [{
       "id": "2",
@@ -25,11 +25,11 @@
           },
           {
             "text": "Projects in Hyderabad",
-            "href": "/plots/hyderabad"
+            "href": "/projects-in-hyderabad"
           },
           {
             "text": "Projects in Ananthapur",
-            "href": "/plots/ananthapur"
+            "href": "/projects-in-ananthapur"
           }
         ]
       }
@@ -41,34 +41,57 @@
       "partialRelativePath": "mahati/projects-vertical-with-stats.html",
       "blockType": "",
       "content": {
-        "caption": "Plots for Sale in Hyderabad",
-        "title": "ONGOING PROJECTS IN HYDERABAD",
-        "subTitle" :"The exponential growth of hyderabad city has propelled boom in real estate segment offering multiple options to varied property seekers in terms of apartments,villas, commerical properties and open plots in Hyderabad. If you are looking for any of the options - best open plots in Hyderabad, gated community open plots in Hyderabad, open plots with amenities in Hyderabad, HMDA approved plots in Hyderabad, RERA approved plots in Hyderabad, open plots in Hyderabad growth corridors, open plots in best localities of Hyderabad,best investments options in Hyderabad - you have landed at the right place! ",
+        "caption": "Apartments/Open plots for Sale in Ananthapur",
+        "title": "ONGOING PROJECTS IN ANANTHAPUR",
+        "subTitle" :"Ananthapur has emerged the hotspot of the real esate investment in recent times. Being located on Hyderabad- Bangalore highway, establishment of Kia Motors, good road and rail connectivity and property availablity within budgets have drawn home buyers and business people to invest in properties in Ananthapur.Mahathi Group brings to you the best gated coomunity open plots in Ananthapur and luxury apartments/flats in Ananthapur, loaded with all amenities. ",
         "borderColor":"border-primary",
         "buttonType": "BORDER",
         "projectList": [
           {
-            "category": "Residential Plots",
-            "heading": "Highway Meadows",
-            "description": "The best gated community open plots venture located on one of the fastest growing corridors.",
-            "location" :"Chatanpalli, Shadnagar, Hyderabad.",
-            "imageURL":"/images/mahati/highway-meadows.jpeg",
-            "href":"/plots/highway-meadows",
-            "label":"Fast Selling",
+            "category": "Villa Plots",
+            "heading": "GMR Colony",
+            "description": "Gated community luxury villa plots with premium amenities.",
+            "location" :"Alamuru Main Road, Ananthapur.",
+            "imageURL": "/images/mahati/gmr-3.jpeg",
+            "href":"/plots/gmr-colony",
+            "label":"Just Launched",
             "statsList": [
               {
-                "topLine" : "50",
+                "topLine" : "10.71",
                 "bottomLine": "Acers"
               },
               {
-                "topLine" : "625",
+                "topLine" : "131",
                 "bottomLine": "Plots"
               },
               {
-                "topLine" : "HMDA & RERA",
+                "topLine" : "AHUDA",
                 "bottomLine": "Approved"
               }
-            ]          
+            ]  
+          },
+          {
+            "category": "Apartments",
+            "heading": "Orchids",
+            "description": "Spaciously designed, individual walled 3 BHK and 2 BHK flats with super deluxe amenities.",
+            "location" :"Aravind Nagar, Ananthapur.",
+            "imageURL":"/images/mahati/orchids.jpg",
+            "href":"/plots/orchids",
+            "label":"Nearing Completion",
+            "statsList": [
+              {
+                "topLine" : "15",
+                "bottomLine": "Flats"
+              },
+              {
+                "topLine" : "5",
+                "bottomLine": "Floors"
+              },
+              {
+                "topLine" : "2 & 3",
+                "bottomLine": "BHK"
+              }
+            ]  
           }
         ]
       }

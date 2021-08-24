@@ -152,15 +152,6 @@
       "blockType": "",
       "content": {
         "imagesList": [
-          "/images/eeshanya-jewel-one/images/5.jpeg",
-          "/images/eeshanya-jewel-one/images/6.jpeg",
-          "/images/eeshanya-jewel-one/images/7.jpeg",
-          "/images/eeshanya-jewel-one/images/8.jpeg",
-          "/images/eeshanya-jewel-one/images/9.jpeg",
-          "/images/eeshanya-jewel-one/images/1.jpeg",
-          "/images/eeshanya-jewel-one/images/4.jpeg",
-          "/images/eeshanya-jewel-one/images/2.jpeg",
-          "/images/eeshanya-jewel-one/images/3.jpeg"
         ]
       }
     },

@@ -25,11 +25,15 @@
           },
           {
             "text": "Projects in Hyderabad",
-            "href": "/plots/hyderabad"
+            "href": "/projects-in-hyderabad"
           },
           {
             "text": "Projects in Ananthapur",
-            "href": "/plots/ananthapur"
+            "href": "/projects-in-ananthapur"
+          },
+          {
+            "text": "Contact Us",
+            "href": "/contact-us"
           }
         ]
       }
@@ -37,9 +41,11 @@
     {
       "id": "2",
       "type": "",
-      "partialRelativePath": "mahati/contactus-page.html",
+      "partialRelativePath": "mahati/privacy-policy.html",
       "blockType": "",
       "content": {
+        "title" : "Privacy policy",
+        "contentHtml" : ""
       }
     },
     {
@@ -48,42 +54,6 @@
       "partialRelativePath": "mahati/footer-3.html",
       "blockType": "",
       "content": {
-        "logoURL": "",
-        "companyName": "Mahati Infra",
-        "address": "",
-        "email": "sales.msinfraprojects@gmail.com",
-        "phoneNumber": "+91 79890 89368",
-        "noOfColums": 2,
-        "column1Name":"Learn More",
-        "column1List": [
-        {
-            "text": "About Us",
-            "href": "#project-layout"
-          },
-          {
-            "text": "Our Projects",
-            "href": "#our-projects"
-          }
-        ],
-        "column2Name":"Quick Links",
-        "column2List": [
-          {
-            "text": "Gated community plots in Hyderabad",
-            "href": "/plots"
-          },
-          {
-            "text": "HMDA approved layouts in Hyderabad",
-            "href": "/plots"
-          },
-          {
-            "text": "Open plots in Hyderabad",
-            "href": "/plots"
-          },
-          {
-            "text": "Best plot venture in Hyderabad",
-            "href": "/plots"
-          }
-        ]
       }
     }
   ]

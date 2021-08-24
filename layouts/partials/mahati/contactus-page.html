@@ -143,7 +143,7 @@
 
               
 
-              <form id="contact-us" class="p-3 mt-4 md:ml-4 flex flex-col justify-center">
+              <form id="contact-us" class="p-3 mt-4 md:ml-4 flex flex-col justify-center" onsubmit="onBiztrackerFormSubmit()">
                   <div class="flex flex-col">
                       <label for="name" class="hidden">Full Name</label>
                       <input type="name" name="name" id="name" placeholder="Full Name" class="py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
@@ -156,11 +156,11 @@
 
                   <div class="flex flex-col mt-2">
                       <label for="tel" class="hidden">Number</label>
-                      <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+                      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Telephone Number" class="mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
                   </div>
 
                   <div class="flex flex-col mt-2">
-                    <select required class="mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+                    <select id="key" name="key" required class="mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
                         <option value="">Select Project name</option>
                         <option value="97097bcf-d764-4282-a1c7-2788ecb62db8">Highway Meadows</option>
                         <option value="107fc864-3c00-4039-86e9-9c5a0c74cf15">GMR Colony</option>
@@ -169,7 +169,7 @@
                   </div>
 
                 <div class="flex flex-col mt-4">
-                  <textarea class=" rounded border border-gray-400 leading-normal resize-none h-20 py-2 px-3  placeholder-gray-700 focus:border-primary focus:bg-white" name="body" placeholder='Type Your Message' required></textarea>
+                  <textarea id="message" name="message" class=" rounded border border-gray-400 leading-normal resize-none h-20 py-2 px-3  placeholder-gray-700 focus:border-primary focus:bg-white" name="body" placeholder='Type Your Message' required></textarea>
                 </div>
 
                         <div class="mb-2 mt-2">
