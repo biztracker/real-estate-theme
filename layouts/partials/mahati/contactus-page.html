@@ -1,47 +1,3 @@
-<!-- 
-
-<section id="{{.block.divId}}" class="text-gray-600 body-font relative">
-  <div class="flex sm:flex-nowrap flex-wrap">
-    <div class="lg:w-2/3 md:w-2/3 w-full bg-gray-300 overflow-hidden flex items-end justify-start relative">
-      <iframe id="g-maps-iframe" width="100%" height="100%" style="min-height:500px" class="inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="" data-src="{{.content.mapLocationURL}}" style=""></iframe>
-    </div>
-    <div class="lg:w-1/3 md:w-1/3 bg-white flex flex-col w-full mt-8 mx-8 md:mt-8">
-      <h3 class="text-primary text-sm mb-2">Get Quote</h3>
-      <h1 class="sm:text-3xl text-3xl font-semibold title-font mb-0 text-gray-900">Contact us</h1>
-   
-       <div id="biztrackerContactFormMessage"> <p class="font-medium text-gray-800 h-4"> </p></div>
-      <form name={{.content.formId}} id={{.content.formId}} onsubmit="onBiztrackerFormSubmit()">
-        {{ if isset .content "biztrackerIntegrationKey" }}
-          <input name="key" id="key" type="hidden" value="{{.content.biztrackerIntegrationKey}}">
-        {{ end }}
-      
-        <div class="relative mb-1">
-          <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-          <input type="text" id="name" name="name" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-        </div>
-        
-        <div class="relative mb-1">
-          <label for="phoneNumber" class="leading-7 text-sm text-gray-600">Phone Number</label>
-          <input type="text" id="phoneNumber" name="phoneNumber" required class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-        </div>
-
-        <div class="relative mb-1">
-          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-          <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-        </div>
-        <div class="relative mb-1">
-          <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-          <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-16 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-        </div>
-        <button class="text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-hover rounded text-lg">Submit</button>
-        <p class="text-xs text-gray-500 mt-3"></p>
-      </form>
-    </div>
-  </div>
-</section> -->
-
-<!-- component -->
-
 <div class="relative flex items-top justify-start min-h-full bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
   
   <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -143,10 +99,14 @@
 
               
 
+<<<<<<< HEAD
               <form id="contact-us" class="p-3 mt-4 md:ml-4 flex flex-col justify-center" onsubmit="onBiztrackerFormSubmit()">
+=======
+              <form id="biztrackerContactForm" class="p-3 mt-4 md:ml-4 flex flex-col justify-center" onsubmit="onBiztrackerFormSubmit()">
+>>>>>>> add
                   <div class="flex flex-col">
                       <label for="name" class="hidden">Full Name</label>
-                      <input type="name" name="name" id="name" placeholder="Full Name" class="py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+                      <input type="text" name="name" id="name" placeholder="Full Name" class="py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
                   </div>
 
                   <div class="flex flex-col mt-2">
@@ -156,7 +116,11 @@
 
                   <div class="flex flex-col mt-2">
                       <label for="tel" class="hidden">Number</label>
+<<<<<<< HEAD
                       <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Telephone Number" class="mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+=======
+                      <input type="text" id="phoneNumber" name="phoneNumber" required placeholder="Phone Number" class="mt-2 py-3 px-3 rounded bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 focus:border-primary focus:outline-none">
+>>>>>>> add
                   </div>
 
                   <div class="flex flex-col mt-2">
@@ -164,18 +128,24 @@
                         <option value="">Select Project name</option>
                         <option value="97097bcf-d764-4282-a1c7-2788ecb62db8">Highway Meadows</option>
                         <option value="107fc864-3c00-4039-86e9-9c5a0c74cf15">GMR Colony</option>
-                        <option value="149e9dbd-b0ae-478e-bb09-8342a49bd0ea">Orchids</option>
+                        <option value="a6ed6506-1610-4d64-bff7-7263f5b054c2">Orchids</option>
                     </select>
                   </div>
 
                 <div class="flex flex-col mt-4">
+<<<<<<< HEAD
                   <textarea id="message" name="message" class=" rounded border border-gray-400 leading-normal resize-none h-20 py-2 px-3  placeholder-gray-700 focus:border-primary focus:bg-white" name="body" placeholder='Type Your Message' required></textarea>
+=======
+                  <textarea id="message" name="message" class=" rounded border border-gray-400 leading-normal resize-none h-20 py-2 px-3  placeholder-gray-700 focus:border-primary focus:bg-white" name="body" placeholder='Type Your Message'></textarea>
+>>>>>>> add
                 </div>
 
-                        <div class="mb-2 mt-2">
-          <a target="_blank" class="underline text-sm " href="/privacy-policy"> Our Privacy Policy </a>
-        </div>
+                <div class="mb-2 mt-2">
+                  <a target="_blank" class="underline text-sm " href="/privacy-policy"> Our Privacy Policy </a>
+                </div>
     
+     <div id="biztrackerContactFormMessage"> <p class="font-medium text-gray-800 h-4"> </p></div>
+      
                   <button type="submit" class="md:w-32 bg-primary resize-none  text-white py-3 px-6 mt-3 hover:bg-primary transition ease-in-out duration-300">
                       Submit
                   </button>

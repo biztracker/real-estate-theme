@@ -1,8 +1,7 @@
 {
   "contentPath": "/Users/sanatp/Personal/real-estate-website-builder/content/templates/option-1.md",
-  "title": "MS Infra Projects",
-  "description": "Open plots in Hyderabad | MS Infra Projects",
-  "keywords": "Open plots in Hyderabad,HMDA approved plots in Hyderabad, Plots near Tukkuguda, Gated community plot venture in Hyderabad ",
+  "title": "Mahati Infra - Contact Us",
+  "description": "Mahati Infra - Contact Us",
   "tagManagerId": "GTM-T34NMKQ",
   "blocks": [{
       "id": "2",
